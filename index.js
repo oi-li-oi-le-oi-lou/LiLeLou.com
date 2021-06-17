@@ -3,7 +3,7 @@ const remark = require("remark");
 const { JSDOM } = require("jsdom");
 const { html } = require("@leafac/html");
 
-let feedItems = "";
+let feedItems = [];
 const markdown = fs.readFileSync("index.md", "utf8");
 const renderedMarkdown = remark()
   .use({ settings: { commonmark: true } })
@@ -112,7 +112,7 @@ for (const element of document.querySelectorAll("main section")) {
       `
     );
   }
-  feedItems += html`
+  feedItems.push(html`
     <item>
       <title>${title.textContent}</title>
       <enclosure url="${audio}" length="${size}" type="audio/mpeg" />
@@ -127,7 +127,7 @@ Contato: LiLeLou@LiLeLou.com
       <itunes:duration>${duration}</itunes:duration>
       <link>${link}</link>
     </item>
-  `;
+  `);
 }
 fs.writeFileSync("index.html", dom.serialize());
 fs.writeFileSync(
