@@ -1,8 +1,8 @@
 const fs = require("fs");
 const remark = require("remark");
 const { JSDOM } = require("jsdom");
-const entities = require("entities");
-const html = require("tagged-template-noop");
+const he = require("he");
+const { html } = require("@leafac/html");
 
 let feedItems = "";
 const markdown = fs.readFileSync("index.md", "utf8");
@@ -115,11 +115,11 @@ for (const element of document.querySelectorAll("main section")) {
   }
   feedItems += html`
     <item>
-      <title>${entities.encodeXML(title.textContent)}</title>
+      <title>${he.encode(title.textContent)}</title>
       <enclosure url="${audio}" length="${size}" type="audio/mpeg" />
       <guid>${guid}</guid>
       <pubDate>${new Date(date).toUTCString()}</pubDate>
-      <description>${entities.encodeXML(description.textContent)}
+      <description>${he.encode(description.textContent)}
 
 Anotações do Episódio: ${link}
 
