@@ -145,7 +145,7 @@ fs.writeFileSync(
         <itunes:author>Li &amp; Lê &amp; Lou</itunes:author>
         <link>https://LiLeLou.com</link>
         <itunes:owner><itunes:name>Lê &amp; Lê &amp; Lou</itunes:name><itunes:email>LiLeLou@LiLeLou.com</itunes:email></itunes:owner>
-        ${feedItems}
+        $${feedItems}
       </channel>
     </rss>
 `.trim()
