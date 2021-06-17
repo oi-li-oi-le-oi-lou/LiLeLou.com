@@ -1,0 +1,10 @@
+{
+  "scripts": {},
+  "devDependencies": {
+    "entities": "^2.1.0",
+    "jsdom": "^16.4.0",
+    "remark": "^13.0.0",
+    "remark-html": "^13.0.1",
+    "tagged-template-noop": "^2.1.1"
+  }
+}
