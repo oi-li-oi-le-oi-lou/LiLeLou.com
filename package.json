@@ -1,7 +1,6 @@
 {
   "dependencies": {
     "@leafac/html": "^3.0.0",
-    "he": "^1.2.0",
     "jsdom": "^16.6.0",
     "remark": "^13.0.0",
     "remark-html": "^13.0.1"

@@ -1,7 +1,6 @@
 const fs = require("fs");
 const remark = require("remark");
 const { JSDOM } = require("jsdom");
-const he = require("he");
 const { html } = require("@leafac/html");
 
 let feedItems = "";
@@ -108,18 +107,18 @@ for (const element of document.querySelectorAll("main section")) {
       html`
         <details>
           <summary>Anotações do Episódio</summary>
-          ${notes.map((note) => note.outerHTML).join("")}
+          $${notes.map((note) => note.outerHTML).join("")}
         </details>
       `
     );
   }
   feedItems += html`
     <item>
-      <title>${he.encode(title.textContent)}</title>
+      <title>${title.textContent}</title>
       <enclosure url="${audio}" length="${size}" type="audio/mpeg" />
       <guid>${guid}</guid>
       <pubDate>${new Date(date).toUTCString()}</pubDate>
-      <description>${he.encode(description.textContent)}
+      <description>${description.textContent}
 
 Anotações do Episódio: ${link}
 
