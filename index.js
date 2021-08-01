@@ -37,59 +37,61 @@ document.querySelector("head").insertAdjacentHTML(
 document.querySelector("body").setAttribute(
   "style",
   css`
-    body {
-      line-height: 1.5;
-      font-size: 14px;
-      font-family: "Public Sans";
-      max-width: 600px;
-      padding: 0 1em;
-      margin: 2em auto;
-    }
+    @at-root {
+      body {
+        line-height: 1.5;
+        font-size: 14px;
+        font-family: "Public Sans";
+        max-width: 600px;
+        padding: 0 1em;
+        margin: 2em auto;
+      }
 
-    a {
-      color: #0366d6;
-      text-decoration: none;
-    }
+      a {
+        color: #0366d6;
+        text-decoration: none;
+      }
 
-    h1 {
-      line-height: 1.3;
-      margin-top: 2em;
-      font-size: 1.5em;
-    }
+      h1 {
+        line-height: 1.3;
+        margin-top: 2em;
+        font-size: 1.5em;
+      }
 
-    .date {
-      font-size: 0.875em;
-      margin-top: -1.5em;
-    }
+      .date {
+        font-size: 0.875em;
+        margin-top: -1.5em;
+      }
 
-    header,
-    figure {
-      text-align: center;
-      margin: 2em 0;
-    }
+      header,
+      figure {
+        text-align: center;
+        margin: 2em 0;
+      }
 
-    figcaption {
-      font-weight: bold;
-      font-size: 0.875em;
-    }
+      figcaption {
+        font-weight: bold;
+        font-size: 0.875em;
+      }
 
-    img {
-      max-width: 100%;
-      height: auto;
-      border-radius: 3px;
-    }
+      img {
+        max-width: 100%;
+        height: auto;
+        border-radius: 3px;
+      }
 
-    audio {
-      width: 100%;
-    }
+      audio {
+        width: 100%;
+      }
 
-    summary {
-      cursor: pointer;
-    }
+      summary {
+        cursor: pointer;
+      }
 
-    hr {
-      border: none;
-      border-top: 1px solid black;
+      hr {
+        border: none;
+        border-top: 1px solid black;
+      }
     }
   `
 );
