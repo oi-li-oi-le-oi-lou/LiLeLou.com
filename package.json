@@ -1,14 +1,14 @@
 {
   "scripts": {
-    "start": "concurrently 'nodemon --ext js,md' 'http-server -c-1'"
+    "start": "concurrently --kill-others-on-fail \"caddy run\" \"node-dev --respawn .\""
   },
   "dependencies": {
-    "@leafac/css": "^0.2.6",
+    "@leafac/caddy": "^1.0.1",
+    "@leafac/css": "^0.2.8",
     "@leafac/html": "^3.0.0",
     "concurrently": "^6.2.0",
-    "http-server": "^0.12.3",
     "jsdom": "^16.6.0",
-    "nodemon": "^2.0.7",
+    "node-dev": "^7.0.0",
     "remark": "^13.0.0",
     "remark-html": "^13.0.1"
   }

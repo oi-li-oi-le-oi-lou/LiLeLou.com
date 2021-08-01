@@ -2,6 +2,7 @@ const fs = require("fs");
 const remark = require("remark");
 const { JSDOM } = require("jsdom");
 const { html } = require("@leafac/html");
+const { css, extractInlineStyles } = require("@leafac/css");
 
 let feedItems = [];
 const markdown = fs.readFileSync("index.md", "utf8");
@@ -10,76 +11,86 @@ const renderedMarkdown = remark()
   .processSync(markdown).contents;
 const dom = new JSDOM(renderedMarkdown);
 const document = dom.window.document;
-document.head.insertAdjacentHTML(
+document.querySelector("head").insertAdjacentHTML(
   "afterbegin",
   html`
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=1"
+    />
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
     <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
     <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
+    <link
+      rel="stylesheet"
+      href="/vendor/node_modules/@fontsource/public-sans/latin.css"
+    />
     <link
       rel="alternate"
       type="application/rss+xml"
       title="RSS"
       href="/feed.xml"
     />
-    <style>
-      body {
-        line-height: 1.5;
-        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-          Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-        max-width: 600px;
-        padding: 0 1em;
-        margin: 2em auto;
-      }
+  `
+);
+document.querySelector("body").setAttribute(
+  "style",
+  css`
+    body {
+      line-height: 1.5;
+      font-size: 14px;
+      font-family: "Public Sans";
+      max-width: 600px;
+      padding: 0 1em;
+      margin: 2em auto;
+    }
 
-      a {
-        color: #0366d6;
-        text-decoration: none;
-      }
+    a {
+      color: #0366d6;
+      text-decoration: none;
+    }
 
-      h1 {
-        line-height: 1.3;
-        margin-top: 2em;
-        font-size: 1.5em;
-      }
+    h1 {
+      line-height: 1.3;
+      margin-top: 2em;
+      font-size: 1.5em;
+    }
 
-      .date {
-        font-size: 0.875em;
-        margin-top: -1.5em;
-      }
+    .date {
+      font-size: 0.875em;
+      margin-top: -1.5em;
+    }
 
-      header,
-      figure {
-        text-align: center;
-        margin: 2em 0;
-      }
+    header,
+    figure {
+      text-align: center;
+      margin: 2em 0;
+    }
 
-      figcaption {
-        font-weight: bold;
-        font-size: 0.875em;
-      }
+    figcaption {
+      font-weight: bold;
+      font-size: 0.875em;
+    }
 
-      img {
-        max-width: 100%;
-        height: auto;
-        border-radius: 3px;
-      }
+    img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 3px;
+    }
 
-      audio {
-        width: 100%;
-      }
+    audio {
+      width: 100%;
+    }
 
-      summary {
-        cursor: pointer;
-      }
+    summary {
+      cursor: pointer;
+    }
 
-      hr {
-        border: none;
-        border-top: 1px solid black;
-      }
-    </style>
+    hr {
+      border: none;
+      border-top: 1px solid black;
+    }
   `
 );
 for (const element of document.querySelectorAll("main section")) {
@@ -127,7 +138,7 @@ Contato: LiLeLou@LiLeLou.com
     </item>
   `);
 }
-fs.writeFileSync("index.html", dom.serialize());
+fs.writeFileSync("index.html", extractInlineStyles(dom.serialize()));
 fs.writeFileSync(
   "feed.xml",
   html`
