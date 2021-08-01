@@ -44,7 +44,7 @@ document.querySelector("head").insertAdjacentHTML(
     <script src="/vendor/node_modules/tippy.js/dist/tippy-bundle.umd.js"></script>
     <script>
       tippy.setDefaultProps({
-        arrow: tippy.roundArrow + tippy.roundArrow,
+        arrow: tippy.roundArrow,
         duration: window.matchMedia("(prefers-reduced-motion: reduce)").matches
           ? 1
           : 150,
@@ -52,11 +52,11 @@ document.querySelector("head").insertAdjacentHTML(
     </script>
     <link
       rel="stylesheet"
-      href="${app.locals.settings.url}/node_modules/tippy.js/dist/svg-arrow.css"
+      href="/vendor/node_modules/tippy.js/dist/svg-arrow.css"
     />
     <link
       rel="stylesheet"
-      href="${app.locals.settings.url}/node_modules/tippy.js/dist/border.css"
+      href="/vendor/node_modules/tippy.js/dist/border.css"
     />
 
     <script>
@@ -134,6 +134,14 @@ body.outerHTML = html`
                 color: var(--color--amber--600);
               }
             }
+          }
+        }
+
+        .tippy-box {
+          color: var(--color--amber--200);
+          background-color: var(--color--amber--900);
+          .tippy-svg-arrow {
+            fill: var(--color--amber--900);
           }
         }
 

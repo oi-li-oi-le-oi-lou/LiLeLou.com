@@ -1,14 +1,29 @@
 <!DOCTYPE html><html lang="pt"><head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
     <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
+
     <link rel="stylesheet" href="/vendor/node_modules/@ibm/plex/css/ibm-plex.min.css">
     <link rel="stylesheet" href="vendor/node_modules/@fortawesome/fontawesome-free/css/all.min.css">
+
     <link rel="alternate" type="application/rss+xml" title="RSS" href="/feed.xml">
+
     <script src="/vendor/node_modules/@popperjs/core/dist/umd/popper.min.js"></script>
     <script src="/vendor/node_modules/tippy.js/dist/tippy-bundle.umd.js"></script>
+    <script>
+      tippy.setDefaultProps({
+        arrow: tippy.roundArrow,
+        duration: window.matchMedia("(prefers-reduced-motion: reduce)").matches
+          ? 1
+          : 150,
+      });
+    </script>
+    <link rel="stylesheet" href="/vendor/node_modules/tippy.js/dist/svg-arrow.css">
+    <link rel="stylesheet" href="/vendor/node_modules/tippy.js/dist/border.css">
+
     <script>
       window.addEventListener("DOMContentLoaded", () => {
         for (const element of document.querySelectorAll(
@@ -873,6 +888,17 @@
             }
 
           
+                  .tippy-box {
+          color: var(--color--amber--200);
+          background-color: var(--color--amber--900);
+        }
+
+          
+                  .tippy-box .tippy-svg-arrow {
+            fill: var(--color--amber--900);
+          }
+
+          
                   /*
         h1 {
           line-height: 1.3;
@@ -927,7 +953,7 @@
         
       </style>
     </head>
-<body class="style--19na49x">
+<body class="style--epxwsi">
     <div class="style--1bw3w37">
       
 <header>
