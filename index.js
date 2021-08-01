@@ -27,6 +27,10 @@ document.querySelector("head").insertAdjacentHTML(
       href="/vendor/node_modules/@fontsource/public-sans/latin.css"
     />
     <link
+      rel="stylesheet"
+      href="/vendor/node_modules/@ibm/plex/css/ibm-plex.min.css"
+    />
+    <link
       rel="alternate"
       type="application/rss+xml"
       title="RSS"
@@ -42,6 +46,7 @@ document.querySelector("body").setAttribute(
         line-height: 1.5;
         font-size: 14px;
         font-family: "Public Sans";
+        font-family: "IBM Plex Sans";
         max-width: 600px;
         padding: 0 1em;
         margin: 2em auto;
