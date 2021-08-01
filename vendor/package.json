@@ -1,6 +1,7 @@
 {
   "dependencies": {
     "@fortawesome/fontawesome-free": "^5.15.3",
-    "@ibm/plex": "^5.2.1"
+    "@ibm/plex": "^5.2.1",
+    "tippy.js": "^6.3.1"
   }
 }
