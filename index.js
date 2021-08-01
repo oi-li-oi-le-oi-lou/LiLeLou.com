@@ -24,10 +24,6 @@ document.querySelector("head").insertAdjacentHTML(
     <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
     <link
       rel="stylesheet"
-      href="/vendor/node_modules/@fontsource/public-sans/latin.css"
-    />
-    <link
-      rel="stylesheet"
       href="/vendor/node_modules/@ibm/plex/css/ibm-plex.min.css"
     />
     <link
@@ -81,6 +77,7 @@ body.outerHTML = html`
           transition-timing-function: var(--transition-timing-function--in-out);
         }
 
+        /*
         h1 {
           line-height: 1.3;
           margin-top: 2em;
@@ -121,6 +118,7 @@ body.outerHTML = html`
           border: none;
           border-top: 1px solid black;
         }
+        */
       }
     `}"
   >
