@@ -4,7 +4,7 @@ const { JSDOM } = require("jsdom");
 const { html } = require("@leafac/html");
 const { css, extractInlineStyles } = require("@leafac/css");
 
-let feedItems = [];
+const feedItems = [];
 const markdown = fs.readFileSync("index.md", "utf8");
 const renderedMarkdown = remark()
   .use(require("remark-html"))
@@ -38,68 +38,89 @@ document.querySelector("head").insertAdjacentHTML(
     />
   `
 );
-document.querySelector("body").setAttribute(
-  "style",
-  css`
-    @at-root {
-      body {
-        line-height: 1.5;
-        font-size: 14px;
-        font-family: "Public Sans";
-        font-family: "IBM Plex Sans";
-        max-width: 600px;
-        padding: 0 1em;
-        margin: 2em auto;
-      }
+const body = document.querySelector("body");
+body.outerHTML = html`
+  <body
+    style="${css`
+      @at-root {
+        body {
+          font-family: "IBM Plex Sans", var(--font-family--sans-serif);
+          font-size: var(--font-size--sm);
+          line-height: var(--line-height--sm);
+          color: var(--color--gray--warm--700);
+          background-color: var(--color--gray--warm--50);
+          display: flex;
+          justify-content: center;
+        }
 
-      a {
-        color: #0366d6;
-        text-decoration: none;
-      }
+        a {
+          color: var(--color--amber--500);
+          &:hover,
+          &:focus-within {
+            color: var(--color--amber--400);
+          }
+          &:active {
+            color: var(--color--amber--600);
+          }
+          transition-property: var(--transition-property--colors);
+          transition-duration: var(--transition-duration--150);
+          transition-timing-function: var(--transition-timing-function--in-out);
+        }
 
-      h1 {
-        line-height: 1.3;
-        margin-top: 2em;
-        font-size: 1.5em;
-      }
+        h1 {
+          line-height: 1.3;
+          margin-top: 2em;
+          font-size: 1.5em;
+        }
 
-      .date {
-        font-size: 0.875em;
-        margin-top: -1.5em;
-      }
+        .date {
+          font-size: 0.875em;
+          margin-top: -1.5em;
+        }
 
-      header,
-      figure {
-        text-align: center;
-        margin: 2em 0;
-      }
+        header,
+        figure {
+          text-align: center;
+          margin: 2em 0;
+        }
 
-      figcaption {
-        font-weight: bold;
-        font-size: 0.875em;
-      }
+        figcaption {
+          font-weight: bold;
+          font-size: 0.875em;
+        }
 
-      img {
-        max-width: 100%;
-        height: auto;
-        border-radius: 3px;
-      }
+        img {
+          max-width: 100%;
+          height: auto;
+          border-radius: 3px;
+        }
 
-      audio {
-        width: 100%;
-      }
+        audio {
+          width: 100%;
+        }
 
-      summary {
-        cursor: pointer;
-      }
+        summary {
+          cursor: pointer;
+        }
 
-      hr {
-        border: none;
-        border-top: 1px solid black;
+        hr {
+          border: none;
+          border-top: 1px solid black;
+        }
       }
-    }
-  `
-);
+    `}"
+  >
+    <div
+      style="${css`
+        flex: 1;
+        max-width: var(--width--prose);
+        margin: var(--space--4);
+      `}"
+    >
+      $${body.innerHTML}
+    </div>
+  </body>
+`;
 for (const element of document.querySelectorAll("main section")) {
   const { oiLiOiLe, slug, date, duration, size } = element.dataset;
   const [title, description, ...notes] = element.children;
