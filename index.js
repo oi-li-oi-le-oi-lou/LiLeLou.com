@@ -27,6 +27,10 @@ document.querySelector("head").insertAdjacentHTML(
       href="/vendor/node_modules/@ibm/plex/css/ibm-plex.min.css"
     />
     <link
+      rel="stylesheet"
+      href="vendor/node_modules/@fortawesome/fontawesome-free/css/all.min.css"
+    />
+    <link
       rel="alternate"
       type="application/rss+xml"
       title="RSS"
