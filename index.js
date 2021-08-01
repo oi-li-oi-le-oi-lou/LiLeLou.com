@@ -72,9 +72,34 @@ body.outerHTML = html`
               color: var(--color--amber--600);
             }
           }
+          cursor: pointer;
           transition-property: var(--transition-property--colors);
           transition-duration: var(--transition-duration--150);
           transition-timing-function: var(--transition-timing-function--in-out);
+        }
+
+        header {
+          a {
+            font-weight: var(--font-weight--semibold);
+            color: var(--color--amber--900);
+            &:hover,
+            &:focus-within {
+              color: var(--color--amber--700);
+            }
+            &:active {
+              color: var(--color--amber--600);
+            }
+            @media (prefers-color-scheme: dark) {
+              color: var(--color--amber--500);
+              &:hover,
+              &:focus-within {
+                color: var(--color--amber--400);
+              }
+              &:active {
+                color: var(--color--amber--600);
+              }
+            }
+          }
         }
 
         /*
