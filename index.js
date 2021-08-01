@@ -19,9 +19,11 @@ document.querySelector("head").insertAdjacentHTML(
       name="viewport"
       content="width=device-width, initial-scale=1, maximum-scale=1"
     />
+
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
     <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
     <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
+
     <link
       rel="stylesheet"
       href="/vendor/node_modules/@ibm/plex/css/ibm-plex.min.css"
@@ -30,16 +32,35 @@ document.querySelector("head").insertAdjacentHTML(
       rel="stylesheet"
       href="vendor/node_modules/@fortawesome/fontawesome-free/css/all.min.css"
     />
+
     <link
       rel="alternate"
       type="application/rss+xml"
       title="RSS"
       href="/feed.xml"
     />
+
     <script src="/vendor/node_modules/@popperjs/core/dist/umd/popper.min.js"></script>
     <script src="/vendor/node_modules/tippy.js/dist/tippy-bundle.umd.js"></script>
     <script>
-      window.addEventListener("domcontentloaded", () => {
+      tippy.setDefaultProps({
+        arrow: tippy.roundArrow + tippy.roundArrow,
+        duration: window.matchMedia("(prefers-reduced-motion: reduce)").matches
+          ? 1
+          : 150,
+      });
+    </script>
+    <link
+      rel="stylesheet"
+      href="${app.locals.settings.url}/node_modules/tippy.js/dist/svg-arrow.css"
+    />
+    <link
+      rel="stylesheet"
+      href="${app.locals.settings.url}/node_modules/tippy.js/dist/border.css"
+    />
+
+    <script>
+      window.addEventListener("DOMContentLoaded", () => {
         for (const element of document.querySelectorAll(
           "[data-ondomcontentloaded]"
         ))
