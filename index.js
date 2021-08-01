@@ -47,8 +47,12 @@ body.outerHTML = html`
           font-family: "IBM Plex Sans", var(--font-family--sans-serif);
           font-size: var(--font-size--sm);
           line-height: var(--line-height--sm);
-          color: var(--color--gray--warm--700);
-          background-color: var(--color--gray--warm--50);
+          color: var(--color--amber--700);
+          background-color: var(--color--amber--50);
+          @media (prefers-color-scheme: dark) {
+            color: var(--color--amber--200);
+            background-color: var(--color--amber--900);
+          }
           display: flex;
           justify-content: center;
         }
@@ -61,6 +65,16 @@ body.outerHTML = html`
           }
           &:active {
             color: var(--color--amber--600);
+          }
+          @media (prefers-color-scheme: dark) {
+            color: var(--color--amber--500);
+            &:hover,
+            &:focus-within {
+              color: var(--color--amber--400);
+            }
+            &:active {
+              color: var(--color--amber--600);
+            }
           }
           transition-property: var(--transition-property--colors);
           transition-duration: var(--transition-duration--150);
