@@ -7,6 +7,16 @@
     <link rel="stylesheet" href="/vendor/node_modules/@ibm/plex/css/ibm-plex.min.css">
     <link rel="stylesheet" href="vendor/node_modules/@fortawesome/fontawesome-free/css/all.min.css">
     <link rel="alternate" type="application/rss+xml" title="RSS" href="/feed.xml">
+    <script src="/vendor/node_modules/@popperjs/core/dist/umd/popper.min.js"></script>
+    <script src="/vendor/node_modules/tippy.js/dist/tippy-bundle.umd.js"></script>
+    <script>
+      window.addEventListener("domcontentloaded", () => {
+        for (const element of document.querySelectorAll(
+          "[data-ondomcontentloaded]"
+        ))
+          new Function(element.dataset.ondomcontentloaded).call(element);
+      });
+    </script>
   
 <title>Oi Li. Oi Lê. Oi Lou.</title>
 <meta name="author" content="Li &amp; Lê &amp; Lou">
@@ -922,7 +932,12 @@
       
 <header>
 <h1><a href="/"><img src="artwork--2020-11-03.png" alt="Oi Li. Oi Lê. Oi Lou." width="600"></a></h1>
-<p><a href="https://podcasts.apple.com/podcast/id1440395880"><i class="fab fa-apple"></i> Apple Podcasts</a>&nbsp;·
+<p><a href="https://podcasts.apple.com/podcast/id1440395880" data-ondomcontentloaded="
+tippy(this, {
+ content: &quot;Apple Podcasts&quot;,
+ touch: false,
+});
+"><i class="fab fa-apple"></i></a>&nbsp;·
 <a href="https://podcasts.google.com/feed/aHR0cHM6Ly9vaS1saS1vaS1sZS5jb20vZmVlZC54bWw"><strong>Google&nbsp;Podcasts</strong></a>&nbsp;·
 <a href="https://open.spotify.com/show/0nf8jhqq6nbAu77vZVSGTh"><strong>Spotify</strong></a>&nbsp;·
 <a href="feed.xml"><strong>RSS&nbsp;Feed</strong></a>&nbsp;·

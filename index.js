@@ -36,6 +36,16 @@ document.querySelector("head").insertAdjacentHTML(
       title="RSS"
       href="/feed.xml"
     />
+    <script src="/vendor/node_modules/@popperjs/core/dist/umd/popper.min.js"></script>
+    <script src="/vendor/node_modules/tippy.js/dist/tippy-bundle.umd.js"></script>
+    <script>
+      window.addEventListener("domcontentloaded", () => {
+        for (const element of document.querySelectorAll(
+          "[data-ondomcontentloaded]"
+        ))
+          new Function(element.dataset.ondomcontentloaded).call(element);
+      });
+    </script>
   `
 );
 const body = document.querySelector("body");

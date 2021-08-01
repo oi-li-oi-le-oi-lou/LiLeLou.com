@@ -12,7 +12,12 @@
 
 # [<img src="artwork--2020-11-03.png" alt="Oi Li. Oi Lê. Oi Lou." width="600">](/)
 
-[<i class="fab fa-apple"></i> Apple Podcasts](https://podcasts.apple.com/podcast/id1440395880) ·
+<a href="https://podcasts.apple.com/podcast/id1440395880" data-ondomcontentloaded='
+  tippy(this, {
+    content: "Apple Podcasts",
+    touch: false,
+  });
+'><i class="fab fa-apple"></i></a> ·
 [**Google Podcasts**](https://podcasts.google.com/feed/aHR0cHM6Ly9vaS1saS1vaS1sZS5jb20vZmVlZC54bWw) ·
 [**Spotify**](https://open.spotify.com/show/0nf8jhqq6nbAu77vZVSGTh) ·
 [**RSS Feed**](feed.xml) ·
