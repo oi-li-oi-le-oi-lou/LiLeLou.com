@@ -1065,12 +1065,7 @@ fs.writeFileSync(
               gap: var(--space--4);
             `}"
           >
-            <a
-              href="/"
-              style="${css`
-                display: block;
-              `}"
-            >
+            <a href="/">
               <img src="artwork--2020-11-03.png" alt="Oi Li. Oi Lê. Oi Lou." />
             </a>
 
