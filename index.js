@@ -1,5 +1,6 @@
 const fs = require("fs");
 const remark = require("remark");
+const remarkHTML = require("remark-html");
 const { JSDOM } = require("jsdom");
 const { html } = require("@leafac/html");
 const { css, extractInlineStyles } = require("@leafac/css");
@@ -927,13 +928,12 @@ O Lê tem notícias domésticas bombásticas!
   },
 ];
 
-
 //# Episódios da época em que ainda éramos só Li & Lê!
 
 const feedItems = [];
 const markdown = fs.readFileSync("index.md", "utf8");
 const renderedMarkdown = remark()
-  .use(require("remark-html"))
+  .use(remarkHTML)
   .processSync(markdown).contents;
 const dom = new JSDOM(renderedMarkdown);
 const document = dom.window.document;
