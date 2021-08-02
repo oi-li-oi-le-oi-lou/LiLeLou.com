@@ -930,6 +930,95 @@ O Lê tem notícias domésticas bombásticas!
 
 //# Episódios da época em que ainda éramos só Li & Lê!
 
+fs.writeFileSync(
+  "index.html",
+  extractInlineStyles(html`
+    <!DOCTYPE html>
+    <html lang="pt">
+      <head>
+        <title>Oi Li. Oi Lê. Oi Lou.</title>
+        <meta name="author" content="Li & Lê & Lou" />
+        <meta
+          name="description"
+          content="A Li é a mãe, o Lê é o pai, e o filho é o Lou. Nós falamos sobre coisas de bebê e outras coisas que não são de bebê."
+        />
+      </head>
+
+      <body>
+        <header>
+          <a href="/"
+            ><img
+              src="artwork--2020-11-03.png"
+              alt="Oi Li. Oi Lê. Oi Lou."
+              width="600"
+          /></a>
+
+          <nav>
+            <a
+              href="https://podcasts.apple.com/podcast/id1440395880"
+              data-ondomcontentloaded="${javascript`
+                tippy(this, {
+                  content: "Apple Podcasts",
+                  touch: false,
+                });
+              `}"
+              ><i class="fab fa-apple"></i
+            ></a>
+            <a
+              href="https://podcasts.google.com/feed/aHR0cHM6Ly9vaS1saS1vaS1sZS5jb20vZmVlZC54bWw"
+              data-ondomcontentloaded="${javascript`
+                tippy(this, {
+                  content: "Google Podcasts",
+                  touch: false,
+                });
+              `}"
+              ><i class="fab fa-google-play"></i
+            ></a>
+            <a
+              href="https://open.spotify.com/show/0nf8jhqq6nbAu77vZVSGTh"
+              data-ondomcontentloaded="${javascript`
+                tippy(this, {
+                  content: "Spotify",
+                  touch: false,
+                });
+              `}"
+              ><i class="fab fa-spotify"></i
+            ></a>
+            <a
+              href="feed.xml"
+              data-ondomcontentloaded="${javascript`
+                tippy(this, {
+                  content: "RSS Feed",
+                  touch: false,
+                });
+              `}"
+              ><i class="fas fa-rss"></i
+            ></a>
+            <a
+              href="mailto:LiLeLou@LiLeLou.com"
+              data-ondomcontentloaded="${javascript`
+                tippy(this, {
+                  content: "Email",
+                  touch: false,
+                });
+              `}"
+              ><i class="fas fa-envelope"></i
+            ></a>
+          </nav>
+
+          <p>
+            A Li é a mãe, o Lê é o pai, e o filho é o Lou.<br />
+            Nós falamos sobre coisas de bebê e outras coisas que não são de
+            bebê.
+          </p>
+        </header>
+
+        <main></main>
+      </body>
+    </html>
+  `)
+);
+
 const feedItems = [];
 const markdown = fs.readFileSync("index.md", "utf8");
 const renderedMarkdown = remark()
@@ -1184,7 +1273,7 @@ Contato: LiLeLou@LiLeLou.com
     </item>
   `);
 }
-fs.writeFileSync("index.html", extractInlineStyles(dom.serialize()));
+// fs.writeFileSync("index.html", extractInlineStyles(dom.serialize()));
 fs.writeFileSync(
   "feed.xml",
   html`
