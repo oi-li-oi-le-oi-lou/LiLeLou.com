@@ -12,36 +12,38 @@
 
 # [<img src="artwork--2020-11-03.png" alt="Oi Li. Oi Lê. Oi Lou." width="600">](/)
 
+<nav>
 <a href="https://podcasts.apple.com/podcast/id1440395880" data-ondomcontentloaded='
   tippy(this, {
     content: "Apple Podcasts",
     touch: false,
   });
-'><i class="fab fa-apple"></i></a> ·
+'><i class="fab fa-apple"></i></a>
 <a href="https://podcasts.google.com/feed/aHR0cHM6Ly9vaS1saS1vaS1sZS5jb20vZmVlZC54bWw" data-ondomcontentloaded='
   tippy(this, {
     content: "Google Podcasts",
     touch: false,
   });
-'><i class="fab fa-google-play"></i></a> ·
+'><i class="fab fa-google-play"></i></a>
 <a href="https://open.spotify.com/show/0nf8jhqq6nbAu77vZVSGTh" data-ondomcontentloaded='
   tippy(this, {
     content: "Spotify",
     touch: false,
   });
-'><i class="fab fa-spotify"></i></a> ·
+'><i class="fab fa-spotify"></i></a>
 <a href="feed.xml" data-ondomcontentloaded='
   tippy(this, {
     content: "RSS Feed",
     touch: false,
   });
-'><i class="fas fa-rss"></i></a> ·
+'><i class="fas fa-rss"></i></a>
 <a href="mailto:LiLeLou@LiLeLou.com" data-ondomcontentloaded='
   tippy(this, {
     content: "Email",
     touch: false,
   });
 '><i class="fas fa-envelope"></i></a>
+</nav>
 
 A Li é a mãe, o Lê é o pai, e o filho é o Lou.  
 Nós falamos sobre coisas de bebê e outras coisas que não são de bebê.

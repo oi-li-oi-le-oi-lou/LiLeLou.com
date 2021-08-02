@@ -89,24 +89,6 @@ body.outerHTML = html`
         }
 
         a {
-          color: var(--color--amber--500);
-          &:hover,
-          &:focus-within {
-            color: var(--color--amber--400);
-          }
-          &:active {
-            color: var(--color--amber--600);
-          }
-          @media (prefers-color-scheme: dark) {
-            color: var(--color--amber--500);
-            &:hover,
-            &:focus-within {
-              color: var(--color--amber--400);
-            }
-            &:active {
-              color: var(--color--amber--600);
-            }
-          }
           cursor: pointer;
           transition-property: var(--transition-property--colors);
           transition-duration: var(--transition-duration--150);
@@ -114,12 +96,40 @@ body.outerHTML = html`
         }
 
         header {
+          nav {
+            display: flex;
+            gap: var(--space--2);
+            justify-content: center;
+            a {
+              color: var(--color--amber--900);
+              background-color: var(--color--amber--100);
+              &:hover,
+              &:focus-within {
+                color: var(--color--amber--700);
+              }
+              &:active {
+                background-color: var(--color--amber--300);
+              }
+              @media (prefers-color-scheme: dark) {
+              }
+              font-size: var(--font-size--xl);
+              line-height: var(--line-height--xl);
+              width: var(--space--10);
+              height: var(--space--10);
+              border-radius: var(--border-radius--circle);
+              display: flex;
+              justify-content: center;
+              align-items: center;
+            }
+          }
+        }
+
+        main {
           a {
-            font-weight: var(--font-weight--semibold);
-            color: var(--color--amber--900);
+            color: var(--color--amber--500);
             &:hover,
             &:focus-within {
-              color: var(--color--amber--700);
+              color: var(--color--amber--400);
             }
             &:active {
               color: var(--color--amber--600);
@@ -138,10 +148,12 @@ body.outerHTML = html`
         }
 
         .tippy-box {
-          color: var(--color--amber--200);
+          color: var(--color--amber--100);
           background-color: var(--color--amber--900);
           .tippy-svg-arrow {
             fill: var(--color--amber--900);
+          }
+          @media (prefers-color-scheme: dark) {
           }
         }
 

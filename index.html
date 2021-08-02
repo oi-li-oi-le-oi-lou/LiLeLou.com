@@ -816,58 +816,65 @@
 
           
                   a {
-          color: var(--color--amber--500);
-        }
-
-          
-                  a:hover,
-          a:focus-within {
-            color: var(--color--amber--400);
-          }
-
-          
-                  a:active {
-            color: var(--color--amber--600);
-          }
-
-          
-                  @media (prefers-color-scheme: dark) {
-
-          
-                  a {
-            color: var(--color--amber--500);
-        }
-            a:hover,
-            a:focus-within {
-              color: var(--color--amber--400);
-            }
-            a:active {
-              color: var(--color--amber--600);
-            }
-          }
-
-          
-                  a {
           cursor: pointer;
           transition-property: var(--transition-property--colors);
           transition-duration: var(--transition-duration--150);
           transition-timing-function: var(--transition-timing-function--in-out);
-}
+        }
 
           
-                  header a {
-            font-weight: var(--font-weight--semibold);
-            color: var(--color--amber--900);
+                  header nav {
+            display: flex;
+            gap: var(--space--2);
+            justify-content: center;
           }
 
           
-                  header a:hover,
-            header a:focus-within {
-              color: var(--color--amber--700);
+                  header nav a {
+              color: var(--color--amber--900);
+              background-color: var(--color--amber--100);
             }
 
           
-                  header a:active {
+                  header nav a:hover,
+              header nav a:focus-within {
+                color: var(--color--amber--700);
+              }
+
+          
+                  header nav a:active {
+                background-color: var(--color--amber--300);
+              }
+
+          
+                  @media (prefers-color-scheme: dark) {
+              }
+
+          
+                  header nav a {
+              font-size: var(--font-size--xl);
+              line-height: var(--line-height--xl);
+              width: var(--space--10);
+              height: var(--space--10);
+              border-radius: var(--border-radius--circle);
+              display: flex;
+              justify-content: center;
+              align-items: center;
+}
+
+          
+                  main a {
+            color: var(--color--amber--500);
+          }
+
+          
+                  main a:hover,
+            main a:focus-within {
+              color: var(--color--amber--400);
+            }
+
+          
+                  main a:active {
               color: var(--color--amber--600);
             }
 
@@ -875,27 +882,31 @@
                   @media (prefers-color-scheme: dark) {
 
           
-                  header a {
+                  main a {
               color: var(--color--amber--500)
           }
-              header a:hover,
-              header a:focus-within {
+              main a:hover,
+              main a:focus-within {
                 color: var(--color--amber--400);
               }
-              header a:active {
+              main a:active {
                 color: var(--color--amber--600);
               }
             }
 
           
                   .tippy-box {
-          color: var(--color--amber--200);
+          color: var(--color--amber--100);
           background-color: var(--color--amber--900);
         }
 
           
                   .tippy-box .tippy-svg-arrow {
             fill: var(--color--amber--900);
+          }
+
+          
+                  @media (prefers-color-scheme: dark) {
           }
 
           
@@ -953,41 +964,43 @@
         
       </style>
     </head>
-<body class="style--epxwsi">
+<body class="style--1iagqrl">
     <div class="style--1bw3w37">
       
 <header>
 <h1><a href="/"><img src="artwork--2020-11-03.png" alt="Oi Li. Oi Lê. Oi Lou." width="600"></a></h1>
-<p><a href="https://podcasts.apple.com/podcast/id1440395880" data-ondomcontentloaded="
-tippy(this, {
- content: &quot;Apple Podcasts&quot;,
- touch: false,
-});
-"><i class="fab fa-apple"></i></a>&nbsp;·
+<nav>
+<a href="https://podcasts.apple.com/podcast/id1440395880" data-ondomcontentloaded="
+  tippy(this, {
+    content: &quot;Apple Podcasts&quot;,
+    touch: false,
+  });
+"><i class="fab fa-apple"></i></a>
 <a href="https://podcasts.google.com/feed/aHR0cHM6Ly9vaS1saS1vaS1sZS5jb20vZmVlZC54bWw" data-ondomcontentloaded="
-tippy(this, {
- content: &quot;Google&nbsp;Podcasts&quot;,
- touch: false,
-});
-"><i class="fab fa-google-play"></i></a>&nbsp;·
+  tippy(this, {
+    content: &quot;Google&nbsp;Podcasts&quot;,
+    touch: false,
+  });
+"><i class="fab fa-google-play"></i></a>
 <a href="https://open.spotify.com/show/0nf8jhqq6nbAu77vZVSGTh" data-ondomcontentloaded="
-tippy(this, {
- content: &quot;Spotify&quot;,
- touch: false,
-});
-"><i class="fab fa-spotify"></i></a>&nbsp;·
+  tippy(this, {
+    content: &quot;Spotify&quot;,
+    touch: false,
+  });
+"><i class="fab fa-spotify"></i></a>
 <a href="feed.xml" data-ondomcontentloaded="
-tippy(this, {
- content: &quot;RSS&nbsp;Feed&quot;,
- touch: false,
-});
-"><i class="fas fa-rss"></i></a>&nbsp;·
+  tippy(this, {
+    content: &quot;RSS&nbsp;Feed&quot;,
+    touch: false,
+  });
+"><i class="fas fa-rss"></i></a>
 <a href="mailto:LiLeLou@LiLeLou.com" data-ondomcontentloaded="
-tippy(this, {
- content: &quot;Email&quot;,
- touch: false,
-});
-"><i class="fas fa-envelope"></i></a></p>
+  tippy(this, {
+    content: &quot;Email&quot;,
+    touch: false,
+  });
+"><i class="fas fa-envelope"></i></a>
+</nav>
 <p>A Li é a mãe, o Lê é o pai, e o filho é o Lou.<br>
 Nós falamos sobre coisas de bebê e outras coisas que não são de bebê.</p>
 </header>
