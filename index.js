@@ -1154,7 +1154,11 @@ fs.writeFileSync(
               ></a>
             </nav>
 
-            <p>
+            <p
+              style="${css`
+                text-align: center;
+              `}"
+            >
               A Li é a mãe, o Lê é o pai, e o filho é o Lou.<br />
               Nós falamos sobre coisas de bebê e outras coisas que não são de
               bebê.
