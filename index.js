@@ -1151,6 +1151,8 @@ fs.writeFileSync(
 
             <p
               style="${css`
+                font-weight: var(--font-weight--semibold);
+                color: var(--color--amber--900);
                 text-align: center;
               `}"
             >
