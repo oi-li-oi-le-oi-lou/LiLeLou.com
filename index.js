@@ -4,6 +4,8 @@ const { JSDOM } = require("jsdom");
 const { html } = require("@leafac/html");
 const { css, extractInlineStyles } = require("@leafac/css");
 
+//# Episódios da época em que ainda éramos só Li & Lê!
+
 const feedItems = [];
 const markdown = fs.readFileSync("index.md", "utf8");
 const renderedMarkdown = remark()

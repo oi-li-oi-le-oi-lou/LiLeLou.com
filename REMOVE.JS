@@ -51,8 +51,6 @@ O Lou nasceu! Nós contamos como foi.
   /*
 ---
 
-# Episódios da época em que ainda éramos só Li & Lê!
-
 <section data-oi-li-oi-le id: "carreiras" , date: "2020-09-25",  duration: "48:55", size: "35713499">
 
 # Carreiras
