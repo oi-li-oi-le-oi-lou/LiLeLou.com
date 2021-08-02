@@ -53,25 +53,25 @@ O Lou nasceu! Nós contamos como foi.
 
 # Episódios da época em que ainda éramos só Li & Lê!
 
-<section data-oi-li-oi-le id: "carreiras" data-date="2020-09-25",  duration: "48:55", size: "35713499">
+<section data-oi-li-oi-le id: "carreiras" , date: "2020-09-25",  duration: "48:55", size: "35713499">
 
 # Carreiras
 
 O bebê ainda não nasceu, então aproveitamos para refletir sobre o que estamos fazendo com as nossas carreiras. A Li parou de trabalhar e o Lê desistiu do doutorado, mas nós rejeitamos o título de **desempregados** 🙃
 
-<section data-oi-li-oi-le id: "maternidade-e-machismo" data-date="2020-09-19",  duration: "51:34", size: "37621287">
+<section data-oi-li-oi-le id: "maternidade-e-machismo" , date: "2020-09-19",  duration: "51:34", size: "37621287">
 
 # Maternidade e Machismo
 
 A maternidade é uma experiência de empoderamento feminino, mas sempre há alguém pronto para encher o saco. Nós conversamos sobre o machismo que a Li teve que enfrentar até agora na gravidez e o que podemos fazer a respeito.
 
-<section data-oi-li-oi-le id: "plano-de-parto" data-date="2020-09-01",  duration: "50:13", size: "36652182">
+<section data-oi-li-oi-le id: "plano-de-parto" , date: "2020-09-01",  duration: "50:13", size: "36652182">
 
 # Plano de Parto
 
 O parto do Lou será em breve! Nós conversamos sobre nossas expectativas.
 
-<section data-oi-li-oi-le id: "morte" data-date="2020-08-17",  duration: "36:28", size: "35514665">
+<section data-oi-li-oi-le id: "morte" , date: "2020-08-17",  duration: "36:28", size: "35514665">
 
 # Morte
 
@@ -79,13 +79,13 @@ A avó do Lê morreu. Talvez de coronavírus. Nós conversamos sobre a morte.
 
 - [O significado que o Lê dá para o termo **micromorte**, que a Li usou com outro significado](https://en.wikipedia.org/wiki/Micromort).
 
-<section data-oi-li-oi-le id: "a-grande-mudanca--parte-2" data-date="2020-07-30",  duration: "37:24", size: "36412102">
+<section data-oi-li-oi-le id: "a-grande-mudanca--parte-2" , date: "2020-07-30",  duration: "37:24", size: "36412102">
 
 # A Grande Mudança: Parte 2
 
 Nós terminamos de contar como foi nossa mudança intercontinental de Baltimore (EUA) para Matosinhos (Portugal). Depois de muitas dificuldades, um final feliz!
 
-<section data-oi-li-oi-le id: "a-grande-mudanca--parte-1" data-date="2020-07-30",  duration: "41:47", size: "40616902">
+<section data-oi-li-oi-le id: "a-grande-mudanca--parte-1" , date: "2020-07-30",  duration: "41:47", size: "40616902">
 
 # A Grande Mudança: Parte 1
 
@@ -123,7 +123,7 @@ Mais ou menos o caminho que a Li e sua mãe fizeram em 12 horas.
 </figcaption>
 </figure>
 
-<section data-oi-li-oi-le id: "coronavirus" data-date="2020-05-03",  duration: "52:59", size: "51362731">
+<section data-oi-li-oi-le id: "coronavirus" , date: "2020-05-03",  duration: "52:59", size: "51362731">
 
 # Coronavírus
 
@@ -131,7 +131,7 @@ Mais um podcast sobre coronavírus. Era tudo de que você precisava!
 
 Este é o primeiro episódio editado pela Li! 🎉
 
-<section data-oi-li-oi-le id: "dia-internacional-da-mulher" data-date="2020-03-31",  duration: "44:54", size: "43601672">
+<section data-oi-li-oi-le id: "dia-internacional-da-mulher" , date: "2020-03-31",  duration: "44:54", size: "43601672">
 
 # Dia Internacional da Mulher
 
@@ -141,7 +141,7 @@ Nós conversamos sobre as mulheres da família da Li e sobre o papel da mulher n
 
 Este episódio releva o tempo que levamos entre gravação e publicação, porque falamos de coisas de outros tempos que já não se faz mais, por exemplo, andar na rua 😷
 
-<section data-oi-li-oi-le id: "baltimore" data-date="2020-03-13",  duration: "55:37", size: "53894005">
+<section data-oi-li-oi-le id: "baltimore" , date: "2020-03-13",  duration: "55:37", size: "53894005">
 
 # Baltimore
 
@@ -160,7 +160,7 @@ O enfeite de árvore de Natal que nós compramos no fim da feira.
 - Desde a gravação deste episódio nós fomos conhecer o Broadway Market. Não é grande coisa…
 - O filme que conta a história do cardiologista cuja pintura está perto de onde a Li trabalha se chama **Something the Lord Made**.
 
-<section data-oi-li-oi-le id: "gravidez" data-date="2020-02-11",  duration: "54:45", size: "53069559">
+<section data-oi-li-oi-le id: "gravidez" , date: "2020-02-11",  duration: "54:45", size: "53069559">
 
 # Gravidez
 
@@ -172,7 +172,7 @@ A Li está grávida! 👶 Nós conversamos sobre como estão sendo as primeiras 
 
 - [Ouça também o episódio em que nós conversamos sobre a ideia de termos filhos bem antes de a Li engravidar](#2019-03-14--filhos).
 
-<section data-oi-li-oi-le id: "morte-e-como-foi-dar-aulas" data-date="2019-12-30",  duration: "36:11", size: "35236231">
+<section data-oi-li-oi-le id: "morte-e-como-foi-dar-aulas" , date: "2019-12-30",  duration: "36:11", size: "35236231">
 
 # Morte e Como Foi Dar Aulas
 
@@ -180,7 +180,7 @@ Nós conversamos sobre a morte do gato da mãe da Li, e sobre como foi o primeir
 
 Neste episódio nós falamos sobre os livros **Man’s Search for Meaning**, do Viktor Frankl, e **The Fault in Our Stars**, do John Green.
 
-<section data-oi-li-oi-le id: "visita-da-mae-e-choque-cultural" data-date="2019-12-04",  duration: "45:11", size: "43880878">
+<section data-oi-li-oi-le id: "visita-da-mae-e-choque-cultural" , date: "2019-12-04",  duration: "45:11", size: "43880878">
 
 # Visita da Mãe e Choque Cultural
 
@@ -188,7 +188,7 @@ Nós conversamos sobre como foram as duas semanas em que a mãe da Li nos visito
 
 **Atualização:** Ao que tudo indica, a amiga do Lê voltou a morar no Brasil.
 
-<section data-oi-li-oi-le id: "correndo-com-estranhos" data-date="2019-11-09",  duration: "58:56", size: "57079697">
+<section data-oi-li-oi-le id: "correndo-com-estranhos" , date: "2019-11-09",  duration: "58:56", size: "57079697">
 
 # Correndo com Estranhos
 
@@ -196,7 +196,7 @@ Nós conversamos sobre corridas e sobre alguns livros que lemos, principalmente 
 
 Também falamos sobre os livros **A Piada Infinita**, do David Foster Wallace, e **Scott Pilgrim** e **Seconds**, do Bryan Lee O’Malley.
 
-<section data-oi-li-oi-le id: "ecochatos" data-date="2019-10-13",  duration: "44:58", size: "43678022">
+<section data-oi-li-oi-le id: "ecochatos" , date: "2019-10-13",  duration: "44:58", size: "43678022">
 
 # Ecochatos
 
@@ -207,7 +207,7 @@ Nós conversamos sobre espetáculos da Broadway e sobre como tentar fazer a cois
 - O Lê gosta mais de produções independentes, tipo as da [Baltimore Rock Opera Society](https://baltimorerockopera.org), do que dos espetáculos da Broadway.
 - O lugar favorito do Lê para comida é o [Cinnaholic](https://www.cinnaholic.com). Não fomos lá no aniversário dele 😕
 
-<section data-oi-li-oi-le id: "season-premiere-da-segunda-temporada" data-date="2019-09-29",  duration: "47:48", size: "46390623">
+<section data-oi-li-oi-le id: "season-premiere-da-segunda-temporada" , date: "2019-09-29",  duration: "47:48", size: "46390623">
 
 # Season Premiere da Segunda Temporada
 
@@ -216,7 +216,7 @@ Nós celebramos o aniversário de um ano de **Oi Li. Oi Lê.** 🎉 Completamos 
 - [O episódio sobre Brown do qual o Lê falou](#2019-02-24--brown-e-providence).
 - **Notando Nossa Própria Hipocrisia:** Nossa máquina de lavar é do lado no nosso quarto. Mas acho que viveríamos igualmente bem se ela estivesse a um ou dois lances de escadas de distância.
 
-<section data-oi-li-oi-le id: "teaser-da-segunda-temporada" data-date="2019-09-17",  duration: "48:48", size: "47350707">
+<section data-oi-li-oi-le id: "teaser-da-segunda-temporada" , date: "2019-09-17",  duration: "48:48", size: "47350707">
 
 # Teaser da Segunda Temporada
 
@@ -228,7 +228,7 @@ Depois de umas férias de **Oi Li. Oi Lê.**, estamos de volta para contar sobre
 
 - **Esclarecimento Importante:** As bodas de cinco anos são de **madeira**.
 
-<section data-oi-li-oi-le id: "assedio-moral-no-trabalho" data-date="2019-07-04",  duration: "40:31", size: "39906496">
+<section data-oi-li-oi-le id: "assedio-moral-no-trabalho" , date: "2019-07-04",  duration: "40:31", size: "39906496">
 
 # Assédio Moral no Trabalho
 
@@ -238,7 +238,7 @@ A Li sofreu assédio moral no trabalho dela. Nós conversamos sobre como foi e s
 - [Episódio sobre a Brown](#2019-02-24--brown-e-providence), para a qual o Lê decidiu não ir e com isto provavelmente evitou assédio moral.
 - [Episódio sobre satanismo](#2019-05-31--satanismo), que nada tem a ver com **o mal**.
 
-<section data-oi-li-oi-le id: "the-act" data-date="2019-06-16",  duration: "45:08", size: "44325124">
+<section data-oi-li-oi-le id: "the-act" , date: "2019-06-16",  duration: "45:08", size: "44325124">
 
 # The Act
 
@@ -248,7 +248,7 @@ Nós conversamos sobre **The Act**, o seriado baseado na história real da Gypsy
 - O poema que o Lê mencionou é o [**This Be The Verse**](https://www.poetryfoundation.org/poems/48419/this-be-the-verse), do Philip Larkin, que ele conheceu através do [**Little Fires Everywhere**](#2019-01-20--little-fires-everywhere).
 - [O caso do desaparecimento da Madeleine McCann](https://pt.wikipedia.org/wiki/Desaparecimento_de_Madeleine_McCann), que aconteceu no Algarve, onde a Li morava.
 
-<section data-oi-li-oi-le id: "satanismo" data-date="2019-05-31",  duration: "39:07", size: "38556038">
+<section data-oi-li-oi-le id: "satanismo" , date: "2019-05-31",  duration: "39:07", size: "38556038">
 
 # Satanismo
 
@@ -268,7 +268,7 @@ Desenho de coelho que a Li coloriu. Nós não falamos sobre ele no episódio, ma
 </figcaption>
 </figure>
 
-<section data-oi-li-oi-le id: "miami" data-date="2019-05-16",  duration: "38:39", size: "38106723">
+<section data-oi-li-oi-le id: "miami" , date: "2019-05-16",  duration: "38:39", size: "38106723">
 
 # Miami
 
@@ -295,7 +295,7 @@ Um item interessante do bairro artístico, Wynwood.
 - A música [**I’m in Miami Bitch** já tem, sim, 10 anos](https://en.wikipedia.org/wiki/I%27m_in_Miami_Bitch#Chuckie_remix).
 - [O episódio sobre nossa ida à Brown](#2019-02-24--brown-e-providence).
 
-<section data-oi-li-oi-le id: "irmas" data-date="2019-04-23",  duration: "33:50", size: "33483677">
+<section data-oi-li-oi-le id: "irmas" , date: "2019-04-23",  duration: "33:50", size: "33483677">
 
 # Irmãs
 
@@ -306,7 +306,7 @@ O Lê tem notícias domésticas bombásticas!
 - A Mallu Magalhães e o Marcelo Camelo começaram a namorar em 2008, quando ela tinha algo perto de 16 anos e ele perto de 30. Em 2015 eles tiveram uma filha.
 - [Episódio sobre filhos](#2019-03-14--filhos).
 
-<section data-oi-li-oi-le id: "racismo" data-date="2019-04-11",  duration: "36:46", size: "36292367">
+<section data-oi-li-oi-le id: "racismo" , date: "2019-04-11",  duration: "36:46", size: "36292367">
 
 # Racismo
 
@@ -315,7 +315,7 @@ Nós conversamos sobre racismo depois de termos assistido ao filme **BlacKkKlans
 - O termo **euro-americano** [existe](https://www.merriam-webster.com/dictionary/Euro-American). As pessoas não usarem este termo é mais uma evidência de como a linguagem pode ser preconceituosa.
 - O Lê falou um pouco do livro que ele está lendo, **Educated**, da Tara Westover.
 
-<section data-oi-li-oi-le id: "empreendedorismo" data-date="2019-03-31",  duration: "45:06", size: "55127088">
+<section data-oi-li-oi-le id: "empreendedorismo" , date: "2019-03-31",  duration: "45:06", size: "55127088">
 
 # Empreendedorismo
 
@@ -343,7 +343,7 @@ Uma das primeiras fotos que o Lê tirou com a câmera nova. Ela faz magia, nem p
 </figcaption>
 </figure>
 
-<section data-oi-li-oi-le id: "filhos" data-date="2019-03-14",  duration: "53:47", size: "77764201">
+<section data-oi-li-oi-le id: "filhos" , date: "2019-03-14",  duration: "53:47", size: "77764201">
 
 # Filhos
 
@@ -355,7 +355,7 @@ Nós conversamos sobre ter filhos: razões para ter, razões para não ter, em q
 
 - Berço é coisa do passado: os bebês **in** [dormem](https://www.npr.org/sections/health-shots/2017/03/26/521399385/states-give-new-parents-baby-boxes-to-encourge-safe-sleep-habits) [em](https://www.bbc.com/news/magazine-22751415) [caixas](https://www.finnbin.com)!
 
-<section data-oi-li-oi-le id: "procrastinacao-e-idiomas" data-date="2019-03-07",  duration: "47:02", size: "68040457">
+<section data-oi-li-oi-le id: "procrastinacao-e-idiomas" , date: "2019-03-07",  duration: "47:02", size: "68040457">
 
 # Procrastinação e Idiomas
 
@@ -367,7 +367,7 @@ O Lê teve uma semana bem pouco produtiva, em que ele passou bastante tempo vend
 - O **streak** do Lê no Duolingo de francês foi de só 173 dias:  
   <img src="images/2019-03-07--procrastinacao-e-idiomas.png" alt="Procrastinação e Idiomas" width="320">
 
-<section data-oi-li-oi-le id: "brown-e-providence" data-date="2019-02-24",  duration: "43:09", size: "62458170">
+<section data-oi-li-oi-le id: "brown-e-providence" , date: "2019-02-24",  duration: "43:09", size: "62458170">
 
 # Brown e Providence
 
@@ -377,7 +377,7 @@ Nós conversamos sobre a **teaching talk** do Lê na Brown, sobre nossa viagem �
 - **Atualização importante:** Nós comemos mais do melhor bolo de chocolate do mundo depois da gravação deste episódio. Duas fatias. Dizer não para uma **Ivy League** foi fácil em comparação com dizer adeus para aquele bolo.
 - [O episódio sobre como nos conhecemos](#2018-12-11--como-nos-conhecemos) conta mais da história do **leap of faith** do Lê em 2014, na esperança de algo melhor aparecesse. E algo apareceu: a Li.
 
-<section data-oi-li-oi-le id: "religiao" data-date="2019-02-16",  duration: "48:20", size: "70476872">
+<section data-oi-li-oi-le id: "religiao" , date: "2019-02-16",  duration: "48:20", size: "70476872">
 
 # Religião
 
@@ -388,7 +388,7 @@ Nós contamos como foi o fim da história dos gatos, a Li contou como foi o **dr
 - O livro sobre religião que o Lê falou é o **Deus, Um Delírio**.
 - [Não acredite em qualquer estatística que você encontra por aí](https://www.tylervigen.com/spurious-correlations).
 
-<section data-oi-li-oi-le id: "pintura-machados-e-moveis" data-date="2019-02-03",  duration: "43:29", size: "63500993">
+<section data-oi-li-oi-le id: "pintura-machados-e-moveis" , date: "2019-02-03",  duration: "43:29", size: "63500993">
 
 # Pintura, Machados e Móveis
 
@@ -416,7 +416,7 @@ As nossas versões.
 - [O episódio com o **Meio Clube do Livro** anterior, sobre **Little Fires Everywhere**](#2019-01-20--little-fires-everywhere).
 - No episódio de hoje, falamos sobre **O Mundo de Sofia**, e **The Hate U Give**. E também mencionamos **The Help**, **To Kill a Mockingbird**, e **The Immortal Life of Henrietta Lacks**.
 
-<section data-oi-li-oi-le id: "roommates" data-date="2019-01-27",  duration: "33:54", size: "49123146">
+<section data-oi-li-oi-le id: "roommates" , date: "2019-01-27",  duration: "33:54", size: "49123146">
 
 # Roommates
 
@@ -433,7 +433,7 @@ A versão final do desenho que a Li coloriu. Veja a evolução desde a [versão 
 
 - [O episódio em que falamos sobre como nos conhecemos e fomos **roommates** antes de virarmos família](#2018-12-11--como-nos-conhecemos).
 
-<section data-oi-li-oi-le id: "little-fires-everywhere" data-date="2019-01-20",  duration: "42:06", size: "60935356">
+<section data-oi-li-oi-le id: "little-fires-everywhere" , date: "2019-01-20",  duration: "42:06", size: "60935356">
 
 # Little Fires Everywhere
 
@@ -442,7 +442,7 @@ Nós contamos o que aconteceu com o [**teaching statement** do Lê](#2019-01-10-
 - Nós conhecemos **Little Fires Everywhere** através do John Green, quando ele estava lançando [**Turtles All the Way Down** (Tartarugas Até Lá Embaixo)](https://www.johngreenbooks.com/turtles-all-the-way-down-book/).
 - As séries de que falamos: [**You**](https://www.netflix.com/title/80211991), que poderia ser o tema de um futuro **clube do seriado**; e [Cuckoo](https://www.netflix.com/title/80091341), a comédia que a Li está assistindo.
 
-<section data-oi-li-oi-le id: "educacao" data-date="2019-01-10",  duration: "49:21", size: "71374453">
+<section data-oi-li-oi-le id: "educacao" , date: "2019-01-10",  duration: "49:21", size: "71374453">
 
 # Educação
 
@@ -450,7 +450,7 @@ O Lê precisa escrever um **teaching statement**. Nós refletimos juntos sobre o
 
 - [Escrever à mão melhora a compreensão](https://www.npr.org/2016/04/17/474525392/attention-students-put-your-laptops-away).
 
-<section data-oi-li-oi-le id: "filmes-televisao-e-livros" data-date="2019-01-03",  duration: "36:05", size: "52260411">
+<section data-oi-li-oi-le id: "filmes-televisao-e-livros" , date: "2019-01-03",  duration: "36:05", size: "52260411">
 
 # Filmes, Televisão, e Livros
 
@@ -507,7 +507,7 @@ Uma lista de todos os filmes, séries e livros que nós mencionamos:
 - **Pretty Little Liars**
 - **Lost**
 
-<section data-oi-li-oi-le id: "retrospectiva-2018-e-resolucoes-de-ano-novo" data-date="2018-12-26",  duration: "32:10", size: "46640603">
+<section data-oi-li-oi-le id: "retrospectiva-2018-e-resolucoes-de-ano-novo" , date: "2018-12-26",  duration: "32:10", size: "46640603">
 
 # Retrospectiva 2018 e Resoluções de Ano Novo
 
@@ -535,7 +535,7 @@ E o pássaro pintado pelo Lê. Ainda temos muito para aprender! E aqui está [um
 
 - Realmente, [o faisão](https://pt.wikipedia.org/wiki/Faisão) não tem muito a ver [o pavão](https://pt.wikipedia.org/wiki/Pavão).
 
-<section data-oi-li-oi-le id: "um-vegano-no-churrasco-de-natal" data-date="2018-12-20",  duration: "54:49", size: "79254331">
+<section data-oi-li-oi-le id: "um-vegano-no-churrasco-de-natal" , date: "2018-12-20",  duration: "54:49", size: "79254331">
 
 # Um Vegano no Churrasco de Natal
 
@@ -553,7 +553,7 @@ O Lê é vegano; a Li não. Nós conversamos sobre como é ser vegano sem ser ch
 
 - E. Coli não causa cólera, mas causa vários problemas gastro-intestinais, por exemplo, diarreia. Recentemente houve um [surto de E. Coli na alface aqui nos Estados Unidos](https://www.cdc.gov/ecoli/2018/o157h7-11-18/index.html), mas por enquanto nenhuma religião proibiu saladinha.
 
-<section data-oi-li-oi-le id: "como-nos-conhecemos" data-date="2018-12-11",  duration: "39:07", size: "94383579">
+<section data-oi-li-oi-le id: "como-nos-conhecemos" , date: "2018-12-11",  duration: "39:07", size: "94383579">
 
 # Como nos Conhecemos
 
@@ -564,7 +564,7 @@ Nós nos conhecemos numa sexta-feira treze cinco anos atrás. Agora comemoramos 
 - De acordo com o mapa, o Lê caminhou cinco horas no dia em que ele conheceu a Li.
 - A rua em que as pessoas vão fazer compras em São Paulo é a **Oscar Freire**.
 
-<section data-oi-li-oi-le id: "doutorado" data-date="2018-12-04",  duration: "55:17", size: "80171204">
+<section data-oi-li-oi-le id: "doutorado" , date: "2018-12-04",  duration: "55:17", size: "80171204">
 
 # Doutorado
 
@@ -581,7 +581,7 @@ O chocolate que a Li ganhou de presente. É um esquilo pensando em chocolate �
 
 Os motivos para o Lê escolher linguagens de programação como assunto do seu doutorado: [Understanding Computation](https://computationbook.com) e [Y Not: Adventures in Functional Programming](https://www.youtube.com/watch?v=FITJMJjASUs).
 
-<section data-oi-li-oi-le id: "amizades-e-tecnologia" data-date="2018-11-27",  duration: "45:32", size: "66145327">
+<section data-oi-li-oi-le id: "amizades-e-tecnologia" , date: "2018-11-27",  duration: "45:32", size: "66145327">
 
 # Amizades e Tecnologia
 
@@ -593,7 +593,7 @@ Nós conversamos sobre os motivos que nos fazem querer acabar com uma amizade, e
 - [Downtime](https://www.apple.com/newsroom/2018/06/ios-12-introduces-new-features-to-reduce-interruptions-and-manage-screen-time/), um recurso dentro do Screen Time, do iOS 12, é uma resposta da Apple para o nosso vício em tecnologia.
 - [Alguns](https://www.theguardian.com/technology/2017/jun/16/internet-addiction-gaming-restart-therapy-washington) [recursos](https://www.caron.org/understanding-addiction/internet-addiction) [a respeito](https://netaddictionrecovery.com) de vício em internet.
 
-<section data-oi-li-oi-le id: "obsessoes-e-viagem-com-gato" data-date="2018-11-18",  duration: "49:40", size: "72093734">
+<section data-oi-li-oi-le id: "obsessoes-e-viagem-com-gato" , date: "2018-11-18",  duration: "49:40", size: "72093734">
 
 # Obsessões e Viagem com Gato
 
@@ -612,7 +612,7 @@ Os [livros da Basecamp](https://basecamp.com/books), que falam sobre ser bem suc
 
 **Esclarecimento Importante:** Pagers podem usar a rede de telefonia celular, mas também podem usar uma rede especial para pagers. Esta rede especial usa satélites e rádios que cobrem uma área bem maior, onde a telefonia celular não chega. É por causa desta resiliência que os profissionais de saúde ainda usam pagers. A contrapartida é que esta rede especial não suporta trafegar muita informação de uma só vez, e é por isto que ela não é usada para telefonia ou internet.
 
-<section data-oi-li-oi-le id: "eleicoes-no-brasil" data-date="2018-10-28",  duration: "43:09", size: "62707842">
+<section data-oi-li-oi-le id: "eleicoes-no-brasil" , date: "2018-10-28",  duration: "43:09", size: "62707842">
 
 # Eleições no Brasil
 
@@ -621,7 +621,7 @@ Nós fomos para Washington para o Lê votar para presidente do Brasil no segundo
 - [Brasil: Ame-o **e** Deixe-o](https://www.youtube.com/watch?v=tCzmwG5ZB6g).
 - [Bumba fala sobre brasileiros e estadunidenses com raiva dos seus presidentes](https://www.youtube.com/watch?v=T1RBTzAREQE).
 
-<section data-oi-li-oi-le id: "aniversarios" data-date="2018-10-20",  duration: "45:32", size: "66134677">
+<section data-oi-li-oi-le id: "aniversarios" , date: "2018-10-20",  duration: "45:32", size: "66134677">
 
 # Aniversários
 
@@ -640,7 +640,7 @@ Nós gravando este episódio, com um gato no colo, e um bolo. Desenhado a quatro
 - Uma arroba (15 quilos) de alfarrobas custa a partir de R\$ 750.
 - [The Woodstock Fruit Festival](http://www.thewoodstockfruitfestival.com), que a Li tem vontade de ir por causa dos **influencers**, mas ainda não foi.
 
-<section data-oi-li-oi-le id: "glamping" data-date="2018-10-08",  duration: "22:16", size: "32780150">
+<section data-oi-li-oi-le id: "glamping" , date: "2018-10-08",  duration: "22:16", size: "32780150">
 
 # Glamping
 
@@ -700,7 +700,7 @@ A Li assustou os veadinhos com o flash (sem querer) para tirar esta foto.
 
 **Correção:** De acordo com o **squirrelnutrition.com**, [esquilos **não** hibernam](http://www.squirrelnutrition.com/blog/do-squirrels-hibernate). Céus, **squirrelnutrition.com** — se alguém entende de esquilos são estes caras. **squirrelnutrition.com**, a internet nunca deixa de me surpreender. De toda forma, esquilos passam um bom tempo sem fazer quase nada. Nós nos identificamos.
 
-<section data-oi-li-oi-le id: "dia-da-farmaceutica" data-date="2018-09-28",  duration: "33:10", size: "48329003">
+<section data-oi-li-oi-le id: "dia-da-farmaceutica" , date: "2018-09-28",  duration: "33:10", size: "48329003">
 
 # Dia da Farmacêutica
 
