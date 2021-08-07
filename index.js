@@ -1025,27 +1025,27 @@ fs.writeFileSync(
           justify-content: center;
 
           @at-root {
-            a {
-              cursor: pointer;
+            .link {
               transition-property: var(--transition-property--colors);
               transition-duration: var(--transition-duration--150);
               transition-timing-function: var(
                 --transition-timing-function--in-out
               );
-            }
-
-            img {
-              max-width: 100%;
-              height: 100;
+              cursor: pointer;
             }
 
             .tippy-box {
-              color: var(--color--amber--100);
+              color: var(--color--amber--200);
               background-color: var(--color--amber--900);
               .tippy-svg-arrow {
                 fill: var(--color--amber--900);
               }
               @media (prefers-color-scheme: dark) {
+                color: var(--color--amber--700);
+                background-color: var(--color--amber--50);
+                .tippy-svg-arrow {
+                  fill: var(--color--amber--50);
+                }
               }
             }
           }
@@ -1066,7 +1066,7 @@ fs.writeFileSync(
             `}"
           >
             <a href="/">
-              <img src="artwork--2020-11-03.png" alt="Oi Li. Oi Lê. Oi Lou." />
+              <img hidden src="artwork--2020-11-03.png" alt="Oi Li. Oi Lê. Oi Lou." />
             </a>
 
             <nav

@@ -31,6 +31,11 @@ const renderedMarkdown = remark()
           border-radius: 3px;
         }
 
+        img {
+              max-width: 100%;
+              height: 100;
+            }
+
         audio {
           width: 100%;
         }
