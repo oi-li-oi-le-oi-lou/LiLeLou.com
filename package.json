@@ -4,7 +4,7 @@
   },
   "dependencies": {
     "@leafac/caddy": "^1.0.1",
-    "@leafac/css": "^0.2.8",
+    "@leafac/css": "^0.2.11",
     "@leafac/html": "^3.0.0",
     "concurrently": "^6.2.0",
     "dedent": "^0.7.0",
