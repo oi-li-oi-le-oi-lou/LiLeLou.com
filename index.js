@@ -1138,13 +1138,13 @@ fs.writeFileSync(
                       font-size: var(--font-size--9xl);
                       line-height: var(--line-height--9xl);
                       font-weight: var(--font-weight--semibold);
-                      fill: var(--color--amber--100);
+                      fill: var(--color--amber--900);
                     }
                   `}"
                 >
                   <rect
                     style="${css`
-                      fill: var(--color--amber--700);
+                      fill: var(--color--amber--500);
                     `}"
                   />
                   <text
@@ -1156,7 +1156,7 @@ fs.writeFileSync(
                   </text>
                   <rect
                     style="${css`
-                      fill: var(--color--amber--600);
+                      fill: var(--color--amber--400);
                       transform: translateY(
                         calc(var(--width--prose) / 3 + var(--space--10) - 1px)
                       );
@@ -1174,7 +1174,7 @@ fs.writeFileSync(
                   </text>
                   <rect
                     style="${css`
-                      fill: var(--color--amber--500);
+                      fill: var(--color--amber--300);
                       transform: translateY(
                         calc(
                           var(--width--prose) * 2 / 3 + var(--space--10) - 1px
