@@ -1141,20 +1141,63 @@ fs.writeFileSync(
                       fill: var(--color--amber--600);
                     `}"
                   />
+                  <text
+                    style="${css`
+                      font-size: var(--font-size--9xl);
+                      line-height: var(--line-height--9xl);
+                      font-weight: var(--font-weight--semibold);
+                      fill: var(--color--amber--100);
+                      transform: translate(var(--space--32), var(--space--48));
+                    `}"
+                  >
+                    OI LI
+                  </text>
                   <rect
                     style="${css`
-                      y: calc(var(--width--prose) / 3 + var(--space--10) - 1px);
+                      transform: translateY(
+                        calc(var(--width--prose) / 3 + var(--space--10) - 1px)
+                      );
                       fill: var(--color--amber--400);
                     `}"
                   />
+                  <text
+                    style="${css`
+                      font-size: var(--font-size--9xl);
+                      line-height: var(--line-height--9xl);
+                      font-weight: var(--font-weight--semibold);
+                      fill: var(--color--amber--50);
+                      transform: translate(
+                        var(--space--32),
+                        calc(var(--space--44) * 2 + var(--space--4))
+                      );
+                    `}"
+                  >
+                    OI LÊ
+                  </text>
                   <rect
                     style="${css`
-                      y: calc(
-                        var(--width--prose) * 2 / 3 + var(--space--10) - 1px
+                      transform: translateY(
+                        calc(
+                          var(--width--prose) * 2 / 3 + var(--space--10) - 1px
+                        )
                       );
                       fill: var(--color--amber--200);
                     `}"
                   />
+                  <text
+                    style="${css`
+                      font-size: var(--font-size--9xl);
+                      line-height: var(--line-height--9xl);
+                      font-weight: var(--font-weight--semibold);
+                      fill: var(--color--amber--800);
+                      transform: translate(
+                        var(--space--32),
+                        calc(var(--space--44) * 3)
+                      );
+                    `}"
+                  >
+                    OI LOU
+                  </text>
                 </g>
               </svg>
             </a>
