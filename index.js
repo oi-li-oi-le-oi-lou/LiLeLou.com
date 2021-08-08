@@ -1023,6 +1023,7 @@ fs.writeFileSync(
           justify-content: center;
 
           @at-root {
+            button,
             a {
               transition-property: var(--transition-property--colors);
               transition-duration: var(--transition-duration--150);
@@ -1071,7 +1072,7 @@ fs.writeFileSync(
                 }
               }
               &[open] > summary {
-                margin-bottom: var(--space--4);
+                margin-bottom: var(--space--2);
                 &::before {
                   font-weight: 900;
                 }
@@ -1305,7 +1306,67 @@ fs.writeFileSync(
                     >
                       ${episode.date}
                     </p>
-                    <audio src="${audio}" controls preload="none"></audio>
+                  </div>
+                  <div
+                    style="${css`
+                      display: flex;
+                      gap: var(--space--2);
+                      button,
+                      a {
+                        /*
+                      font-size: var(--font-size--xl);
+                      line-height: var(--line-height--xl);
+                      */
+                        color: var(--color--amber--900);
+                        background-color: var(--color--amber--100);
+                        &:hover,
+                        &:focus-within {
+                          color: var(--color--amber--700);
+                        }
+                        &:active {
+                          background-color: var(--color--amber--200);
+                        }
+                        @media (prefers-color-scheme: dark) {
+                          color: var(--color--amber--100);
+                          background-color: var(--color--amber--800);
+                          &:hover,
+                          &:focus-within {
+                            color: var(--color--amber--300);
+                          }
+                          &:active {
+                            background-color: var(--color--amber--700);
+                          }
+                        }
+                        width: var(--space--6);
+                        height: var(--space--6);
+                        border-radius: var(--border-radius--circle);
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                      }
+                    `}"
+                  >
+                    <button
+                      data-ondomcontentloaded="${javascript`
+                        tippy(this, {
+                          content: "Play",
+                          touch: false,
+                        });
+                      `}"
+                    >
+                      <i class="far fa-play-circle"></i>
+                    </button>
+                    <a
+                      href="${audio}"
+                      data-ondomcontentloaded="${javascript`
+                        tippy(this, {
+                          content: "Download",
+                          touch: false,
+                        });
+                      `}"
+                    >
+                      <i class="fas fa-download"></i>
+                    </a>
                   </div>
                   <div>$${renderMarkdown(episode.description)}</div>
                   $${episode.notes === undefined
