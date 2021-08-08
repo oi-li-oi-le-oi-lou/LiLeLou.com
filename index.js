@@ -1244,7 +1244,26 @@ fs.writeFileSync(
             `}"
           >
             $${episodes.oiLiOiLeOiLou.map((episode) => episodePartial(episode))}
-            <!-- TODO: Episódios da época em que ainda éramos só Li & Lê! -->
+            <p
+              style="${css`
+                font-weight: var(--font-weight--semibold);
+                color: var(--color--amber--900);
+                @media (prefers-color-scheme: dark) {
+                  color: var(--color--amber--50);
+                }
+                padding-top: var(--space--2);
+                border-top: var(--border-width--1) solid
+                  var(--color--amber--200);
+                @media (prefers-color-scheme: dark) {
+                  border-color: var(--color--amber--700);
+                }
+              `}"
+            >
+              Episódios da época em que ainda éramos só Li & Lê!
+            </p>
+            $${episodes.oiLiOiLe.map((episode) =>
+              episodePartial({ ...episode, oiLiOiLe: true })
+            )}
           </main>
         </div>
       </body>
@@ -1357,8 +1376,14 @@ function episodePartial(episode) {
           `}"
           onclick="${javascript`
             const audio = this.closest("section").querySelector("audio");
-            audio.hidden = false;
-            audio.play();
+            if (audio.hidden) {
+              audio.hidden = false;
+              audio.play();
+            }
+            else {
+              audio.hidden = true;
+              audio.pause();
+            }
           `}"
         >
           <i class="far fa-play-circle"></i>
