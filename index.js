@@ -1134,6 +1134,11 @@ fs.writeFileSync(
                       width: calc(var(--width--prose) + var(--space--20));
                       height: calc(var(--width--prose) / 3 + var(--space--10));
                     }
+                    text {
+                      font-size: var(--font-size--9xl);
+                      line-height: var(--line-height--9xl);
+                      font-weight: var(--font-weight--semibold);
+                    }
                   `}"
                 >
                   <rect
@@ -1143,9 +1148,6 @@ fs.writeFileSync(
                   />
                   <text
                     style="${css`
-                      font-size: var(--font-size--9xl);
-                      line-height: var(--line-height--9xl);
-                      font-weight: var(--font-weight--semibold);
                       fill: var(--color--amber--100);
                       transform: translate(var(--space--32), var(--space--48));
                     `}"
@@ -1162,9 +1164,6 @@ fs.writeFileSync(
                   />
                   <text
                     style="${css`
-                      font-size: var(--font-size--9xl);
-                      line-height: var(--line-height--9xl);
-                      font-weight: var(--font-weight--semibold);
                       fill: var(--color--amber--50);
                       transform: translate(
                         var(--space--32),
@@ -1186,9 +1185,6 @@ fs.writeFileSync(
                   />
                   <text
                     style="${css`
-                      font-size: var(--font-size--9xl);
-                      line-height: var(--line-height--9xl);
-                      font-weight: var(--font-weight--semibold);
                       fill: var(--color--amber--800);
                       transform: translate(
                         var(--space--32),
