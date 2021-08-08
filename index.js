@@ -1353,6 +1353,11 @@ fs.writeFileSync(
                           touch: false,
                         });
                       `}"
+                      onclick="${javascript`
+                        const audio = this.closest("section").querySelector("audio");
+                        audio.hidden = false;
+                        audio.play();
+                      `}"
                     >
                       <i class="far fa-play-circle"></i>
                     </button>
@@ -1368,6 +1373,17 @@ fs.writeFileSync(
                       <i class="fas fa-download"></i>
                     </a>
                   </div>
+                  <audio
+                    src="${audio}"
+                    controls
+                    preload="none"
+                    hidden
+                    style="${css`
+                      width: 100%;
+                      height: var(--space--10);
+                      border-radius: var(--border-radius--lg);
+                    `}"
+                  ></audio>
                   <div>$${renderMarkdown(episode.description)}</div>
                   $${episode.notes === undefined
                     ? html``
