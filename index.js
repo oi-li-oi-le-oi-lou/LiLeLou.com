@@ -1138,17 +1138,17 @@ fs.writeFileSync(
                       font-size: var(--font-size--9xl);
                       line-height: var(--line-height--9xl);
                       font-weight: var(--font-weight--semibold);
+                      fill: var(--color--amber--100);
                     }
                   `}"
                 >
                   <rect
                     style="${css`
-                      fill: var(--color--amber--600);
+                      fill: var(--color--amber--700);
                     `}"
                   />
                   <text
                     style="${css`
-                      fill: var(--color--amber--100);
                       transform: translate(var(--space--32), var(--space--48));
                     `}"
                   >
@@ -1156,7 +1156,7 @@ fs.writeFileSync(
                   </text>
                   <rect
                     style="${css`
-                      fill: var(--color--amber--400);
+                      fill: var(--color--amber--600);
                       transform: translateY(
                         calc(var(--width--prose) / 3 + var(--space--10) - 1px)
                       );
@@ -1164,7 +1164,6 @@ fs.writeFileSync(
                   />
                   <text
                     style="${css`
-                      fill: var(--color--amber--50);
                       transform: translate(
                         var(--space--32),
                         calc(var(--space--44) * 2 + var(--space--4))
@@ -1175,7 +1174,7 @@ fs.writeFileSync(
                   </text>
                   <rect
                     style="${css`
-                      fill: var(--color--amber--200);
+                      fill: var(--color--amber--500);
                       transform: translateY(
                         calc(
                           var(--width--prose) * 2 / 3 + var(--space--10) - 1px
@@ -1185,7 +1184,6 @@ fs.writeFileSync(
                   />
                   <text
                     style="${css`
-                      fill: var(--color--amber--800);
                       transform: translate(
                         var(--space--32),
                         calc(var(--space--44) * 3)
