@@ -995,10 +995,6 @@ fs.writeFileSync(
           rel="stylesheet"
           href="/vendor/node_modules/tippy.js/dist/svg-arrow.css"
         />
-        <link
-          rel="stylesheet"
-          href="/vendor/node_modules/tippy.js/dist/border.css"
-        />
 
         <script>
           window.addEventListener("DOMContentLoaded", () => {
@@ -1025,7 +1021,7 @@ fs.writeFileSync(
           justify-content: center;
 
           @at-root {
-            .link {
+            a {
               transition-property: var(--transition-property--colors);
               transition-duration: var(--transition-duration--150);
               transition-timing-function: var(
@@ -1047,6 +1043,10 @@ fs.writeFileSync(
                   fill: var(--color--amber--50);
                 }
               }
+              border-radius: var(--border-radius--md);
+              .tippy-content {
+                padding: var(--space--1) var(--space--2);
+              }
             }
           }
         `}"
@@ -1054,8 +1054,12 @@ fs.writeFileSync(
         <div
           style="${css`
             flex: 1;
+            min-width: var(--space--0);
             max-width: var(--width--prose);
             margin: var(--space--4);
+            display: flex;
+            flex-direction: column;
+            gap: var(--space--8);
           `}"
         >
           <header
@@ -1066,7 +1070,11 @@ fs.writeFileSync(
             `}"
           >
             <a href="/">
-              <img hidden src="artwork--2020-11-03.png" alt="Oi Li. Oi Lê. Oi Lou." />
+              <img
+                hidden
+                src="artwork--2020-11-03.png"
+                alt="Oi Li. Oi Lê. Oi Lou."
+              />
             </a>
 
             <nav
@@ -1075,6 +1083,8 @@ fs.writeFileSync(
                 gap: var(--space--2);
                 justify-content: center;
                 a {
+                  font-size: var(--font-size--xl);
+                  line-height: var(--line-height--xl);
                   color: var(--color--amber--900);
                   background-color: var(--color--amber--100);
                   &:hover,
@@ -1082,12 +1092,19 @@ fs.writeFileSync(
                     color: var(--color--amber--700);
                   }
                   &:active {
-                    background-color: var(--color--amber--300);
+                    background-color: var(--color--amber--200);
                   }
                   @media (prefers-color-scheme: dark) {
+                    color: var(--color--amber--100);
+                    background-color: var(--color--amber--800);
+                    &:hover,
+                    &:focus-within {
+                      color: var(--color--amber--300);
+                    }
+                    &:active {
+                      background-color: var(--color--amber--700);
+                    }
                   }
-                  font-size: var(--font-size--xl);
-                  line-height: var(--line-height--xl);
                   width: var(--space--10);
                   height: var(--space--10);
                   border-radius: var(--border-radius--circle);
@@ -1100,53 +1117,58 @@ fs.writeFileSync(
               <a
                 href="https://podcasts.apple.com/podcast/id1440395880"
                 data-ondomcontentloaded="${javascript`
-                tippy(this, {
-                  content: "Apple Podcasts",
-                  touch: false,
-                });
-              `}"
-                ><i class="fab fa-apple"></i
-              ></a>
+                  tippy(this, {
+                    content: "Apple Podcasts",
+                    touch: false,
+                  });
+                `}"
+              >
+                <i class="fab fa-apple"></i>
+              </a>
               <a
                 href="https://podcasts.google.com/feed/aHR0cHM6Ly9vaS1saS1vaS1sZS5jb20vZmVlZC54bWw"
                 data-ondomcontentloaded="${javascript`
-                tippy(this, {
-                  content: "Google Podcasts",
-                  touch: false,
-                });
-              `}"
-                ><i class="fab fa-google-play"></i
-              ></a>
+                  tippy(this, {
+                    content: "Google Podcasts",
+                    touch: false,
+                  });
+                `}"
+              >
+                <i class="fab fa-google-play"></i>
+              </a>
               <a
                 href="https://open.spotify.com/show/0nf8jhqq6nbAu77vZVSGTh"
                 data-ondomcontentloaded="${javascript`
-                tippy(this, {
-                  content: "Spotify",
-                  touch: false,
-                });
-              `}"
-                ><i class="fab fa-spotify"></i
-              ></a>
+                  tippy(this, {
+                    content: "Spotify",
+                    touch: false,
+                  });
+                `}"
+              >
+                <i class="fab fa-spotify"></i>
+              </a>
               <a
                 href="feed.xml"
                 data-ondomcontentloaded="${javascript`
-                tippy(this, {
-                  content: "RSS Feed",
-                  touch: false,
-                });
-              `}"
-                ><i class="fas fa-rss"></i
-              ></a>
+                  tippy(this, {
+                    content: "RSS Feed",
+                    touch: false,
+                  });
+                `}"
+              >
+                <i class="fas fa-rss"></i>
+              </a>
               <a
                 href="mailto:LiLeLou@LiLeLou.com"
                 data-ondomcontentloaded="${javascript`
-                tippy(this, {
-                  content: "Email",
-                  touch: false,
-                });
-              `}"
-                ><i class="fas fa-envelope"></i
-              ></a>
+                  tippy(this, {
+                    content: "Email",
+                    touch: false,
+                  });
+                `}"
+              >
+                <i class="fas fa-envelope"></i>
+              </a>
             </nav>
 
             <p
