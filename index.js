@@ -1032,6 +1032,52 @@ fs.writeFileSync(
               cursor: pointer;
             }
 
+            details {
+              summary {
+                font-size: var(--font-size--2xs);
+                line-height: var(--line-height--2xs);
+                font-weight: var(--font-weight--semibold);
+                text-transform: uppercase;
+                letter-spacing: var(--letter-spacing--widest);
+                color: var(--color--amber--900);
+                &:hover,
+                &:focus-within {
+                  color: var(--color--amber--700);
+                }
+                &:active {
+                  color: var(--color--amber--600);
+                }
+                @media (prefers-color-scheme: dark) {
+                  color: var(--color--amber--50);
+                  &:hover,
+                  &:focus-within {
+                    color: var(--color--amber--200);
+                  }
+                  &:active {
+                    color: var(--color--amber--300);
+                  }
+                }
+                transition-property: var(--transition-property--colors);
+                transition-duration: var(--transition-duration--150);
+                transition-timing-function: var(
+                  --transition-timing-function--in-out
+                );
+                cursor: pointer;
+                &::before {
+                  content: "\\f249";
+                  font-family: "Font Awesome 5 Free";
+                  font-weight: 400;
+                  margin-right: var(--space--2);
+                }
+              }
+              &[open] > summary {
+                margin-bottom: var(--space--4);
+                &::before {
+                  font-weight: 900;
+                }
+              }
+            }
+
             .tippy-box {
               color: var(--color--amber--200);
               background-color: var(--color--amber--900);
@@ -1189,7 +1235,85 @@ fs.writeFileSync(
             </p>
           </header>
 
-          <main>
+          <main
+            style="${css`
+              display: flex;
+              flex-direction: column;
+              gap: var(--space--8);
+            `}"
+          >
+            $${episodes.oiLiOiLeOiLou.map((episode) => {
+              const id = `${episode.id}--${episode.date}`;
+              return html`
+                <section
+                  id="#${id}"
+                  style="${css`
+                    display: flex;
+                    flex-direction: column;
+                    gap: var(--space--4);
+                  `}"
+                >
+                  <div>
+                    <h2
+                      style="${css`
+                        font-size: var(--font-size--base);
+                        line-height: var(--line-height--base);
+                        font-weight: var(--font-weight--semibold);
+                        color: var(--color--amber--900);
+                        @media (prefers-color-scheme: dark) {
+                          color: var(--color--amber--50);
+                        }
+                      `}"
+                    >
+                      <a
+                        href="#${id}"
+                        style="${css`
+                          &:hover,
+                          &:focus-within {
+                            color: var(--color--amber--700);
+                          }
+                          &:active {
+                            color: var(--color--amber--600);
+                          }
+                          @media (prefers-color-scheme: dark) {
+                            &:hover,
+                            &:focus-within {
+                              color: var(--color--amber--200);
+                            }
+                            &:active {
+                              color: var(--color--amber--300);
+                            }
+                          }
+                        `}"
+                        >${episode.title}</a
+                      >
+                    </h2>
+                    <p
+                      style="${css`
+                        font-size: var(--font-size--xs);
+                        line-height: var(--line-height--xs);
+                        color: var(--color--amber--600);
+                        @media (prefers-color-scheme: dark) {
+                          color: var(--color--amber--300);
+                        }
+                      `}"
+                    >
+                      ${episode.date}
+                    </p>
+                  </div>
+                  <div>$${renderMarkdown(episode.description)}</div>
+                  $${episode.notes === undefined
+                    ? html``
+                    : html`
+                        <details>
+                          <summary>Anotações do Episódio</summary>
+
+                          $${renderMarkdown(episode.notes)}
+                        </details>
+                      `}
+                </section>
+              `;
+            })}
             <!-- TODO: Episódios da época em que ainda éramos só Li & Lê! -->
           </main>
         </div>
@@ -1197,3 +1321,7 @@ fs.writeFileSync(
     </html>
   `)
 );
+
+function renderMarkdown(input) {
+  return remark().use(remarkHTML).processSync(input).contents;
+}
