@@ -1247,8 +1247,6 @@ fs.writeFileSync(
               const oiLiOiLe = undefined;
               const id = `${episode.date}--${episode.id}`;
               const uri = oiLiOiLe !== undefined ? "oi-li-oi-le" : "LiLeLou";
-              const link = `https://LiLeLou.com/#${id}`;
-              const guid = `https://${uri}.com/#${id}`;
               const audio = `https://archive.org/download/${uri}/${uri}--${id}.mp3`;
               return html`
                 <section
@@ -1313,10 +1311,6 @@ fs.writeFileSync(
                       gap: var(--space--2);
                       button,
                       a {
-                        /*
-                      font-size: var(--font-size--xl);
-                      line-height: var(--line-height--xl);
-                      */
                         color: var(--color--amber--900);
                         background-color: var(--color--amber--100);
                         &:hover,
