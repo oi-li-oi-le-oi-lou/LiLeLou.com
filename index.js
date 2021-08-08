@@ -1251,7 +1251,6 @@ fs.writeFileSync(
                 const audio = `https://archive.org/download/${uri}/${uri}--${id}.mp3`;
                 return html`
                   <section
-                    id="#${id}"
                     style="${css`
                       display: flex;
                       flex-direction: column;
@@ -1271,6 +1270,7 @@ fs.writeFileSync(
                         `}"
                       >
                         <a
+                          id="${id}"
                           href="#${id}"
                           style="${css`
                             &:hover,
