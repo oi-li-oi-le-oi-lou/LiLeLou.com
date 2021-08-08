@@ -1123,9 +1123,40 @@ fs.writeFileSync(
                 style="${css`
                   width: var(--width--prose);
                   height: var(--width--prose);
-                  background-color: blue;
+                  border-radius: var(--border-radius--lg);
                 `}"
-              ></svg>
+              >
+                <g
+                  style="${css`
+                    transform: translateX(var(--space---20))
+                      rotate(var(--rotate---6));
+                    rect {
+                      width: calc(var(--width--prose) + var(--space--20));
+                      height: calc(var(--width--prose) / 3 + var(--space--10));
+                    }
+                  `}"
+                >
+                  <rect
+                    style="${css`
+                      fill: var(--color--amber--600);
+                    `}"
+                  />
+                  <rect
+                    style="${css`
+                      y: calc(var(--width--prose) / 3 + var(--space--10) - 1px);
+                      fill: var(--color--amber--400);
+                    `}"
+                  />
+                  <rect
+                    style="${css`
+                      y: calc(
+                        var(--width--prose) * 2 / 3 + var(--space--10) - 1px
+                      );
+                      fill: var(--color--amber--200);
+                    `}"
+                  />
+                </g>
+              </svg>
             </a>
 
             <nav
