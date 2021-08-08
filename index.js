@@ -1119,11 +1119,13 @@ fs.writeFileSync(
             `}"
           >
             <a href="/">
-              <img
-                hidden
-                src="artwork--2020-11-03.png"
-                alt="Oi Li. Oi Lê. Oi Lou."
-              />
+              <svg
+                style="${css`
+                  width: var(--width--prose);
+                  height: var(--width--prose);
+                  background-color: blue;
+                `}"
+              ></svg>
             </a>
 
             <nav
