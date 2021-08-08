@@ -1243,154 +1243,7 @@ fs.writeFileSync(
               gap: var(--space--8);
             `}"
           >
-            $${episodes.oiLiOiLeOiLou.map((episode) => {
-              const oiLiOiLe = undefined;
-              const id = `${episode.date}--${episode.id}`;
-              const uri = oiLiOiLe !== undefined ? "oi-li-oi-le" : "LiLeLou";
-              const audio = `https://archive.org/download/${uri}/${uri}--${id}.mp3`;
-              return html`
-                <section
-                  id="#${id}"
-                  style="${css`
-                    display: flex;
-                    flex-direction: column;
-                    gap: var(--space--2);
-                  `}"
-                >
-                  <div>
-                    <h2
-                      style="${css`
-                        font-size: var(--font-size--base);
-                        line-height: var(--line-height--base);
-                        font-weight: var(--font-weight--semibold);
-                        color: var(--color--amber--900);
-                        @media (prefers-color-scheme: dark) {
-                          color: var(--color--amber--50);
-                        }
-                      `}"
-                    >
-                      <a
-                        href="#${id}"
-                        style="${css`
-                          &:hover,
-                          &:focus-within {
-                            color: var(--color--amber--700);
-                          }
-                          &:active {
-                            color: var(--color--amber--600);
-                          }
-                          @media (prefers-color-scheme: dark) {
-                            &:hover,
-                            &:focus-within {
-                              color: var(--color--amber--200);
-                            }
-                            &:active {
-                              color: var(--color--amber--300);
-                            }
-                          }
-                        `}"
-                        >${episode.title}</a
-                      >
-                    </h2>
-                    <p
-                      style="${css`
-                        font-size: var(--font-size--xs);
-                        line-height: var(--line-height--xs);
-                        color: var(--color--amber--600);
-                        @media (prefers-color-scheme: dark) {
-                          color: var(--color--amber--300);
-                        }
-                      `}"
-                    >
-                      ${episode.date}
-                    </p>
-                  </div>
-                  <div
-                    style="${css`
-                      display: flex;
-                      gap: var(--space--2);
-                      button,
-                      a {
-                        color: var(--color--amber--900);
-                        background-color: var(--color--amber--100);
-                        &:hover,
-                        &:focus-within {
-                          color: var(--color--amber--700);
-                        }
-                        &:active {
-                          background-color: var(--color--amber--200);
-                        }
-                        @media (prefers-color-scheme: dark) {
-                          color: var(--color--amber--100);
-                          background-color: var(--color--amber--800);
-                          &:hover,
-                          &:focus-within {
-                            color: var(--color--amber--300);
-                          }
-                          &:active {
-                            background-color: var(--color--amber--700);
-                          }
-                        }
-                        width: var(--space--6);
-                        height: var(--space--6);
-                        border-radius: var(--border-radius--circle);
-                        display: flex;
-                        justify-content: center;
-                        align-items: center;
-                      }
-                    `}"
-                  >
-                    <button
-                      data-ondomcontentloaded="${javascript`
-                        tippy(this, {
-                          content: "Play",
-                          touch: false,
-                        });
-                      `}"
-                      onclick="${javascript`
-                        const audio = this.closest("section").querySelector("audio");
-                        audio.hidden = false;
-                        audio.play();
-                      `}"
-                    >
-                      <i class="far fa-play-circle"></i>
-                    </button>
-                    <a
-                      href="${audio}"
-                      data-ondomcontentloaded="${javascript`
-                        tippy(this, {
-                          content: "Download",
-                          touch: false,
-                        });
-                      `}"
-                    >
-                      <i class="fas fa-download"></i>
-                    </a>
-                  </div>
-                  <audio
-                    src="${audio}"
-                    controls
-                    preload="none"
-                    hidden
-                    style="${css`
-                      width: 100%;
-                      height: var(--space--10);
-                      border-radius: var(--border-radius--lg);
-                    `}"
-                  ></audio>
-                  <div>$${renderMarkdown(episode.description)}</div>
-                  $${episode.notes === undefined
-                    ? html``
-                    : html`
-                        <details>
-                          <summary>Anotações do Episódio</summary>
-
-                          $${renderMarkdown(episode.notes)}
-                        </details>
-                      `}
-                </section>
-              `;
-            })}
+            $${episodes.oiLiOiLeOiLou.map((episode) => episodePartial(episode))}
             <!-- TODO: Episódios da época em que ainda éramos só Li & Lê! -->
           </main>
         </div>
@@ -1398,6 +1251,154 @@ fs.writeFileSync(
     </html>
   `)
 );
+
+function episodePartial(episode) {
+  const id = `${episode.date}--${episode.id}`;
+  const uri = episode.oiLiOiLe === undefined ? "LiLeLou" : "oi-li-oi-le";
+  const audio = `https://archive.org/download/${uri}/${uri}--${id}.mp3`;
+  return html`
+    <section
+      id="#${id}"
+      style="${css`
+        display: flex;
+        flex-direction: column;
+        gap: var(--space--2);
+      `}"
+    >
+      <div>
+        <h2
+          style="${css`
+            font-size: var(--font-size--base);
+            line-height: var(--line-height--base);
+            font-weight: var(--font-weight--semibold);
+            color: var(--color--amber--900);
+            @media (prefers-color-scheme: dark) {
+              color: var(--color--amber--50);
+            }
+          `}"
+        >
+          <a
+            href="#${id}"
+            style="${css`
+              &:hover,
+              &:focus-within {
+                color: var(--color--amber--700);
+              }
+              &:active {
+                color: var(--color--amber--600);
+              }
+              @media (prefers-color-scheme: dark) {
+                &:hover,
+                &:focus-within {
+                  color: var(--color--amber--200);
+                }
+                &:active {
+                  color: var(--color--amber--300);
+                }
+              }
+            `}"
+            >${episode.title}</a
+          >
+        </h2>
+        <p
+          style="${css`
+            font-size: var(--font-size--xs);
+            line-height: var(--line-height--xs);
+            color: var(--color--amber--600);
+            @media (prefers-color-scheme: dark) {
+              color: var(--color--amber--300);
+            }
+          `}"
+        >
+          ${episode.date}
+        </p>
+      </div>
+      <div
+        style="${css`
+          display: flex;
+          gap: var(--space--2);
+          button,
+          a {
+            color: var(--color--amber--900);
+            background-color: var(--color--amber--100);
+            &:hover,
+            &:focus-within {
+              color: var(--color--amber--700);
+            }
+            &:active {
+              background-color: var(--color--amber--200);
+            }
+            @media (prefers-color-scheme: dark) {
+              color: var(--color--amber--100);
+              background-color: var(--color--amber--800);
+              &:hover,
+              &:focus-within {
+                color: var(--color--amber--300);
+              }
+              &:active {
+                background-color: var(--color--amber--700);
+              }
+            }
+            width: var(--space--6);
+            height: var(--space--6);
+            border-radius: var(--border-radius--circle);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+          }
+        `}"
+      >
+        <button
+          data-ondomcontentloaded="${javascript`
+            tippy(this, {
+              content: "Play",
+              touch: false,
+            });
+          `}"
+          onclick="${javascript`
+            const audio = this.closest("section").querySelector("audio");
+            audio.hidden = false;
+            audio.play();
+          `}"
+        >
+          <i class="far fa-play-circle"></i>
+        </button>
+        <a
+          href="${audio}"
+          data-ondomcontentloaded="${javascript`
+            tippy(this, {
+              content: "Download",
+              touch: false,
+            });
+          `}"
+        >
+          <i class="fas fa-download"></i>
+        </a>
+      </div>
+      <audio
+        src="${audio}"
+        controls
+        preload="none"
+        hidden
+        style="${css`
+          width: 100%;
+          height: var(--space--10);
+          border-radius: var(--border-radius--lg);
+        `}"
+      ></audio>
+      <div>$${renderMarkdown(episode.description)}</div>
+      $${episode.notes === undefined
+        ? html``
+        : html`
+            <details>
+              <summary>Anotações do Episódio</summary>
+
+              $${renderMarkdown(episode.notes)}
+            </details>
+          `}
+    </section>
+  `;
+}
 
 function renderMarkdown(input) {
   return remark().use(remarkHTML).processSync(input).contents;
