@@ -1,18 +1,4 @@
-
-const renderedMarkdown = remark()
-  .use(remarkHTML)
-  .processSync(markdown).contents;
             /*
-        h1 {
-          line-height: 1.3;
-          margin-top: 2em;
-          font-size: 1.5em;
-        }
-
-        .date {
-          font-size: 0.875em;
-          margin-top: -1.5em;
-        }
 
         header,
         figure {
@@ -40,14 +26,6 @@ const renderedMarkdown = remark()
           width: 100%;
         }
 
-        summary {
-          cursor: pointer;
-        }
-
-        hr {
-          border: none;
-          border-top: 1px solid black;
-        }
         */
 for (const element of document.querySelectorAll("main section")) {
   const { oiLiOiLe, slug, date, duration, size } = element.dataset;

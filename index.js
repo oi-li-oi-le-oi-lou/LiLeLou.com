@@ -1243,7 +1243,12 @@ fs.writeFileSync(
             `}"
           >
             $${episodes.oiLiOiLeOiLou.map((episode) => {
-              const id = `${episode.id}--${episode.date}`;
+              const oiLiOiLe = undefined;
+              const id = `${episode.date}--${episode.id}`;
+              const uri = oiLiOiLe !== undefined ? "oi-li-oi-le" : "LiLeLou";
+              const link = `https://LiLeLou.com/#${id}`;
+              const guid = `https://${uri}.com/#${id}`;
+              const audio = `https://archive.org/download/${uri}/${uri}--${id}.mp3`;
               return html`
                 <section
                   id="#${id}"
@@ -1300,6 +1305,7 @@ fs.writeFileSync(
                     >
                       ${episode.date}
                     </p>
+                    <audio src="${audio}" controls preload="none"></audio>
                   </div>
                   <div>$${renderMarkdown(episode.description)}</div>
                   $${episode.notes === undefined
