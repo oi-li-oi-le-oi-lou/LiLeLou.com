@@ -1175,6 +1175,9 @@ fs.writeFileSync(
               style="${css`
                 font-weight: var(--font-weight--semibold);
                 color: var(--color--amber--900);
+                @media (prefers-color-scheme: dark) {
+                  color: var(--color--amber--50);
+                }
                 text-align: center;
               `}"
             >
@@ -1184,30 +1187,7 @@ fs.writeFileSync(
             </p>
           </header>
 
-          <main
-            style="${css`
-              a {
-                color: var(--color--amber--500);
-                &:hover,
-                &:focus-within {
-                  color: var(--color--amber--400);
-                }
-                &:active {
-                  color: var(--color--amber--600);
-                }
-                @media (prefers-color-scheme: dark) {
-                  color: var(--color--amber--500);
-                  &:hover,
-                  &:focus-within {
-                    color: var(--color--amber--400);
-                  }
-                  &:active {
-                    color: var(--color--amber--600);
-                  }
-                }
-              }
-            `}"
-          >
+          <main>
             <!-- TODO: Episódios da época em que ainda éramos só Li & Lê! -->
           </main>
         </div>
