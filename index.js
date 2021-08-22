@@ -1227,11 +1227,11 @@ fs.writeFileSync(
                     background-color: var(--color--amber--200);
                   }
                   @media (prefers-color-scheme: dark) {
-                    color: var(--color--amber--100);
+                    color: var(--color--amber--50);
                     background-color: var(--color--amber--800);
                     &:hover,
                     &:focus-within {
-                      color: var(--color--amber--300);
+                      color: var(--color--amber--200);
                     }
                     &:active {
                       background-color: var(--color--amber--700);
@@ -1280,7 +1280,7 @@ fs.writeFileSync(
                 <i class="fab fa-spotify"></i>
               </a>
               <a
-                href="feed.xml"
+                href="/feed.xml"
                 data-ondomcontentloaded="${javascript`
                   tippy(this, {
                     content: "RSS Feed",
