@@ -56,7 +56,16 @@ const episodes = {
 O Lou nasceu! Nós contamos como foi.
       `,
     },
-  ],
+  ].map((episode) => {
+    const id = `${episode.date}--${episode.slug}`;
+    const uri = "LiLeLou";
+    return {
+      ...episode,
+      id,
+      uri,
+      audio: `https://archive.org/download/${uri}/${uri}--${id}.mp3`,
+    };
+  }),
 
   oiLiOiLe: [
     {
@@ -929,7 +938,16 @@ O Lê tem notícias domésticas bombásticas!
         A Li já trabalhou no Brasil, fez um estágio na Espanha, e hoje trabalha nos Estados Unidos.
       `,
     },
-  ],
+  ].map((episode) => {
+    const id = `${episode.date}--${episode.slug}`;
+    const uri = "oi-li-oi-le";
+    return {
+      ...episode,
+      id,
+      uri,
+      audio: `https://archive.org/download/${uri}/${uri}--${id}.mp3`,
+    };
+  }),
 };
 
 fs.writeFileSync(
@@ -1328,10 +1346,6 @@ fs.writeFileSync(
           >
             $${(() => {
               const episodePartial = (episode) => {
-                const id = `${episode.date}--${episode.slug}`;
-                const uri =
-                  episode.oiLiOiLe === undefined ? "LiLeLou" : "oi-li-oi-le";
-                const audio = `https://archive.org/download/${uri}/${uri}--${id}.mp3`;
                 return html`
                   <section
                     style="${css`
@@ -1353,8 +1367,8 @@ fs.writeFileSync(
                         `}"
                       >
                         <a
-                          id="${id}"
-                          href="#${id}"
+                          id="${episode.id}"
+                          href="#${episode.id}"
                           style="${css`
                             &:hover,
                             &:focus-within {
@@ -1446,7 +1460,7 @@ fs.writeFileSync(
                         <i class="far fa-play-circle"></i>
                       </button>
                       <a
-                        href="${audio}"
+                        href="${episode.audio}"
                         data-ondomcontentloaded="${javascript`
                           tippy(this, {
                             content: "Download",
@@ -1458,7 +1472,7 @@ fs.writeFileSync(
                       </a>
                     </div>
                     <audio
-                      src="${audio}"
+                      src="${episode.audio}"
                       controls
                       preload="none"
                       hidden
