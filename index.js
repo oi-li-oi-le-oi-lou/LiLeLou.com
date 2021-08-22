@@ -1122,7 +1122,7 @@ fs.writeFileSync(
           >
             <a href="/">
               <svg
-                viewBox="0 0 546 546"
+                viewBox="0 0, 546 546"
                 style="${css`
                   border-radius: var(--border-radius--lg);
                 `}"
