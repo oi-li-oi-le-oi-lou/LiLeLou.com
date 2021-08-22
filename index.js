@@ -1345,156 +1345,154 @@ fs.writeFileSync(
             `}"
           >
             $${(() => {
-              const episodePartial = (episode) => {
-                return html`
-                  <section
-                    style="${css`
-                      display: flex;
-                      flex-direction: column;
-                      gap: var(--space--2);
-                    `}"
-                  >
-                    <div>
-                      <h2
-                        style="${css`
-                          font-size: var(--font-size--base);
-                          line-height: var(--line-height--base);
-                          font-weight: var(--font-weight--semibold);
-                          color: var(--color--amber--900);
-                          @media (prefers-color-scheme: dark) {
-                            color: var(--color--amber--50);
-                          }
-                        `}"
-                      >
-                        <a
-                          id="${episode.id}"
-                          href="#${episode.id}"
-                          style="${css`
-                            &:hover,
-                            &:focus-within {
-                              color: var(--color--amber--700);
-                            }
-                            &:active {
-                              color: var(--color--amber--600);
-                            }
-                            @media (prefers-color-scheme: dark) {
-                              &:hover,
-                              &:focus-within {
-                                color: var(--color--amber--200);
-                              }
-                              &:active {
-                                color: var(--color--amber--300);
-                              }
-                            }
-                          `}"
-                          >${episode.title}</a
-                        >
-                      </h2>
-                      <p
-                        style="${css`
-                          font-size: var(--font-size--xs);
-                          line-height: var(--line-height--xs);
-                          color: var(--color--amber--600);
-                          @media (prefers-color-scheme: dark) {
-                            color: var(--color--amber--300);
-                          }
-                        `}"
-                      >
-                        ${episode.date}
-                      </p>
-                    </div>
-                    <div
+              const episodePartial = (episode) => html`
+                <section
+                  style="${css`
+                    display: flex;
+                    flex-direction: column;
+                    gap: var(--space--2);
+                  `}"
+                >
+                  <div>
+                    <h2
                       style="${css`
-                        display: flex;
-                        gap: var(--space--2);
-                        button,
-                        a {
-                          color: var(--color--amber--900);
-                          background-color: var(--color--amber--100);
+                        font-size: var(--font-size--base);
+                        line-height: var(--line-height--base);
+                        font-weight: var(--font-weight--semibold);
+                        color: var(--color--amber--900);
+                        @media (prefers-color-scheme: dark) {
+                          color: var(--color--amber--50);
+                        }
+                      `}"
+                    >
+                      <a
+                        id="${episode.id}"
+                        href="#${episode.id}"
+                        style="${css`
                           &:hover,
                           &:focus-within {
                             color: var(--color--amber--700);
                           }
                           &:active {
-                            background-color: var(--color--amber--200);
+                            color: var(--color--amber--600);
                           }
                           @media (prefers-color-scheme: dark) {
-                            color: var(--color--amber--100);
-                            background-color: var(--color--amber--800);
                             &:hover,
                             &:focus-within {
-                              color: var(--color--amber--300);
+                              color: var(--color--amber--200);
                             }
                             &:active {
-                              background-color: var(--color--amber--700);
+                              color: var(--color--amber--300);
                             }
                           }
-                          width: var(--space--6);
-                          height: var(--space--6);
-                          border-radius: var(--border-radius--circle);
-                          display: flex;
-                          justify-content: center;
-                          align-items: center;
+                        `}"
+                        >${episode.title}</a
+                      >
+                    </h2>
+                    <p
+                      style="${css`
+                        font-size: var(--font-size--xs);
+                        line-height: var(--line-height--xs);
+                        color: var(--color--amber--600);
+                        @media (prefers-color-scheme: dark) {
+                          color: var(--color--amber--300);
                         }
                       `}"
                     >
-                      <button
-                        data-ondomcontentloaded="${javascript`
-                          tippy(this, {
-                            content: "Play",
-                            touch: false,
-                          });
-                        `}"
-                        onclick="${javascript`
-                          const audio = this.closest("section").querySelector("audio");
-                          if (audio.hidden) {
-                            audio.hidden = false;
-                            audio.play();
+                      ${episode.date}
+                    </p>
+                  </div>
+                  <div
+                    style="${css`
+                      display: flex;
+                      gap: var(--space--2);
+                      button,
+                      a {
+                        color: var(--color--amber--900);
+                        background-color: var(--color--amber--100);
+                        &:hover,
+                        &:focus-within {
+                          color: var(--color--amber--700);
+                        }
+                        &:active {
+                          background-color: var(--color--amber--200);
+                        }
+                        @media (prefers-color-scheme: dark) {
+                          color: var(--color--amber--100);
+                          background-color: var(--color--amber--800);
+                          &:hover,
+                          &:focus-within {
+                            color: var(--color--amber--300);
                           }
-                          else {
-                            audio.hidden = true;
-                            audio.pause();
+                          &:active {
+                            background-color: var(--color--amber--700);
                           }
-                        `}"
-                      >
-                        <i class="far fa-play-circle"></i>
-                      </button>
-                      <a
-                        href="${episode.audio}"
-                        data-ondomcontentloaded="${javascript`
-                          tippy(this, {
-                            content: "Download",
-                            touch: false,
-                          });
-                        `}"
-                      >
-                        <i class="fas fa-download"></i>
-                      </a>
-                    </div>
-                    <audio
-                      src="${episode.audio}"
-                      controls
-                      preload="none"
-                      hidden
-                      style="${css`
-                        width: 100%;
-                        height: var(--space--10);
-                        border-radius: var(--border-radius--lg);
+                        }
+                        width: var(--space--6);
+                        height: var(--space--6);
+                        border-radius: var(--border-radius--circle);
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                      }
+                    `}"
+                  >
+                    <button
+                      data-ondomcontentloaded="${javascript`
+                        tippy(this, {
+                          content: "Play",
+                          touch: false,
+                        });
                       `}"
-                    ></audio>
-                    <div>$${renderMarkdown(episode.description)}</div>
-                    $${episode.notes === undefined
-                      ? html``
-                      : html`
-                          <details>
-                            <summary>Anotações do Episódio</summary>
+                      onclick="${javascript`
+                        const audio = this.closest("section").querySelector("audio");
+                        if (audio.hidden) {
+                          audio.hidden = false;
+                          audio.play();
+                        }
+                        else {
+                          audio.hidden = true;
+                          audio.pause();
+                        }
+                      `}"
+                    >
+                      <i class="far fa-play-circle"></i>
+                    </button>
+                    <a
+                      href="${episode.audio}"
+                      data-ondomcontentloaded="${javascript`
+                        tippy(this, {
+                          content: "Download",
+                          touch: false,
+                        });
+                      `}"
+                    >
+                      <i class="fas fa-download"></i>
+                    </a>
+                  </div>
+                  <audio
+                    src="${episode.audio}"
+                    controls
+                    preload="none"
+                    hidden
+                    style="${css`
+                      width: 100%;
+                      height: var(--space--10);
+                      border-radius: var(--border-radius--lg);
+                    `}"
+                  ></audio>
+                  <div>$${renderMarkdown(episode.description)}</div>
+                  $${episode.notes === undefined
+                    ? html``
+                    : html`
+                        <details>
+                          <summary>Anotações do Episódio</summary>
 
-                            $${renderMarkdown(episode.notes)}
-                          </details>
-                        `}
-                  </section>
-                `;
-              };
+                          $${renderMarkdown(episode.notes)}
+                        </details>
+                      `}
+                </section>
+              `;
 
               return html`
                 $${episodes.oiLiOiLeOiLou.map((episode) =>
