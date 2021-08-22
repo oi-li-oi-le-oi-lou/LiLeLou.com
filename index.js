@@ -1328,7 +1328,7 @@ fs.writeFileSync(
           >
             $${(() => {
               const episodePartial = (episode) => {
-                const id = `${episode.date}--${episode.id}`;
+                const id = `${episode.date}--${episode.slug}`;
                 const uri =
                   episode.oiLiOiLe === undefined ? "LiLeLou" : "oi-li-oi-le";
                 const audio = `https://archive.org/download/${uri}/${uri}--${id}.mp3`;
