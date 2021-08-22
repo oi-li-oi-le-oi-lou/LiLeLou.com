@@ -10,7 +10,7 @@ const javascript = require("tagged-template-noop");
 const episodes = {
   oiLiOiLeOiLou: [
     {
-      id: "a-grande-idade-redonda",
+      slug: "a-grande-idade-redonda",
       title: "A Grande Idade Redonda",
       date: "2020-12-10",
       duration: "17:26",
@@ -20,7 +20,7 @@ const episodes = {
       `,
     },
     {
-      id: "o-que-torna-uma-historia-interessante",
+      slug: "o-que-torna-uma-historia-interessante",
       title: "O que Torna uma História Interessante?",
       date: "2020-12-04",
       duration: "49:22",
@@ -37,7 +37,7 @@ const episodes = {
       `,
     },
     {
-      id: "primeiras-semanas",
+      slug: "primeiras-semanas",
       title: "Primeiras Semanas",
       date: "2020-10-24",
       duration: "36:37",
@@ -47,7 +47,7 @@ const episodes = {
       `,
     },
     {
-      id: "parto",
+      slug: "parto",
       title: "Parto",
       date: "2020-10-19",
       duration: "40:36",
@@ -60,7 +60,7 @@ O Lou nasceu! Nós contamos como foi.
 
   oiLiOiLe: [
     {
-      id: "carreiras",
+      slug: "carreiras",
       title: "Carreiras",
       date: "2020-09-25",
       duration: "48:55",
@@ -70,7 +70,7 @@ O Lou nasceu! Nós contamos como foi.
       `,
     },
     {
-      id: "maternidade-e-machismo",
+      slug: "maternidade-e-machismo",
       title: "Maternidade e Machismo",
       date: "2020-09-19",
       duration: "51:34",
@@ -80,7 +80,7 @@ O Lou nasceu! Nós contamos como foi.
       `,
     },
     {
-      id: "plano-de-parto",
+      slug: "plano-de-parto",
       title: "Plano de Parto",
       date: "2020-09-01",
       duration: "50:13",
@@ -90,7 +90,7 @@ O Lou nasceu! Nós contamos como foi.
       `,
     },
     {
-      id: "morte",
+      slug: "morte",
       title: "Morte",
       date: "2020-08-17",
       duration: "36:28",
@@ -103,7 +103,7 @@ O Lou nasceu! Nós contamos como foi.
       `,
     },
     {
-      id: "a-grande-mudanca--parte-2",
+      slug: "a-grande-mudanca--parte-2",
       title: "A Grande Mudança: Parte 2",
       date: "2020-07-30",
       duration: "37:24",
@@ -113,7 +113,7 @@ O Lou nasceu! Nós contamos como foi.
       `,
     },
     {
-      id: "a-grande-mudanca--parte-1",
+      slug: "a-grande-mudanca--parte-1",
       title: "A Grande Mudança: Parte 1",
       date: "2020-07-30",
       duration: "41:47",
@@ -156,7 +156,7 @@ O Lou nasceu! Nós contamos como foi.
       `,
     },
     {
-      id: "coronavirus",
+      slug: "coronavirus",
       title: "Coronavírus",
       date: "2020-05-03",
       duration: "52:59",
@@ -169,7 +169,7 @@ Este é o primeiro episódio editado pela Li! 🎉
       `,
     },
     {
-      id: "dia-internacional-da-mulher",
+      slug: "dia-internacional-da-mulher",
       title: "Dia Internacional da Mulher",
       date: "2020-03-31",
       duration: "44:54",
@@ -184,7 +184,7 @@ Este é o primeiro episódio editado pela Li! 🎉
       `,
     },
     {
-      id: "baltimore",
+      slug: "baltimore",
       title: "Baltimore",
       date: "2020-03-13",
       duration: "55:37",
@@ -208,7 +208,7 @@ Este é o primeiro episódio editado pela Li! 🎉
       `,
     },
     {
-      id: "gravidez",
+      slug: "gravidez",
       title: "Gravidez",
       date: "2020-02-11",
       duration: "54:45",
@@ -225,7 +225,7 @@ Este é o primeiro episódio editado pela Li! 🎉
       `,
     },
     {
-      id: "morte-e-como-foi-dar-aulas",
+      slug: "morte-e-como-foi-dar-aulas",
       title: "Morte e Como Foi Dar Aulas",
       date: "2019-12-30",
       duration: "36:11",
@@ -238,7 +238,7 @@ Este é o primeiro episódio editado pela Li! 🎉
       `,
     },
     {
-      id: "visita-da-mae-e-choque-cultural",
+      slug: "visita-da-mae-e-choque-cultural",
       title: "Visita da Mãe e Choque Cultural",
       date: "2019-12-04",
       duration: "45:11",
@@ -251,7 +251,7 @@ Este é o primeiro episódio editado pela Li! 🎉
       `,
     },
     {
-      id: "correndo-com-estranhos",
+      slug: "correndo-com-estranhos",
       title: "Correndo com Estranhos",
       date: "2019-11-09",
       duration: "58:56",
@@ -264,7 +264,7 @@ Este é o primeiro episódio editado pela Li! 🎉
       `,
     },
     {
-      id: "ecochatos",
+      slug: "ecochatos",
       title: "Ecochatos",
       date: "2019-10-13",
       duration: "44:58",
@@ -280,7 +280,7 @@ Este é o primeiro episódio editado pela Li! 🎉
       `,
     },
     {
-      id: "season-premiere-da-segunda-temporada",
+      slug: "season-premiere-da-segunda-temporada",
       title: "Season Premiere da Segunda Temporada",
       date: "2019-09-29",
       duration: "47:48",
@@ -294,7 +294,7 @@ Este é o primeiro episódio editado pela Li! 🎉
       `,
     },
     {
-      id: "teaser-da-segunda-temporada",
+      slug: "teaser-da-segunda-temporada",
       title: "Teaser da Segunda Temporada",
       date: "2019-09-17",
       duration: "48:48",
@@ -311,7 +311,7 @@ Este é o primeiro episódio editado pela Li! 🎉
       `,
     },
     {
-      id: "assedio-moral-no-trabalho",
+      slug: "assedio-moral-no-trabalho",
       title: "Assédio Moral no Trabalho",
       date: "2019-07-04",
       duration: "40:31",
@@ -326,7 +326,7 @@ Este é o primeiro episódio editado pela Li! 🎉
       `,
     },
     {
-      id: "the-act",
+      slug: "the-act",
       title: "The Act",
       date: "2019-06-16",
       duration: "45:08",
@@ -341,7 +341,7 @@ Este é o primeiro episódio editado pela Li! 🎉
       `,
     },
     {
-      id: "satanismo",
+      slug: "satanismo",
       title: "Satanismo",
       date: "2019-05-31",
       duration: "39:07",
@@ -366,7 +366,7 @@ Este é o primeiro episódio editado pela Li! 🎉
       `,
     },
     {
-      id: "miami",
+      slug: "miami",
       title: "Miami",
       date: "2019-05-16",
       duration: "38:39",
@@ -398,7 +398,7 @@ Este é o primeiro episódio editado pela Li! 🎉
       `,
     },
     {
-      id: "irmas",
+      slug: "irmas",
       title: "Irmãs",
       date: "2019-04-23",
       duration: "33:50",
@@ -414,7 +414,7 @@ O Lê tem notícias domésticas bombásticas!
       `,
     },
     {
-      id: "racismo",
+      slug: "racismo",
       title: "Racismo",
       date: "2019-04-11",
       duration: "36:46",
@@ -428,7 +428,7 @@ O Lê tem notícias domésticas bombásticas!
       `,
     },
     {
-      id: "empreendedorismo",
+      slug: "empreendedorismo",
       title: "Empreendedorismo",
       date: "2019-03-31",
       duration: "45:06",
@@ -461,7 +461,7 @@ O Lê tem notícias domésticas bombásticas!
       `,
     },
     {
-      id: "filhos",
+      slug: "filhos",
       title: "Filhos",
       date: "2019-03-14",
       duration: "53:47",
@@ -478,7 +478,7 @@ O Lê tem notícias domésticas bombásticas!
       `,
     },
     {
-      id: "procrastinacao-e-idiomas",
+      slug: "procrastinacao-e-idiomas",
       title: "Procrastinação e Idiomas",
       date: "2019-03-07",
       duration: "47:02",
@@ -495,7 +495,7 @@ O Lê tem notícias domésticas bombásticas!
       `,
     },
     {
-      id: "brown-e-providence",
+      slug: "brown-e-providence",
       title: "Brown e Providence",
       date: "2019-02-24",
       duration: "43:09",
@@ -510,7 +510,7 @@ O Lê tem notícias domésticas bombásticas!
       `,
     },
     {
-      id: "religiao",
+      slug: "religiao",
       title: "Religião",
       date: "2019-02-16",
       duration: "48:20",
@@ -526,7 +526,7 @@ O Lê tem notícias domésticas bombásticas!
       `,
     },
     {
-      id: "pintura-machados-e-moveis",
+      slug: "pintura-machados-e-moveis",
       title: "Pintura, Machados e Móveis",
       date: "2019-02-03",
       duration: "43:29",
@@ -559,7 +559,7 @@ O Lê tem notícias domésticas bombásticas!
       `,
     },
     {
-      id: "roommates",
+      slug: "roommates",
       title: "Roommates",
       date: "2019-01-27",
       duration: "33:54",
@@ -581,7 +581,7 @@ O Lê tem notícias domésticas bombásticas!
       `,
     },
     {
-      id: "little-fires-everywhere",
+      slug: "little-fires-everywhere",
       title: "Little Fires Everywhere",
       date: "2019-01-20",
       duration: "42:06",
@@ -595,7 +595,7 @@ O Lê tem notícias domésticas bombásticas!
       `,
     },
     {
-      id: "educacao",
+      slug: "educacao",
       title: "Educação",
       date: "2019-01-10",
       duration: "49:21",
@@ -608,7 +608,7 @@ O Lê tem notícias domésticas bombásticas!
       `,
     },
     {
-      id: "filmes-televisao-e-livros",
+      slug: "filmes-televisao-e-livros",
       title: "Filmes, Televisão, e Livros",
       date: "2019-01-03",
       duration: "36:05",
@@ -670,7 +670,7 @@ O Lê tem notícias domésticas bombásticas!
       `,
     },
     {
-      id: "retrospectiva-2018-e-resolucoes-de-ano-novo",
+      slug: "retrospectiva-2018-e-resolucoes-de-ano-novo",
       title: "Retrospectiva 2018 e Resoluções de Ano Novo",
       date: "2018-12-26",
       duration: "32:10",
@@ -703,7 +703,7 @@ O Lê tem notícias domésticas bombásticas!
       `,
     },
     {
-      id: "um-vegano-no-churrasco-de-natal",
+      slug: "um-vegano-no-churrasco-de-natal",
       title: "Um Vegano no Churrasco de Natal",
       date: "2018-12-20",
       duration: "54:49",
@@ -726,7 +726,7 @@ O Lê tem notícias domésticas bombásticas!
       `,
     },
     {
-      id: "como-nos-conhecemos",
+      slug: "como-nos-conhecemos",
       title: "Como nos Conhecemos",
       date: "2018-12-11",
       duration: "39:07",
@@ -742,7 +742,7 @@ O Lê tem notícias domésticas bombásticas!
       `,
     },
     {
-      id: "doutorado",
+      slug: "doutorado",
       title: "Doutorado",
       date: "2018-12-04",
       duration: "55:17",
@@ -764,7 +764,7 @@ O Lê tem notícias domésticas bombásticas!
       `,
     },
     {
-      id: "amizades-e-tecnologia",
+      slug: "amizades-e-tecnologia",
       title: "Amizades e Tecnologia",
       date: "2018-11-27",
       duration: "45:32",
@@ -781,7 +781,7 @@ O Lê tem notícias domésticas bombásticas!
       `,
     },
     {
-      id: "obsessoes-e-viagem-com-gato",
+      slug: "obsessoes-e-viagem-com-gato",
       title: "Obsessões e Viagem com Gato",
       date: "2018-11-18",
       duration: "49:40",
@@ -805,7 +805,7 @@ O Lê tem notícias domésticas bombásticas!
       `,
     },
     {
-      id: "eleicoes-no-brasil",
+      slug: "eleicoes-no-brasil",
       title: "Eleições no Brasil",
       date: "2018-10-28",
       duration: "43:09",
@@ -819,7 +819,7 @@ O Lê tem notícias domésticas bombásticas!
       `,
     },
     {
-      id: "aniversarios",
+      slug: "aniversarios",
       title: "Aniversários",
       date: "2018-10-20",
       duration: "45:32",
@@ -843,7 +843,7 @@ O Lê tem notícias domésticas bombásticas!
       `,
     },
     {
-      id: "glamping",
+      slug: "glamping",
       title: "Glamping",
       date: "2018-10-08",
       duration: "22:16",
@@ -908,7 +908,7 @@ O Lê tem notícias domésticas bombásticas!
       `,
     },
     {
-      id: "dia-da-farmaceutica",
+      slug: "dia-da-farmaceutica",
       title: "Dia da Farmacêutica",
       date: "2018-09-28",
       duration: "33:10",
