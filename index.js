@@ -1366,9 +1366,7 @@ fs.writeFileSync(
                 >
                   Episódios da época em que ainda éramos só Li & Lê!
                 </p>
-                $${episodes.oiLiOiLe.map((episode) =>
-                  episodePartial({ ...episode, oiLiOiLe: true })
-                )}
+                $${episodes.oiLiOiLe.map((episode) => episodePartial(episode))}
               `;
 
               function episodePartial(episode) {
