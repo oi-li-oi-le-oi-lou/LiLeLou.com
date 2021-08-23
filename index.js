@@ -1146,6 +1146,71 @@ fs.writeFileSync(
               justify-content: center;
               align-items: center;
             }
+
+            .markdown {
+              display: flex;
+              flex-direction: column;
+              gap: var(--space--2);
+
+              a {
+                text-decoration: underline;
+                color: var(--color--amber--900);
+                &:hover,
+                &:focus-within {
+                  color: var(--color--amber--700);
+                }
+                &:active {
+                  color: var(--color--amber--600);
+                }
+                @media (prefers-color-scheme: dark) {
+                  color: var(--color--amber--400);
+                  &:hover,
+                  &:focus-within {
+                    color: var(--color--amber--200);
+                  }
+                  &:active {
+                    color: var(--color--amber--500);
+                  }
+                }
+              }
+
+              strong {
+                font-weight: var(--font-weight--semibold);
+              }
+
+              ul {
+                padding-left: var(--space--4);
+                & > li {
+                  list-style: disc;
+                  &::marker {
+                    color: var(--color--amber--500);
+                    @media (prefers-color-scheme: dark) {
+                      color: var(--color--amber--400);
+                    }
+                  }
+                }
+              }
+
+              img {
+                max-width: 100%;
+                height: auto;
+                border-radius: var(--border-radius--lg);
+              }
+
+              figure {
+                display: flex;
+                flex-direction: column;
+                gap: var(--space--2);
+                align-items: center;
+
+                figcaption {
+                  font-size: var(--font-size--xs);
+                  line-height: var(--line-height--xs);
+                  font-weight: var(--font-weight--semibold);
+                  text-align: center;
+                }
+              }
+            }
           }
         `}"
       >
@@ -1495,14 +1560,17 @@ fs.writeFileSync(
                         border-radius: var(--border-radius--lg);
                       `}"
                     ></audio>
-                    <div>$${renderMarkdown(episode.description)}</div>
+                    <div class="markdown">
+                      $${renderMarkdown(episode.description)}
+                    </div>
                     $${episode.notes === undefined
                       ? html``
                       : html`
                           <details>
                             <summary>Anotações do Episódio</summary>
-
-                            $${renderMarkdown(episode.notes)}
+                            <div class="markdown">
+                              $${renderMarkdown(episode.notes)}
+                            </div>
                           </details>
                         `}
                   </section>

@@ -793,7 +793,7 @@
           /* INLINE STYLES */
 
           
-                  .style--iblmn0.style--iblmn0.style--iblmn0.style--iblmn0.style--iblmn0.style--iblmn0 {
+                  .style--1mat7ec.style--1mat7ec.style--1mat7ec.style--1mat7ec.style--1mat7ec.style--1mat7ec {
                     
           font-family: "IBM Plex Sans", var(--font-family--sans-serif);
           font-size: var(--font-size--sm);
@@ -807,7 +807,7 @@
                   @media (prefers-color-scheme: dark) {
 
           
-                  .style--iblmn0.style--iblmn0.style--iblmn0.style--iblmn0.style--iblmn0.style--iblmn0 {
+                  .style--1mat7ec.style--1mat7ec.style--1mat7ec.style--1mat7ec.style--1mat7ec.style--1mat7ec {
             color: var(--color--amber--200);
             background-color: var(--color--amber--900)
         
@@ -815,7 +815,7 @@
           }
 
           
-                  .style--iblmn0.style--iblmn0.style--iblmn0.style--iblmn0.style--iblmn0.style--iblmn0 {
+                  .style--1mat7ec.style--1mat7ec.style--1mat7ec.style--1mat7ec.style--1mat7ec.style--1mat7ec {
           display: flex;
           justify-content: center;
 }
@@ -975,6 +975,98 @@
               justify-content: center;
               align-items: center;
 }
+
+          
+                  .markdown {
+              display: flex;
+              flex-direction: column;
+              gap: var(--space--2);
+            }
+
+          
+                  .markdown a {
+                text-decoration: underline;
+                color: var(--color--amber--900);
+              }
+
+          
+                  .markdown a:hover,
+                .markdown a:focus-within {
+                  color: var(--color--amber--700);
+                }
+
+          
+                  .markdown a:active {
+                  color: var(--color--amber--600);
+                }
+
+          
+                  @media (prefers-color-scheme: dark) {
+
+          
+                  .markdown a {
+                  color: var(--color--amber--400)
+              }
+                  .markdown a:hover,
+                  .markdown a:focus-within {
+                    color: var(--color--amber--200);
+                  }
+                  .markdown a:active {
+                    color: var(--color--amber--500);
+                  }
+                }
+
+          
+                  .markdown strong {
+                font-weight: var(--font-weight--semibold);
+              }
+
+          
+                  .markdown ul {
+                padding-left: var(--space--4);
+              }
+
+          
+                  .markdown ul > li {
+                  list-style: disc;
+                }
+
+          
+                  .markdown ul > li::marker {
+                    color: var(--color--amber--500);
+                  }
+
+          
+                  @media (prefers-color-scheme: dark) {
+
+          
+                  .markdown ul > li::marker {
+                      color: var(--color--amber--400)
+                  }
+                    }
+
+          
+                  .markdown img {
+                max-width: 100%;
+                height: auto;
+                border-radius: var(--border-radius--lg);
+              }
+
+          
+                  .markdown figure {
+                display: flex;
+                flex-direction: column;
+                gap: var(--space--2);
+                align-items: center;
+              }
+
+          
+                  .markdown figure figcaption {
+                  font-size: var(--font-size--xs);
+                  line-height: var(--line-height--xs);
+                  font-weight: var(--font-weight--semibold);
+                  text-align: center;
+                }
                 
                   .style--e425g5.style--e425g5.style--e425g5.style--e425g5.style--e425g5.style--e425g5 {
                     
@@ -1258,7 +1350,7 @@
       </style>
     </head>
 
-      <body class="style--iblmn0">
+      <body class="style--1mat7ec">
         <div class="style--e425g5">
           <header class="style--8rejdd">
             <a href="/">
@@ -1376,8 +1468,10 @@
                       </a>
                     </div>
                     <audio src="https://archive.org/download/LiLeLou/LiLeLou--2020-12-10--a-grande-idade-redonda.mp3" controls="" preload="none" hidden="" class="style--jzu1z3"></audio>
-                    <div><p>Li &amp; Lê fizeram aniversário recentemente. Eles têm a mesma idade, e agora é uma idade de respeito. Qual será que é?</p>
-</div>
+                    <div class="markdown">
+                      <p>Li &amp; Lê fizeram aniversário recentemente. Eles têm a mesma idade, e agora é uma idade de respeito. Qual será que é?</p>
+
+                    </div>
                     
                   </section>
                 
@@ -1424,19 +1518,22 @@
                       </a>
                     </div>
                     <audio src="https://archive.org/download/LiLeLou/LiLeLou--2020-12-04--o-que-torna-uma-historia-interessante.mp3" controls="" preload="none" hidden="" class="style--jzu1z3"></audio>
-                    <div><p>Com a pandemia e o excesso de tempo passado juntos, fica difícil termos histórias interessantes um para o outro. Mas afinal, o que torna uma história interessante? Angústia existencial, reflexões sobre amamentação, e muito mais, neste episódio de <strong>Oi Li. Oi Lê. Oi Lou.</strong></p>
-</div>
+                    <div class="markdown">
+                      <p>Com a pandemia e o excesso de tempo passado juntos, fica difícil termos histórias interessantes um para o outro. Mas afinal, o que torna uma história interessante? Angústia existencial, reflexões sobre amamentação, e muito mais, neste episódio de <strong>Oi Li. Oi Lê. Oi Lou.</strong></p>
+
+                    </div>
                     
                           <details>
                             <summary>Anotações do Episódio</summary>
-
-                            <p>Livro e filmes dos quais falamos neste episódio:</p>
+                            <div class="markdown">
+                              <p>Livro e filmes dos quais falamos neste episódio:</p>
 <ul>
 <li><strong>I Am Malala</strong>, da Malala Yousafzai.</li>
 <li><strong>Free Solo</strong>, do Alex Honnold.</li>
 <li><strong>Onze Homens e Um Segredo</strong>.</li>
 </ul>
 
+                            </div>
                           </details>
                         
                   </section>
@@ -1484,8 +1581,10 @@
                       </a>
                     </div>
                     <audio src="https://archive.org/download/LiLeLou/LiLeLou--2020-10-24--primeiras-semanas.mp3" controls="" preload="none" hidden="" class="style--jzu1z3"></audio>
-                    <div><p>Agora que o parto passou, nós percebemos que há um bebê em casa! Nós falamos sobre o ciclo da vida, da amamentação às trocas de fraldas.</p>
-</div>
+                    <div class="markdown">
+                      <p>Agora que o parto passou, nós percebemos que há um bebê em casa! Nós falamos sobre o ciclo da vida, da amamentação às trocas de fraldas.</p>
+
+                    </div>
                     
                   </section>
                 
@@ -1532,8 +1631,10 @@
                       </a>
                     </div>
                     <audio src="https://archive.org/download/LiLeLou/LiLeLou--2020-10-19--parto.mp3" controls="" preload="none" hidden="" class="style--jzu1z3"></audio>
-                    <div><p>O Lou nasceu! Nós contamos como foi.</p>
-</div>
+                    <div class="markdown">
+                      <p>O Lou nasceu! Nós contamos como foi.</p>
+
+                    </div>
                     
                   </section>
                 
@@ -1584,8 +1685,10 @@
                       </a>
                     </div>
                     <audio src="https://archive.org/download/oi-li-oi-le/oi-li-oi-le--2020-09-25--carreiras.mp3" controls="" preload="none" hidden="" class="style--jzu1z3"></audio>
-                    <div><p>O bebê ainda não nasceu, então aproveitamos para refletir sobre o que estamos fazendo com as nossas carreiras. A Li parou de trabalhar e o Lê desistiu do doutorado, mas nós rejeitamos o título de <strong>desempregados</strong> 🙃</p>
-</div>
+                    <div class="markdown">
+                      <p>O bebê ainda não nasceu, então aproveitamos para refletir sobre o que estamos fazendo com as nossas carreiras. A Li parou de trabalhar e o Lê desistiu do doutorado, mas nós rejeitamos o título de <strong>desempregados</strong> 🙃</p>
+
+                    </div>
                     
                   </section>
                 
@@ -1632,8 +1735,10 @@
                       </a>
                     </div>
                     <audio src="https://archive.org/download/oi-li-oi-le/oi-li-oi-le--2020-09-19--maternidade-e-machismo.mp3" controls="" preload="none" hidden="" class="style--jzu1z3"></audio>
-                    <div><p>A maternidade é uma experiência de empoderamento feminino, mas sempre há alguém pronto para encher o saco. Nós conversamos sobre o machismo que a Li teve que enfrentar até agora na gravidez e o que podemos fazer a respeito.</p>
-</div>
+                    <div class="markdown">
+                      <p>A maternidade é uma experiência de empoderamento feminino, mas sempre há alguém pronto para encher o saco. Nós conversamos sobre o machismo que a Li teve que enfrentar até agora na gravidez e o que podemos fazer a respeito.</p>
+
+                    </div>
                     
                   </section>
                 
@@ -1680,8 +1785,10 @@
                       </a>
                     </div>
                     <audio src="https://archive.org/download/oi-li-oi-le/oi-li-oi-le--2020-09-01--plano-de-parto.mp3" controls="" preload="none" hidden="" class="style--jzu1z3"></audio>
-                    <div><p>O parto do Lou será em breve! Nós conversamos sobre nossas expectativas.</p>
-</div>
+                    <div class="markdown">
+                      <p>O parto do Lou será em breve! Nós conversamos sobre nossas expectativas.</p>
+
+                    </div>
                     
                   </section>
                 
@@ -1728,16 +1835,19 @@
                       </a>
                     </div>
                     <audio src="https://archive.org/download/oi-li-oi-le/oi-li-oi-le--2020-08-17--morte.mp3" controls="" preload="none" hidden="" class="style--jzu1z3"></audio>
-                    <div><p>A avó do Lê morreu. Talvez de coronavírus. Nós conversamos sobre a morte.</p>
-</div>
+                    <div class="markdown">
+                      <p>A avó do Lê morreu. Talvez de coronavírus. Nós conversamos sobre a morte.</p>
+
+                    </div>
                     
                           <details>
                             <summary>Anotações do Episódio</summary>
-
-                            <ul>
+                            <div class="markdown">
+                              <ul>
 <li><a href="https://en.wikipedia.org/wiki/Micromort">O significado que o Lê dá para o termo <strong>micromorte</strong>, que a Li usou com outro significado</a>.</li>
 </ul>
 
+                            </div>
                           </details>
                         
                   </section>
@@ -1785,8 +1895,10 @@
                       </a>
                     </div>
                     <audio src="https://archive.org/download/oi-li-oi-le/oi-li-oi-le--2020-07-30--a-grande-mudanca--parte-2.mp3" controls="" preload="none" hidden="" class="style--jzu1z3"></audio>
-                    <div><p>Nós terminamos de contar como foi nossa mudança intercontinental de Baltimore (EUA) para Matosinhos (Portugal). Depois de muitas dificuldades, um final feliz!</p>
-</div>
+                    <div class="markdown">
+                      <p>Nós terminamos de contar como foi nossa mudança intercontinental de Baltimore (EUA) para Matosinhos (Portugal). Depois de muitas dificuldades, um final feliz!</p>
+
+                    </div>
                     
                   </section>
                 
@@ -1833,13 +1945,15 @@
                       </a>
                     </div>
                     <audio src="https://archive.org/download/oi-li-oi-le/oi-li-oi-le--2020-07-30--a-grande-mudanca--parte-1.mp3" controls="" preload="none" hidden="" class="style--jzu1z3"></audio>
-                    <div><p>Nós começamos a contar como foi nossa mudança intercontinental de Baltimore (EUA) para Matosinhos (Portugal). Uma aventura no meio da pandemia, com dois gatos, muita bagagem, e tudo que poderia dar errado dando errado!</p>
-</div>
+                    <div class="markdown">
+                      <p>Nós começamos a contar como foi nossa mudança intercontinental de Baltimore (EUA) para Matosinhos (Portugal). Uma aventura no meio da pandemia, com dois gatos, muita bagagem, e tudo que poderia dar errado dando errado!</p>
+
+                    </div>
                     
                           <details>
                             <summary>Anotações do Episódio</summary>
-
-                            <figure>
+                            <div class="markdown">
+                              <figure>
 <img src="images/2020-07-30--a-grande-mudanca--parte-1--1.drawio.png" alt="Ligações para Delta" width="481">
 <figcaption>
 <p>A medalha de honra do Lê: Ligações de até 8 horas com a Delta. Claro que foram necessárias muitas mais ligações para resolver todos os problemas da viagem, mas as ligações com a Delta foram as mais longas.</p>
@@ -1860,6 +1974,7 @@
 </figcaption>
 </figure>
 
+                            </div>
                           </details>
                         
                   </section>
@@ -1907,14 +2022,17 @@
                       </a>
                     </div>
                     <audio src="https://archive.org/download/oi-li-oi-le/oi-li-oi-le--2020-05-03--coronavirus.mp3" controls="" preload="none" hidden="" class="style--jzu1z3"></audio>
-                    <div><p>Mais um podcast sobre coronavírus. Era tudo de que você precisava!</p>
-</div>
+                    <div class="markdown">
+                      <p>Mais um podcast sobre coronavírus. Era tudo de que você precisava!</p>
+
+                    </div>
                     
                           <details>
                             <summary>Anotações do Episódio</summary>
+                            <div class="markdown">
+                              <p>Este é o primeiro episódio editado pela Li! 🎉</p>
 
-                            <p>Este é o primeiro episódio editado pela Li! 🎉</p>
-
+                            </div>
                           </details>
                         
                   </section>
@@ -1962,15 +2080,18 @@
                       </a>
                     </div>
                     <audio src="https://archive.org/download/oi-li-oi-le/oi-li-oi-le--2020-03-31--dia-internacional-da-mulher.mp3" controls="" preload="none" hidden="" class="style--jzu1z3"></audio>
-                    <div><p>Nós conversamos sobre as mulheres da família da Li e sobre o papel da mulher nos dias de hoje.</p>
-</div>
+                    <div class="markdown">
+                      <p>Nós conversamos sobre as mulheres da família da Li e sobre o papel da mulher nos dias de hoje.</p>
+
+                    </div>
                     
                           <details>
                             <summary>Anotações do Episódio</summary>
-
-                            <p><a href="#2019-07-04--assedio-moral-no-trabalho">O episódio em que falamos sobre assédio moral no trabalho</a>.</p>
+                            <div class="markdown">
+                              <p><a href="#2019-07-04--assedio-moral-no-trabalho">O episódio em que falamos sobre assédio moral no trabalho</a>.</p>
 <p>Este episódio releva o tempo que levamos entre gravação e publicação, porque falamos de coisas de outros tempos que já não se faz mais, por exemplo, andar na rua 😷</p>
 
+                            </div>
                           </details>
                         
                   </section>
@@ -2018,13 +2139,15 @@
                       </a>
                     </div>
                     <audio src="https://archive.org/download/oi-li-oi-le/oi-li-oi-le--2020-03-13--baltimore.mp3" controls="" preload="none" hidden="" class="style--jzu1z3"></audio>
-                    <div><p>Em breve nós iremos embora de Baltimore depois de termos morado aqui por seis anos. Nós relembramos os melhores lugares e damos dicas do que fazer.</p>
-</div>
+                    <div class="markdown">
+                      <p>Em breve nós iremos embora de Baltimore depois de termos morado aqui por seis anos. Nós relembramos os melhores lugares e damos dicas do que fazer.</p>
+
+                    </div>
                     
                           <details>
                             <summary>Anotações do Episódio</summary>
-
-                            <figure>
+                            <div class="markdown">
+                              <figure>
 <img src="images/2020-03-13--baltimore.jpg" alt="Enfeite de árvore de Natal" width="600">
 <figcaption>
 <p>O enfeite de árvore de Natal que nós compramos no fim da feira.</p>
@@ -2036,6 +2159,7 @@
 <li>O filme que conta a história do cardiologista cuja pintura está perto de onde a Li trabalha se chama <strong>Something the Lord Made</strong>.</li>
 </ul>
 
+                            </div>
                           </details>
                         
                   </section>
@@ -2083,13 +2207,15 @@
                       </a>
                     </div>
                     <audio src="https://archive.org/download/oi-li-oi-le/oi-li-oi-le--2020-02-11--gravidez.mp3" controls="" preload="none" hidden="" class="style--jzu1z3"></audio>
-                    <div><p>A Li está grávida! 👶 Nós conversamos sobre como estão sendo as primeiras 10 semanas.</p>
-</div>
+                    <div class="markdown">
+                      <p>A Li está grávida! 👶 Nós conversamos sobre como estão sendo as primeiras 10 semanas.</p>
+
+                    </div>
                     
                           <details>
                             <summary>Anotações do Episódio</summary>
-
-                            <ul>
+                            <div class="markdown">
+                              <ul>
 <li>
 <p>Nós usamos o <strong>Fertility Awareness Method</strong>&nbsp;(FAM) como método contraceptivo durante anos, e ele funcionou bem. Nós aprendemos sobre o FAM no livro <strong>Taking Charge of Your Fertility</strong>, da Toni Weschler.</p>
 </li>
@@ -2101,6 +2227,7 @@
 </li>
 </ul>
 
+                            </div>
                           </details>
                         
                   </section>
@@ -2148,14 +2275,17 @@
                       </a>
                     </div>
                     <audio src="https://archive.org/download/oi-li-oi-le/oi-li-oi-le--2019-12-30--morte-e-como-foi-dar-aulas.mp3" controls="" preload="none" hidden="" class="style--jzu1z3"></audio>
-                    <div><p>Nós conversamos sobre a morte do gato da mãe da Li, e sobre como foi o primeiro semestre em que o Lê deu aulas.</p>
-</div>
+                    <div class="markdown">
+                      <p>Nós conversamos sobre a morte do gato da mãe da Li, e sobre como foi o primeiro semestre em que o Lê deu aulas.</p>
+
+                    </div>
                     
                           <details>
                             <summary>Anotações do Episódio</summary>
+                            <div class="markdown">
+                              <p>Neste episódio nós falamos sobre os livros <strong>Man’s Search for Meaning</strong>, do Viktor Frankl, e <strong>The Fault in Our Stars</strong>, do John Green.</p>
 
-                            <p>Neste episódio nós falamos sobre os livros <strong>Man’s Search for Meaning</strong>, do Viktor Frankl, e <strong>The Fault in Our Stars</strong>, do John Green.</p>
-
+                            </div>
                           </details>
                         
                   </section>
@@ -2203,14 +2333,17 @@
                       </a>
                     </div>
                     <audio src="https://archive.org/download/oi-li-oi-le/oi-li-oi-le--2019-12-04--visita-da-mae-e-choque-cultural.mp3" controls="" preload="none" hidden="" class="style--jzu1z3"></audio>
-                    <div><p>Nós conversamos sobre como foram as duas semanas em que a mãe da Li nos visitou, e sobre o choque cultural que uma amiga do Lê está sofrendo depois de ter se mudado do Brasil para a Europa.</p>
-</div>
+                    <div class="markdown">
+                      <p>Nós conversamos sobre como foram as duas semanas em que a mãe da Li nos visitou, e sobre o choque cultural que uma amiga do Lê está sofrendo depois de ter se mudado do Brasil para a Europa.</p>
+
+                    </div>
                     
                           <details>
                             <summary>Anotações do Episódio</summary>
+                            <div class="markdown">
+                              <p><strong>Atualização:</strong> Ao que tudo indica, a amiga do Lê voltou a morar no Brasil.</p>
 
-                            <p><strong>Atualização:</strong> Ao que tudo indica, a amiga do Lê voltou a morar no Brasil.</p>
-
+                            </div>
                           </details>
                         
                   </section>
@@ -2258,14 +2391,17 @@
                       </a>
                     </div>
                     <audio src="https://archive.org/download/oi-li-oi-le/oi-li-oi-le--2019-11-09--correndo-com-estranhos.mp3" controls="" preload="none" hidden="" class="style--jzu1z3"></audio>
-                    <div><p>Nós conversamos sobre corridas e sobre alguns livros que lemos, principalmente <strong>Talking to Strangers</strong>, do Malcolm Gladwell.</p>
-</div>
+                    <div class="markdown">
+                      <p>Nós conversamos sobre corridas e sobre alguns livros que lemos, principalmente <strong>Talking to Strangers</strong>, do Malcolm Gladwell.</p>
+
+                    </div>
                     
                           <details>
                             <summary>Anotações do Episódio</summary>
+                            <div class="markdown">
+                              <p>Também falamos sobre os livros <strong>A Piada Infinita</strong>, do David Foster Wallace, e <strong>Scott Pilgrim</strong> e <strong>Seconds</strong>, do Bryan Lee O’Malley.</p>
 
-                            <p>Também falamos sobre os livros <strong>A Piada Infinita</strong>, do David Foster Wallace, e <strong>Scott Pilgrim</strong> e <strong>Seconds</strong>, do Bryan Lee O’Malley.</p>
-
+                            </div>
                           </details>
                         
                   </section>
@@ -2313,19 +2449,22 @@
                       </a>
                     </div>
                     <audio src="https://archive.org/download/oi-li-oi-le/oi-li-oi-le--2019-10-13--ecochatos.mp3" controls="" preload="none" hidden="" class="style--jzu1z3"></audio>
-                    <div><p>Nós conversamos sobre espetáculos da Broadway e sobre como tentar fazer a coisa certa nos torna chatos.</p>
-</div>
+                    <div class="markdown">
+                      <p>Nós conversamos sobre espetáculos da Broadway e sobre como tentar fazer a coisa certa nos torna chatos.</p>
+
+                    </div>
                     
                           <details>
                             <summary>Anotações do Episódio</summary>
-
-                            <ul>
+                            <div class="markdown">
+                              <ul>
 <li>O Fantasma da Ópera realmente é antigo, mas não <strong>tanto</strong> assim: 1986.</li>
 <li>O livro do Alex Honnold que o Lê leu se chama <a href="https://www.alexhonnold.com/book"><strong>Alone on the Wall</strong></a>.</li>
 <li>O Lê gosta mais de produções independentes, tipo as da <a href="https://baltimorerockopera.org">Baltimore Rock Opera Society</a>, do que dos espetáculos da Broadway.</li>
 <li>O lugar favorito do Lê para comida é o <a href="https://www.cinnaholic.com">Cinnaholic</a>. Não fomos lá no aniversário dele 😕</li>
 </ul>
 
+                            </div>
                           </details>
                         
                   </section>
@@ -2373,17 +2512,20 @@
                       </a>
                     </div>
                     <audio src="https://archive.org/download/oi-li-oi-le/oi-li-oi-le--2019-09-29--season-premiere-da-segunda-temporada.mp3" controls="" preload="none" hidden="" class="style--jzu1z3"></audio>
-                    <div><p>Nós celebramos o aniversário de um ano de <strong>Oi Li. Oi Lê.</strong> 🎉 Completamos a recapitulação do hiato de dois meses que começamos no episódio anterior e contamos como foi nossa viagem à Ocean City.</p>
-</div>
+                    <div class="markdown">
+                      <p>Nós celebramos o aniversário de um ano de <strong>Oi Li. Oi Lê.</strong> 🎉 Completamos a recapitulação do hiato de dois meses que começamos no episódio anterior e contamos como foi nossa viagem à Ocean City.</p>
+
+                    </div>
                     
                           <details>
                             <summary>Anotações do Episódio</summary>
-
-                            <ul>
+                            <div class="markdown">
+                              <ul>
 <li><a href="#2019-02-24--brown-e-providence">O episódio sobre Brown do qual o Lê falou</a>.</li>
 <li><strong>Notando Nossa Própria Hipocrisia:</strong> Nossa máquina de lavar é do lado no nosso quarto. Mas acho que viveríamos igualmente bem se ela estivesse a um ou dois lances de escadas de distância.</li>
 </ul>
 
+                            </div>
                           </details>
                         
                   </section>
@@ -2431,13 +2573,15 @@
                       </a>
                     </div>
                     <audio src="https://archive.org/download/oi-li-oi-le/oi-li-oi-le--2019-09-17--teaser-da-segunda-temporada.mp3" controls="" preload="none" hidden="" class="style--jzu1z3"></audio>
-                    <div><p>Depois de umas férias de <strong>Oi Li. Oi Lê.</strong>, estamos de volta para contar sobre o que aconteceu com a Li no trabalho depois do episódio anterior, e sobre a nossa viagem a Nova Iorque em comemoração aos nossos cinco anos de casamento.</p>
-</div>
+                    <div class="markdown">
+                      <p>Depois de umas férias de <strong>Oi Li. Oi Lê.</strong>, estamos de volta para contar sobre o que aconteceu com a Li no trabalho depois do episódio anterior, e sobre a nossa viagem a Nova Iorque em comemoração aos nossos cinco anos de casamento.</p>
+
+                    </div>
                     
                           <details>
                             <summary>Anotações do Episódio</summary>
-
-                            <ul>
+                            <div class="markdown">
+                              <ul>
 <li>
 <p>Esta era a nossa situação gravando este episódio:</p>
 <img src="images/2019-09-17--teaser-da-segunda-temporada.png" alt="Nossa situação gravando este episódio" width="600">
@@ -2447,6 +2591,7 @@
 </li>
 </ul>
 
+                            </div>
                           </details>
                         
                   </section>
@@ -2494,18 +2639,21 @@
                       </a>
                     </div>
                     <audio src="https://archive.org/download/oi-li-oi-le/oi-li-oi-le--2019-07-04--assedio-moral-no-trabalho.mp3" controls="" preload="none" hidden="" class="style--jzu1z3"></audio>
-                    <div><p>A Li sofreu assédio moral no trabalho dela. Nós conversamos sobre como foi e sobre o que fazer a respeito.</p>
-</div>
+                    <div class="markdown">
+                      <p>A Li sofreu assédio moral no trabalho dela. Nós conversamos sobre como foi e sobre o que fazer a respeito.</p>
+
+                    </div>
                     
                           <details>
                             <summary>Anotações do Episódio</summary>
-
-                            <ul>
+                            <div class="markdown">
+                              <ul>
 <li><a href="#2019-03-31--empreendedorismo">Episódio sobre a Elizabeth Holmes</a>, uma sociopata que virou CEO.</li>
 <li><a href="#2019-02-24--brown-e-providence">Episódio sobre a Brown</a>, para a qual o Lê decidiu não ir e com isto provavelmente evitou assédio moral.</li>
 <li><a href="#2019-05-31--satanismo">Episódio sobre satanismo</a>, que nada tem a ver com <strong>o mal</strong>.</li>
 </ul>
 
+                            </div>
                           </details>
                         
                   </section>
@@ -2553,18 +2701,21 @@
                       </a>
                     </div>
                     <audio src="https://archive.org/download/oi-li-oi-le/oi-li-oi-le--2019-06-16--the-act.mp3" controls="" preload="none" hidden="" class="style--jzu1z3"></audio>
-                    <div><p>Nós conversamos sobre <strong>The Act</strong>, o seriado baseado na história real da Gypsy Rose Blanchard, que era vítima de <strong>Síndrome de Münchhausen por procuração</strong> por parte da mãe, a quem ela acabou por matar. <strong>Contém spoilers e descrições de cenas perturbadores de um crime real.</strong></p>
-</div>
+                    <div class="markdown">
+                      <p>Nós conversamos sobre <strong>The Act</strong>, o seriado baseado na história real da Gypsy Rose Blanchard, que era vítima de <strong>Síndrome de Münchhausen por procuração</strong> por parte da mãe, a quem ela acabou por matar. <strong>Contém spoilers e descrições de cenas perturbadores de um crime real.</strong></p>
+
+                    </div>
                     
                           <details>
                             <summary>Anotações do Episódio</summary>
-
-                            <ul>
+                            <div class="markdown">
+                              <ul>
 <li><a href="#2019-03-31--empreendedorismo">Episódio sobre a doida da Elizabeth Holmes e a Theranos</a></li>
 <li>O poema que o Lê mencionou é o <a href="https://www.poetryfoundation.org/poems/48419/this-be-the-verse"><strong>This Be The Verse</strong></a>, do Philip Larkin, que ele conheceu através do <a href="#2019-01-20--little-fires-everywhere"><strong>Little Fires Everywhere</strong></a>.</li>
 <li><a href="https://pt.wikipedia.org/wiki/Desaparecimento_de_Madeleine_McCann">O caso do desaparecimento da Madeleine McCann</a>, que aconteceu no Algarve, onde a Li morava.</li>
 </ul>
 
+                            </div>
                           </details>
                         
                   </section>
@@ -2612,13 +2763,15 @@
                       </a>
                     </div>
                     <audio src="https://archive.org/download/oi-li-oi-le/oi-li-oi-le--2019-05-31--satanismo.mp3" controls="" preload="none" hidden="" class="style--jzu1z3"></audio>
-                    <div><p>Nós conversamos sobre o documentário <a href="https://www.hailsatanfilm.com"><strong>Hail Satan?</strong></a>, que trata do <strong>The Satanic Temple</strong> e das suas implicações na justiça, moral, religião, arte, e política.</p>
-</div>
+                    <div class="markdown">
+                      <p>Nós conversamos sobre o documentário <a href="https://www.hailsatanfilm.com"><strong>Hail Satan?</strong></a>, que trata do <strong>The Satanic Temple</strong> e das suas implicações na justiça, moral, religião, arte, e política.</p>
+
+                    </div>
                     
                           <details>
                             <summary>Anotações do Episódio</summary>
-
-                            <ul>
+                            <div class="markdown">
+                              <ul>
 <li><a href="https://thesatanictemple.com/pages/tenets">Os sete mandamentos do <strong>The Satanic Temple</strong></a>, que combinam com o nosso senso de moral.</li>
 <li><a href="#2018-12-20--um-vegano-no-churrasco-de-natal">O episódio em que falamos sobre veganismo</a>.</li>
 <li>O Lê lembrou certo, a frase era do René Descartes, e aparece no <strong>Discurso sobre o Método</strong>: “O bom senso é a coisa do mundo mais bem distribuída: todos pensamos tê-lo em tal medida que até os mais difíceis de contentar nas outras coisas não costumam desejar mais bom senso do que aquele que têm.”</li>
@@ -2631,6 +2784,7 @@
 </figcaption>
 </figure>
 
+                            </div>
                           </details>
                         
                   </section>
@@ -2678,13 +2832,15 @@
                       </a>
                     </div>
                     <audio src="https://archive.org/download/oi-li-oi-le/oi-li-oi-le--2019-05-16--miami.mp3" controls="" preload="none" hidden="" class="style--jzu1z3"></audio>
-                    <div><p>Nós conversamos a respeito da nossa viagem à Miami: nós fomos à praia, o Lê refletiu a respeito da sua identidade nacional, e mais.</p>
-</div>
+                    <div class="markdown">
+                      <p>Nós conversamos a respeito da nossa viagem à Miami: nós fomos à praia, o Lê refletiu a respeito da sua identidade nacional, e mais.</p>
+
+                    </div>
                     
                           <details>
                             <summary>Anotações do Episódio</summary>
-
-                            <figure>
+                            <div class="markdown">
+                              <figure>
 <img src="images/2019-05-16--miami--1.jpg" alt="Miami 1" width="600">
 <figcaption>
 <p>A praia e as algas.</p>
@@ -2701,6 +2857,7 @@
 <li><a href="#2019-02-24--brown-e-providence">O episódio sobre nossa ida à Brown</a>.</li>
 </ul>
 
+                            </div>
                           </details>
                         
                   </section>
@@ -2748,19 +2905,22 @@
                       </a>
                     </div>
                     <audio src="https://archive.org/download/oi-li-oi-le/oi-li-oi-le--2019-04-23--irmas.mp3" controls="" preload="none" hidden="" class="style--jzu1z3"></audio>
-                    <div><p>O Lê tem notícias domésticas bombásticas!</p>
-</div>
+                    <div class="markdown">
+                      <p>O Lê tem notícias domésticas bombásticas!</p>
+
+                    </div>
                     
                           <details>
                             <summary>Anotações do Episódio</summary>
-
-                            <ul>
+                            <div class="markdown">
+                              <ul>
 <li><a href="#2018-10-28--eleicoes-no-brasil">Episódio sobre Eleições no Brasil</a>, em que nós falamos sobre nossas relações com nossas famílias.</li>
 <li>O <strong>Complexo de Édipo</strong> ao contrário, em que a filha quer ficar com o pai, tem um nome: <strong>Complexo de Electra</strong>.</li>
 <li>A Mallu Magalhães e o Marcelo Camelo começaram a namorar em 2008, quando ela tinha algo perto de 16 anos e ele perto de 30. Em 2015 eles tiveram uma filha.</li>
 <li><a href="#2019-03-14--filhos">Episódio sobre filhos</a>.</li>
 </ul>
 
+                            </div>
                           </details>
                         
                   </section>
@@ -2808,17 +2968,20 @@
                       </a>
                     </div>
                     <audio src="https://archive.org/download/oi-li-oi-le/oi-li-oi-le--2019-04-11--racismo.mp3" controls="" preload="none" hidden="" class="style--jzu1z3"></audio>
-                    <div><p>Nós conversamos sobre racismo depois de termos assistido ao filme <strong>BlacKkKlansman</strong>.</p>
-</div>
+                    <div class="markdown">
+                      <p>Nós conversamos sobre racismo depois de termos assistido ao filme <strong>BlacKkKlansman</strong>.</p>
+
+                    </div>
                     
                           <details>
                             <summary>Anotações do Episódio</summary>
-
-                            <ul>
+                            <div class="markdown">
+                              <ul>
 <li>O termo <strong>euro-americano</strong> <a href="https://www.merriam-webster.com/dictionary/Euro-American">existe</a>. As pessoas não usarem este termo é mais uma evidência de como a linguagem pode ser preconceituosa.</li>
 <li>O Lê falou um pouco do livro que ele está lendo, <strong>Educated</strong>, da Tara Westover.</li>
 </ul>
 
+                            </div>
                           </details>
                         
                   </section>
@@ -2866,13 +3029,15 @@
                       </a>
                     </div>
                     <audio src="https://archive.org/download/oi-li-oi-le/oi-li-oi-le--2019-03-31--empreendedorismo.mp3" controls="" preload="none" hidden="" class="style--jzu1z3"></audio>
-                    <div><p>Nós conversamos sobre as estranhezas da cultura de empreendedorismo e do Vale do Silício, e sobre a ascensão e queda da Theranos e da sua fundadora, a Elizabeth Holmes.</p>
-</div>
+                    <div class="markdown">
+                      <p>Nós conversamos sobre as estranhezas da cultura de empreendedorismo e do Vale do Silício, e sobre a ascensão e queda da Theranos e da sua fundadora, a Elizabeth Holmes.</p>
+
+                    </div>
                     
                           <details>
                             <summary>Anotações do Episódio</summary>
-
-                            <ul>
+                            <div class="markdown">
+                              <ul>
 <li>A conversa foi inspirada por um livro que o Lê leu, <strong>Bad Blood: Secrets and Lies in a Silicon Valley Startup</strong>, do John Carreyrou, e por um documentário da HBO que nós assistimos juntos, <strong>The Inventor: Out for Blood in Silicon Valley</strong>.</li>
 <li>Outro exemplo de empresa ridícula do Vale do Silício que nós mencionamos no episódio é a <a href="https://www.bloomberg.com/news/features/2017-04-19/silicon-valley-s-400-juicer-may-be-feeling-the-squeeze">Juicero</a>, cuja <strong>criação produtizada</strong> era uma suqueira de $&nbsp;400 que podia ser substituída pelas mãos!</li>
 <li>Por último, eis a versão brasileira de empreendedorismo que causa vergonha alheia: a <a href="https://www.youtube.com/watch?v=o9vMOVfdvQ8">Zebeleo</a>.</li>
@@ -2890,6 +3055,7 @@
 </figcaption>
 </figure>
 
+                            </div>
                           </details>
                         
                   </section>
@@ -2937,19 +3103,22 @@
                       </a>
                     </div>
                     <audio src="https://archive.org/download/oi-li-oi-le/oi-li-oi-le--2019-03-14--filhos.mp3" controls="" preload="none" hidden="" class="style--jzu1z3"></audio>
-                    <div><p>Nós conversamos sobre ter filhos: razões para ter, razões para não ter, em qual época da vida ter, nomes, e tudo o mais.</p>
-</div>
+                    <div class="markdown">
+                      <p>Nós conversamos sobre ter filhos: razões para ter, razões para não ter, em qual época da vida ter, nomes, e tudo o mais.</p>
+
+                    </div>
                     
                           <details>
                             <summary>Anotações do Episódio</summary>
-
-                            <figure>
+                            <div class="markdown">
+                              <figure>
 <img src="images/2019-03-14--filhos.png" alt="Filhos" width="441">
 </figure>
 <ul>
 <li>Berço é coisa do passado: os bebês <strong>in</strong> <a href="https://www.npr.org/sections/health-shots/2017/03/26/521399385/states-give-new-parents-baby-boxes-to-encourge-safe-sleep-habits">dormem</a> <a href="https://www.bbc.com/news/magazine-22751415">em</a> <a href="https://www.finnbin.com">caixas</a>!</li>
 </ul>
 
+                            </div>
                           </details>
                         
                   </section>
@@ -2997,13 +3166,15 @@
                       </a>
                     </div>
                     <audio src="https://archive.org/download/oi-li-oi-le/oi-li-oi-le--2019-03-07--procrastinacao-e-idiomas.mp3" controls="" preload="none" hidden="" class="style--jzu1z3"></audio>
-                    <div><p>O Lê teve uma semana bem pouco produtiva, em que ele passou bastante tempo vendo avaliações de câmeras que ele não vai comprar. Nós conversamos sobre procrastinação, sobre a pressão de ser cada vez mais produtivo, e sobre idiomas.</p>
-</div>
+                    <div class="markdown">
+                      <p>O Lê teve uma semana bem pouco produtiva, em que ele passou bastante tempo vendo avaliações de câmeras que ele não vai comprar. Nós conversamos sobre procrastinação, sobre a pressão de ser cada vez mais produtivo, e sobre idiomas.</p>
+
+                    </div>
                     
                           <details>
                             <summary>Anotações do Episódio</summary>
-
-                            <ul>
+                            <div class="markdown">
+                              <ul>
 <li>A máquina de escrever digital se chama <a href="https://getfreewrite.com">Freewrite</a>.</li>
 <li>O <a href="https://www.youtube.com/channel/UCdcemy56JtVTrsFIOoqvV8g">Andrew&nbsp;Huang</a> é um dos YouTubers favoritos do Lê.</li>
 <li>O John&nbsp;Green falando que criar uma comunidade positiva é a coisa mais importante que a nossa geração pode fazer no <a href="https://soundcloud.com/theanthropocenereviewed/episode-12-indianapolis-and-love-at-first-sight"><strong>The Anthropocene Reviewed</strong></a>.</li>
@@ -3011,6 +3182,7 @@
 <img src="images/2019-03-07--procrastinacao-e-idiomas.png" alt="Procrastinação e Idiomas" width="320"></li>
 </ul>
 
+                            </div>
                           </details>
                         
                   </section>
@@ -3058,18 +3230,21 @@
                       </a>
                     </div>
                     <audio src="https://archive.org/download/oi-li-oi-le/oi-li-oi-le--2019-02-24--brown-e-providence.mp3" controls="" preload="none" hidden="" class="style--jzu1z3"></audio>
-                    <div><p>Nós conversamos sobre a <strong>teaching talk</strong> do Lê na Brown, sobre nossa viagem à Providence, e sobre nossa visita à Harvard &amp; MIT.</p>
-</div>
+                    <div class="markdown">
+                      <p>Nós conversamos sobre a <strong>teaching talk</strong> do Lê na Brown, sobre nossa viagem à Providence, e sobre nossa visita à Harvard &amp; MIT.</p>
+
+                    </div>
                     
                           <details>
                             <summary>Anotações do Episódio</summary>
-
-                            <ul>
+                            <div class="markdown">
+                              <ul>
 <li>Um de nossos desenhos animados favoritos, <strong>Family&nbsp;Guy</strong>, se passa em Quahog, que é um bairro fictício de Providence. Da janela do nosso hotel nós víamos o <a href="https://en.wikipedia.org/wiki/Family_Guy#Development"><strong>skyline</strong> que aparece no desenho</a>.</li>
 <li><strong>Atualização importante:</strong> Nós comemos mais do melhor bolo de chocolate do mundo depois da gravação deste episódio. Duas fatias. Dizer não para uma <strong>Ivy&nbsp;League</strong> foi fácil em comparação com dizer adeus para aquele bolo.</li>
 <li><a href="#2018-12-11--como-nos-conhecemos">O episódio sobre como nos conhecemos</a> conta mais da história do <strong>leap of faith</strong> do Lê em 2014, na esperança de algo melhor aparecesse. E algo apareceu: a Li.</li>
 </ul>
 
+                            </div>
                           </details>
                         
                   </section>
@@ -3117,19 +3292,22 @@
                       </a>
                     </div>
                     <audio src="https://archive.org/download/oi-li-oi-le/oi-li-oi-le--2019-02-16--religiao.mp3" controls="" preload="none" hidden="" class="style--jzu1z3"></audio>
-                    <div><p>Nós contamos como foi o fim da história dos gatos, a Li contou como foi o <strong>drill</strong> da unidade de bio-contaminação, e falamos sobre filosofia e religião.</p>
-</div>
+                    <div class="markdown">
+                      <p>Nós contamos como foi o fim da história dos gatos, a Li contou como foi o <strong>drill</strong> da unidade de bio-contaminação, e falamos sobre filosofia e religião.</p>
+
+                    </div>
                     
                           <details>
                             <summary>Anotações do Episódio</summary>
-
-                            <ul>
+                            <div class="markdown">
+                              <ul>
 <li>O motivador da nossa conversa foi <strong>O Mundo de Sofia</strong>.</li>
 <li><strong>Correção:</strong> Os dentes-de-sabre não foram domesticados, como o Lê falou; eles foram extintos!</li>
 <li>O livro sobre religião que o Lê falou é o <strong>Deus, Um Delírio</strong>.</li>
 <li><a href="https://www.tylervigen.com/spurious-correlations">Não acredite em qualquer estatística que você encontra por aí</a>.</li>
 </ul>
 
+                            </div>
                           </details>
                         
                   </section>
@@ -3177,13 +3355,15 @@
                       </a>
                     </div>
                     <audio src="https://archive.org/download/oi-li-oi-le/oi-li-oi-le--2019-02-03--pintura-machados-e-moveis.mp3" controls="" preload="none" hidden="" class="style--jzu1z3"></audio>
-                    <div><p>Nós falamos sobre nosso primeiro quadro em tinta a óleo sobre tela, sobre <strong>eventozinhos corporativos</strong>, e sobre como serão nossos móveis agora que a <a href="#2019-01-27--roommates">roommate se mudou</a> e a casa ficou quase vazia.</p>
-</div>
+                    <div class="markdown">
+                      <p>Nós falamos sobre nosso primeiro quadro em tinta a óleo sobre tela, sobre <strong>eventozinhos corporativos</strong>, e sobre como serão nossos móveis agora que a <a href="#2019-01-27--roommates">roommate se mudou</a> e a casa ficou quase vazia.</p>
+
+                    </div>
                     
                           <details>
                             <summary>Anotações do Episódio</summary>
-
-                            <figure>
+                            <div class="markdown">
+                              <figure>
 <img src="images/2019-02-03--pintura-machados-e-moveis--1.jpg" alt="Pintura, Machados e Móveis 1" width="200">
 <figcaption>
 <p>A versão original do quadro de lontra.</p>
@@ -3201,6 +3381,7 @@
 <li>No episódio de hoje, falamos sobre <strong>O Mundo de Sofia</strong>, e <strong>The Hate U Give</strong>. E também mencionamos <strong>The Help</strong>, <strong>To Kill a Mockingbird</strong>, e <strong>The Immortal Life of Henrietta Lacks</strong>.</li>
 </ul>
 
+                            </div>
                           </details>
                         
                   </section>
@@ -3248,13 +3429,15 @@
                       </a>
                     </div>
                     <audio src="https://archive.org/download/oi-li-oi-le/oi-li-oi-le--2019-01-27--roommates.mp3" controls="" preload="none" hidden="" class="style--jzu1z3"></audio>
-                    <div><p>Nossa <strong>roommate</strong> se mudou! Nós relembramos nossas histórias com colegas de casa. Agora somos só Li &amp; Lê &amp; Ca (o gato); colegas de casa nunca mais!</p>
-</div>
+                    <div class="markdown">
+                      <p>Nossa <strong>roommate</strong> se mudou! Nós relembramos nossas histórias com colegas de casa. Agora somos só Li &amp; Lê &amp; Ca (o gato); colegas de casa nunca mais!</p>
+
+                    </div>
                     
                           <details>
                             <summary>Anotações do Episódio</summary>
-
-                            <figure>
+                            <div class="markdown">
+                              <figure>
 <img src="images/2019-01-27--roommates.png" alt="Roommates" width="600">
 <figcaption>
 <p>A versão final do desenho que a Li coloriu. Veja a evolução desde a <a href="#2019-01-03--filmes-televisao-e-livros">versão anterior</a>.</p>
@@ -3264,6 +3447,7 @@
 <li><a href="#2018-12-11--como-nos-conhecemos">O episódio em que falamos sobre como nos conhecemos e fomos <strong>roommates</strong> antes de virarmos família</a>.</li>
 </ul>
 
+                            </div>
                           </details>
                         
                   </section>
@@ -3311,17 +3495,20 @@
                       </a>
                     </div>
                     <audio src="https://archive.org/download/oi-li-oi-le/oi-li-oi-le--2019-01-20--little-fires-everywhere.mp3" controls="" preload="none" hidden="" class="style--jzu1z3"></audio>
-                    <div><p>Nós contamos o que aconteceu com o <a href="#2019-01-10--educacao"><strong>teaching statement</strong> do Lê</a> e fazemos um clube do livro sobre <a href="https://www.celesteng.com/little-fires-everywhere/"><strong>Little Fires Everywhere</strong></a>.</p>
-</div>
+                    <div class="markdown">
+                      <p>Nós contamos o que aconteceu com o <a href="#2019-01-10--educacao"><strong>teaching statement</strong> do Lê</a> e fazemos um clube do livro sobre <a href="https://www.celesteng.com/little-fires-everywhere/"><strong>Little Fires Everywhere</strong></a>.</p>
+
+                    </div>
                     
                           <details>
                             <summary>Anotações do Episódio</summary>
-
-                            <ul>
+                            <div class="markdown">
+                              <ul>
 <li>Nós conhecemos <strong>Little Fires Everywhere</strong> através do John&nbsp;Green, quando ele estava lançando <a href="https://www.johngreenbooks.com/turtles-all-the-way-down-book/"><strong>Turtles All the Way Down</strong> (Tartarugas Até Lá Embaixo)</a>.</li>
 <li>As séries de que falamos: <a href="https://www.netflix.com/title/80211991"><strong>You</strong></a>, que poderia ser o tema de um futuro <strong>clube do seriado</strong>; e <a href="https://www.netflix.com/title/80091341">Cuckoo</a>, a comédia que a Li está assistindo.</li>
 </ul>
 
+                            </div>
                           </details>
                         
                   </section>
@@ -3369,16 +3556,19 @@
                       </a>
                     </div>
                     <audio src="https://archive.org/download/oi-li-oi-le/oi-li-oi-le--2019-01-10--educacao.mp3" controls="" preload="none" hidden="" class="style--jzu1z3"></audio>
-                    <div><p>O Lê precisa escrever um <strong>teaching statement</strong>. Nós refletimos juntos sobre o que faz um bom professor e qual é a melhor filosofia de ensino.</p>
-</div>
+                    <div class="markdown">
+                      <p>O Lê precisa escrever um <strong>teaching statement</strong>. Nós refletimos juntos sobre o que faz um bom professor e qual é a melhor filosofia de ensino.</p>
+
+                    </div>
                     
                           <details>
                             <summary>Anotações do Episódio</summary>
-
-                            <ul>
+                            <div class="markdown">
+                              <ul>
 <li><a href="https://www.npr.org/2016/04/17/474525392/attention-students-put-your-laptops-away">Escrever à mão melhora a compreensão</a>.</li>
 </ul>
 
+                            </div>
                           </details>
                         
                   </section>
@@ -3426,13 +3616,15 @@
                       </a>
                     </div>
                     <audio src="https://archive.org/download/oi-li-oi-le/oi-li-oi-le--2019-01-03--filmes-televisao-e-livros.mp3" controls="" preload="none" hidden="" class="style--jzu1z3"></audio>
-                    <div><p>Nós conversamos sobre o nosso <strong>réveillon</strong>, e sobre filmes, televisão, e livros.</p>
-</div>
+                    <div class="markdown">
+                      <p>Nós conversamos sobre o nosso <strong>réveillon</strong>, e sobre filmes, televisão, e livros.</p>
+
+                    </div>
                     
                           <details>
                             <summary>Anotações do Episódio</summary>
-
-                            <figure>
+                            <div class="markdown">
+                              <figure>
 <img src="images/2019-01-03--filmes-televisao-e-livros.png" alt="Filmes, Televisão, e Livros" width="600">
 <figcaption>
 <p>O desenho que a Li está colorindo. Ela melhorou bastante desde o <a href="#2018-12-26--retrospectiva-2018-e-resolucoes-de-ano-novo">episódio anterior</a>.</p>
@@ -3482,6 +3674,7 @@
 <li><strong>Lost</strong></li>
 </ul>
 
+                            </div>
                           </details>
                         
                   </section>
@@ -3529,13 +3722,15 @@
                       </a>
                     </div>
                     <audio src="https://archive.org/download/oi-li-oi-le/oi-li-oi-le--2018-12-26--retrospectiva-2018-e-resolucoes-de-ano-novo.mp3" controls="" preload="none" hidden="" class="style--jzu1z3"></audio>
-                    <div><p>Nós relembramos 2018 e fazemos planos para 2019. Este é o nosso décimo episódio!</p>
-</div>
+                    <div class="markdown">
+                      <p>Nós relembramos 2018 e fazemos planos para 2019. Este é o nosso décimo episódio!</p>
+
+                    </div>
                     
                           <details>
                             <summary>Anotações do Episódio</summary>
-
-                            <figure>
+                            <div class="markdown">
+                              <figure>
 <img src="images/2018-12-26--retrospectiva-2018-e-resolucoes-de-ano-novo--1.png" alt="Retrospectiva 2018 e Resoluções de Ano Novo 1" width="600">
 <figcaption>
 <p>O cachorro (meio) pintado pela Li.</p>
@@ -3556,6 +3751,7 @@
 </li>
 </ul>
 
+                            </div>
                           </details>
                         
                   </section>
@@ -3603,13 +3799,15 @@
                       </a>
                     </div>
                     <audio src="https://archive.org/download/oi-li-oi-le/oi-li-oi-le--2018-12-20--um-vegano-no-churrasco-de-natal.mp3" controls="" preload="none" hidden="" class="style--jzu1z3"></audio>
-                    <div><p>O Lê é vegano; a Li não. Nós conversamos sobre como é ser vegano sem ser chato, principalmente nesta época de perus de Natal.</p>
-</div>
+                    <div class="markdown">
+                      <p>O Lê é vegano; a Li não. Nós conversamos sobre como é ser vegano sem ser chato, principalmente nesta época de perus de Natal.</p>
+
+                    </div>
                     
                           <details>
                             <summary>Anotações do Episódio</summary>
-
-                            <ul>
+                            <div class="markdown">
+                              <ul>
 <li>
 <p>O Lê lembrou certo: o marciano de <a href="https://en.wikipedia.org/wiki/Stranger_in_a_Strange_Land"><strong>Um Estranho Numa Terra Estranha</strong>, de Robert A. Heinlein</a>, promove uma forma de canibalismo conhecida como <a href="https://en.wikipedia.org/wiki/Endocannibalism"><strong>endocanibalismo</strong></a>. Talvez até seja vegano, mas o Lê está fora. A Li também estava certa, <a href="https://en.wikipedia.org/wiki/Endocannibalism#Medical_implications">canibalismo pode fazer mal à saúde</a>.</p>
 </li>
@@ -3630,6 +3828,7 @@
 </li>
 </ul>
 
+                            </div>
                           </details>
                         
                   </section>
@@ -3677,19 +3876,22 @@
                       </a>
                     </div>
                     <audio src="https://archive.org/download/oi-li-oi-le/oi-li-oi-le--2018-12-11--como-nos-conhecemos.mp3" controls="" preload="none" hidden="" class="style--jzu1z3"></audio>
-                    <div><p>Nós nos conhecemos numa sexta-feira treze cinco anos atrás. Agora comemoramos lembrando como foi.</p>
-</div>
+                    <div class="markdown">
+                      <p>Nós nos conhecemos numa sexta-feira treze cinco anos atrás. Agora comemoramos lembrando como foi.</p>
+
+                    </div>
                     
                           <details>
                             <summary>Anotações do Episódio</summary>
-
-                            <ul>
+                            <div class="markdown">
+                              <ul>
 <li>O motivo pelo qual o <a href="https://www.youtube.com/watch?v=w0CdXaOS5_o">Lê gosta de cabras</a>.</li>
 <li><a href="https://www.couchsurfing.com">Couchsurfing</a>: O site que promoveu o encontro no qual nós nos conhecemos.</li>
 <li>De acordo com o mapa, o Lê caminhou cinco horas no dia em que ele conheceu a Li.</li>
 <li>A rua em que as pessoas vão fazer compras em São&nbsp;Paulo é a <strong>Oscar&nbsp;Freire</strong>.</li>
 </ul>
 
+                            </div>
                           </details>
                         
                   </section>
@@ -3737,13 +3939,15 @@
                       </a>
                     </div>
                     <audio src="https://archive.org/download/oi-li-oi-le/oi-li-oi-le--2018-12-04--doutorado.mp3" controls="" preload="none" hidden="" class="style--jzu1z3"></audio>
-                    <div><p>O Lê está perto de concluir o seu doutorado no exterior. Nós conversamos sobre como ele decidiu entrar nesta, como é o dia-a-dia de um doutorando, e como o doutorado influenciou sua família.</p>
-</div>
+                    <div class="markdown">
+                      <p>O Lê está perto de concluir o seu doutorado no exterior. Nós conversamos sobre como ele decidiu entrar nesta, como é o dia-a-dia de um doutorando, e como o doutorado influenciou sua família.</p>
+
+                    </div>
                     
                           <details>
                             <summary>Anotações do Episódio</summary>
-
-                            <figure>
+                            <div class="markdown">
+                              <figure>
 <img src="images/2018-12-04--doutorado.jpg" alt="Doutorado" width="600">
 <figcaption>
 <p>O chocolate que a Li ganhou de presente. É um esquilo pensando em chocolate&nbsp;—&nbsp;a coisa mais fofa!</p>
@@ -3751,6 +3955,7 @@
 </figure>
 <p>Os motivos para o Lê escolher linguagens de programação como assunto do seu doutorado: <a href="https://computationbook.com">Understanding Computation</a> e <a href="https://www.youtube.com/watch?v=FITJMJjASUs">Y Not: Adventures in Functional Programming</a>.</p>
 
+                            </div>
                           </details>
                         
                   </section>
@@ -3798,13 +4003,15 @@
                       </a>
                     </div>
                     <audio src="https://archive.org/download/oi-li-oi-le/oi-li-oi-le--2018-11-27--amizades-e-tecnologia.mp3" controls="" preload="none" hidden="" class="style--jzu1z3"></audio>
-                    <div><p>Nós conversamos sobre os motivos que nos fazem querer acabar com uma amizade, e sobre vício em tecnologia.</p>
-</div>
+                    <div class="markdown">
+                      <p>Nós conversamos sobre os motivos que nos fazem querer acabar com uma amizade, e sobre vício em tecnologia.</p>
+
+                    </div>
                     
                           <details>
                             <summary>Anotações do Episódio</summary>
-
-                            <ul>
+                            <div class="markdown">
+                              <ul>
 <li><a href="https://www.youtube.com/watch?v=p7cOwQQDI7o">Nós temos obrigação moral para com a família (e, em particular, para com os pais)?</a> O Lê acha que não.</li>
 <li><a href="https://duckduckgo.com">DuckDuckGo</a>, um buscador alternativo ao Google que respeita a privacidade.</li>
 <li><a href="https://gamesdonequick.com">Games Done Quick</a>, a fonte dos vídeos em que o Lê é viciado. <strong>Speedruns</strong> são jogadores profissionais acabando os jogos o mais rápido possível.</li>
@@ -3812,6 +4019,7 @@
 <li><a href="https://www.theguardian.com/technology/2017/jun/16/internet-addiction-gaming-restart-therapy-washington">Alguns</a> <a href="https://www.caron.org/understanding-addiction/internet-addiction">recursos</a> <a href="https://netaddictionrecovery.com">a respeito</a> de vício em internet.</li>
 </ul>
 
+                            </div>
                           </details>
                         
                   </section>
@@ -3859,13 +4067,15 @@
                       </a>
                     </div>
                     <audio src="https://archive.org/download/oi-li-oi-le/oi-li-oi-le--2018-11-18--obsessoes-e-viagem-com-gato.mp3" controls="" preload="none" hidden="" class="style--jzu1z3"></audio>
-                    <div><p>Nós conversamos sobre nossas obsessões. O Lê dorme e acorda em horários simétricos; a Li conta como foi trazer um gato do Brasil para os Estados&nbsp;Unidos. Nós estamos descobrindo para onde vamos no ano que vem, e a Li compartilha o que ela aprendeu sobre validação de diploma de farmacêutica na Europa e no Canadá (em resumo, é <strong>bem</strong> difícil).</p>
-</div>
+                    <div class="markdown">
+                      <p>Nós conversamos sobre nossas obsessões. O Lê dorme e acorda em horários simétricos; a Li conta como foi trazer um gato do Brasil para os Estados&nbsp;Unidos. Nós estamos descobrindo para onde vamos no ano que vem, e a Li compartilha o que ela aprendeu sobre validação de diploma de farmacêutica na Europa e no Canadá (em resumo, é <strong>bem</strong> difícil).</p>
+
+                    </div>
                     
                           <details>
                             <summary>Anotações do Episódio</summary>
-
-                            <figure>
+                            <div class="markdown">
+                              <figure>
 <img src="images/2018-11-18--obsessoes-e-viagem-com-gato.png" alt="Obsessões e Viagem com Gato" width="600">
 <figcaption>
 <p>A simetria no relógio. Acordar às 04:00, ter a metade do dia acordado às 12:00, ir dormir às 20:00, e ter a metade da noite de sono às 00:00.</p>
@@ -3874,6 +4084,7 @@
 <p>Os <a href="https://basecamp.com/books">livros da Basecamp</a>, que falam sobre ser bem sucedido sem ter que trabalhar horas demais.</p>
 <p><strong>Esclarecimento Importante:</strong> Pagers podem usar a rede de telefonia celular, mas também podem usar uma rede especial para pagers. Esta rede especial usa satélites e rádios que cobrem uma área bem maior, onde a telefonia celular não chega. É por causa desta resiliência que os profissionais de saúde ainda usam pagers. A contrapartida é que esta rede especial não suporta trafegar muita informação de uma só vez, e é por isto que ela não é usada para telefonia ou internet.</p>
 
+                            </div>
                           </details>
                         
                   </section>
@@ -3921,17 +4132,20 @@
                       </a>
                     </div>
                     <audio src="https://archive.org/download/oi-li-oi-le/oi-li-oi-le--2018-10-28--eleicoes-no-brasil.mp3" controls="" preload="none" hidden="" class="style--jzu1z3"></audio>
-                    <div><p>Nós fomos para Washington para o Lê votar para presidente do Brasil no segundo turno de 2018. Logo antes da apuração dos votos, nós aproveitamos os últimos momentos de esperança.</p>
-</div>
+                    <div class="markdown">
+                      <p>Nós fomos para Washington para o Lê votar para presidente do Brasil no segundo turno de 2018. Logo antes da apuração dos votos, nós aproveitamos os últimos momentos de esperança.</p>
+
+                    </div>
                     
                           <details>
                             <summary>Anotações do Episódio</summary>
-
-                            <ul>
+                            <div class="markdown">
+                              <ul>
 <li><a href="https://www.youtube.com/watch?v=tCzmwG5ZB6g">Brasil: Ame-o <strong>e</strong> Deixe-o</a>.</li>
 <li><a href="https://www.youtube.com/watch?v=T1RBTzAREQE">Bumba fala sobre brasileiros e estadunidenses com raiva dos seus presidentes</a>.</li>
 </ul>
 
+                            </div>
                           </details>
                         
                   </section>
@@ -3979,13 +4193,15 @@
                       </a>
                     </div>
                     <audio src="https://archive.org/download/oi-li-oi-le/oi-li-oi-le--2018-10-20--aniversarios.mp3" controls="" preload="none" hidden="" class="style--jzu1z3"></audio>
-                    <div><p>O Lê está fazendo <strong>X</strong> anos! Nós conversamos sobre aniversários e <strong>influencers</strong> da internet.</p>
-</div>
+                    <div class="markdown">
+                      <p>O Lê está fazendo <strong>X</strong> anos! Nós conversamos sobre aniversários e <strong>influencers</strong> da internet.</p>
+
+                    </div>
                     
                           <details>
                             <summary>Anotações do Episódio</summary>
-
-                            <figure>
+                            <div class="markdown">
+                              <figure>
 <img src="images/2018-10-20--aniversarios.png" alt="Aniversários" width="600">
 <figcaption>
 <p>Nós gravando este episódio, com um gato no colo, e um bolo. Desenhado a quatro mãos.</p>
@@ -3997,6 +4213,7 @@
 <li><a href="http://www.thewoodstockfruitfestival.com">The Woodstock Fruit Festival</a>, que a Li tem vontade de ir por causa dos <strong>influencers</strong>, mas ainda não foi.</li>
 </ul>
 
+                            </div>
                           </details>
                         
                   </section>
@@ -4044,13 +4261,15 @@
                       </a>
                     </div>
                     <audio src="https://archive.org/download/oi-li-oi-le/oi-li-oi-le--2018-10-08--glamping.mp3" controls="" preload="none" hidden="" class="style--jzu1z3"></audio>
-                    <div><p>Nós fomos <strong>glamping</strong> (<strong>glamour</strong> + <strong>camping</strong>). Caminhamos no meio da floresta, conhecemos gente mais ou menos, e quebramos um banco!</p>
-</div>
+                    <div class="markdown">
+                      <p>Nós fomos <strong>glamping</strong> (<strong>glamour</strong> + <strong>camping</strong>). Caminhamos no meio da floresta, conhecemos gente mais ou menos, e quebramos um banco!</p>
+
+                    </div>
                     
                           <details>
                             <summary>Anotações do Episódio</summary>
-
-                            <figure>
+                            <div class="markdown">
+                              <figure>
 <img src="images/2018-10-08--glamping--1.jpg" alt="Glamping 1" width="600">
 <figcaption>
 <p>Nós quebramos este banco na primeira tentativa de gravar o podcast.</p>
@@ -4088,6 +4307,7 @@
 </figure>
 <p><strong>Correção:</strong> De acordo com o <strong>squirrelnutrition.com</strong>, <a href="http://www.squirrelnutrition.com/blog/do-squirrels-hibernate">esquilos <strong>não</strong> hibernam</a>. Céus, <strong>squirrelnutrition.com</strong>&nbsp;—&nbsp;se alguém entende de esquilos são estes caras. <strong>squirrelnutrition.com</strong>, a internet nunca deixa de me surpreender. De toda forma, esquilos passam um bom tempo sem fazer quase nada. Nós nos identificamos.</p>
 
+                            </div>
                           </details>
                         
                   </section>
@@ -4135,13 +4355,15 @@
                       </a>
                     </div>
                     <audio src="https://archive.org/download/oi-li-oi-le/oi-li-oi-le--2018-09-28--dia-da-farmaceutica.mp3" controls="" preload="none" hidden="" class="style--jzu1z3"></audio>
-                    <div><p>No primeiro episódio de <strong>Oi Li. Oi Lê.</strong>, nós conversamos sobre como é ser farmacêutica e analista clínica em vários lugares do mundo.</p>
-</div>
+                    <div class="markdown">
+                      <p>No primeiro episódio de <strong>Oi Li. Oi Lê.</strong>, nós conversamos sobre como é ser farmacêutica e analista clínica em vários lugares do mundo.</p>
+
+                    </div>
                     
                           <details>
                             <summary>Anotações do Episódio</summary>
-
-                            <figure>
+                            <div class="markdown">
+                              <figure>
 <img src="images/2018-09-28--dia-da-farmaceutica.png" alt="Dia da Farmacêutica" width="500">
 <figcaption>
 <p>A Li trabalha em hematologia.</p>
@@ -4149,6 +4371,7 @@
 </figure>
 <p>A Li já trabalhou no Brasil, fez um estágio na Espanha, e hoje trabalha nos Estados Unidos.</p>
 
+                            </div>
                           </details>
                         
                   </section>
