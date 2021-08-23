@@ -1354,7 +1354,7 @@ fs.writeFileSync(
                 <i class="fab fa-apple"></i>
               </a>
               <a
-                href="https://podcasts.google.com/feed/aHR0cHM6Ly9vaS1saS1vaS1sZS5jb20vZmVlZC54bWw"
+                href="https://podcasts.google.com/feed/aHR0cHM6Ly9saWxlbG91LmNvbS9mZWVkLnhtbA"
                 class="button"
                 data-ondomcontentloaded="${javascript`
                   tippy(this, {
