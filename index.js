@@ -1,6 +1,7 @@
 const fs = require("fs");
 const remark = require("remark");
 const remarkHTML = require("remark-html");
+const remarkStripMarkdown = require("strip-markdown");
 const { html } = require("@leafac/html");
 const { css, extractInlineStyles } = require("@leafac/css");
 const markdown = require("dedent");
@@ -1591,10 +1592,9 @@ function renderMarkdown(input) {
 }
 
 function stripMarkdown(input) {
-  return "TODO";
+  return remark().use(remarkStripMarkdown).processSync(input).contents;
 }
 
-// https://github.com/remarkjs/strip-markdown
 // for (const element of document.querySelectorAll("main section")) {
 //   const { oiLiOiLe, slug, date, duration, size } = element.dataset;
 //   const [title, description, ...notes] = element.children;
