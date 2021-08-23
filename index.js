@@ -1194,6 +1194,9 @@ fs.writeFileSync(
                 max-width: 100%;
                 height: auto;
                 border-radius: var(--border-radius--lg);
+                @media (prefers-color-scheme: dark) {
+                  filter: brightness(var(--brightness--90));
+                }
               }
 
               figure {
@@ -1585,6 +1588,10 @@ fs.writeFileSync(
 
 function renderMarkdown(input) {
   return remark().use(remarkHTML).processSync(input).contents;
+}
+
+function stripMarkdown(input) {
+  return "TODO";
 }
 
 // https://github.com/remarkjs/strip-markdown
