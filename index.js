@@ -1587,6 +1587,30 @@ fs.writeFileSync(
   `)
 );
 
+fs.writeFileSync(
+  "feed.xml",
+  html`
+    <?xml version="1.0" encoding="UTF-8"?>
+    <rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+      <channel>
+        <title>Oi Li. Oi Lê. Oi Lou.</title>
+        <description>A Li é a mãe, o Lê é o pai, e o filho é o Lou. Nós falamos sobre coisas de bebê e outras coisas que não são de bebê.</description>
+        <itunes:image href="https://lilelou.com/artwork--2020-11-03.png" />
+        <language>pt</language>
+        <itunes:category text="Society &amp; Culture"><itunes:category text="Personal Journals" /></itunes:category>
+        <itunes:explicit>false</itunes:explicit>
+        <itunes:author>Li &amp; Lê &amp; Lou</itunes:author>
+        <link>https://LiLeLou.com</link>
+        <itunes:owner>
+          <itunes:name>Lê &amp; Lê &amp; Lou</itunes:name>
+          <itunes:email>LiLeLou@LiLeLou.com</itunes:email>
+        </itunes:owner>
+        $${feedItems}
+      </channel>
+    </rss>
+ `.trim()
+);
+
 function renderMarkdown(input) {
   return remark().use(remarkHTML).processSync(input).contents;
 }
@@ -1643,21 +1667,4 @@ function stripMarkdown(input) {
 // // fs.writeFileSync("index.html", extractInlineStyles(dom.serialize()));
 // fs.writeFileSync(
 //   "feed.xml",
-//   html`
-//     <?xml version="1.0" encoding="UTF-8"?>
-//     <rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:content="http://purl.org/rss/1.0/modules/content/">
-//       <channel>
-//         <title>Oi Li. Oi Lê. Oi Lou.</title>
-//         <description>A Li é a mãe, o Lê é o pai, e o filho é o Lou. Nós falamos sobre coisas de bebê e outras coisas que não são de bebê.</description>
-//         <itunes:image href="https://lilelou.com/artwork--2020-11-03.png" />
-//         <language>pt</language>
-//         <itunes:category text="Society &amp; Culture"><itunes:category text="Personal Journals" /></itunes:category>
-//         <itunes:explicit>false</itunes:explicit>
-//         <itunes:author>Li &amp; Lê &amp; Lou</itunes:author>
-//         <link>https://LiLeLou.com</link>
-//         <itunes:owner><itunes:name>Lê &amp; Lê &amp; Lou</itunes:name><itunes:email>LiLeLou@LiLeLou.com</itunes:email></itunes:owner>
-//         $${feedItems}
-//       </channel>
-//     </rss>
-// `.trim()
 // );
