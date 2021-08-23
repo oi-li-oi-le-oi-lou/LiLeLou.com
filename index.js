@@ -64,6 +64,8 @@ O Lou nasceu! Nós contamos como foi.
       id,
       uri,
       audio: `https://archive.org/download/${uri}/${uri}--${id}.mp3`,
+      link: `https://LiLeLou.com/#${id}`,
+      guid: `https://${uri}.com/#${id}`,
     };
   }),
 
@@ -946,6 +948,8 @@ O Lê tem notícias domésticas bombásticas!
       id,
       uri,
       audio: `https://archive.org/download/${uri}/${uri}--${id}.mp3`,
+      link: `https://LiLeLou.com/#${id}`,
+      guid: `https://${uri}.com/#${id}`,
     };
   }),
 };
@@ -1605,7 +1609,26 @@ fs.writeFileSync(
           <itunes:name>Lê &amp; Lê &amp; Lou</itunes:name>
           <itunes:email>LiLeLou@LiLeLou.com</itunes:email>
         </itunes:owner>
-        $${feedItems}
+        $${[...episodes.oiLiOiLeOiLou, ...episodes.oiLiOiLe].map(
+          (episode) => html`
+            <item>
+              <title>${episode.title}</title>
+              <enclosure url="${episode.audio}" length="${
+            episode.size
+          }" type="audio/mpeg" />
+              <guid>${episode.guid}</guid>
+              <pubDate>${new Date(episode.date).toUTCString()}</pubDate>
+              <description>${stripMarkdown(episode.description)}
+
+Anotações do Episódio: ${episode.link}
+
+Contato: LiLeLou@LiLeLou.com
+</description>
+              <itunes:duration>${episode.duration}</itunes:duration>
+              <link>${episode.link}</link>
+            </item>
+          `
+        )}
       </channel>
     </rss>
  `.trim()
@@ -1618,53 +1641,3 @@ function renderMarkdown(input) {
 function stripMarkdown(input) {
   return remark().use(remarkStripMarkdown).processSync(input).contents;
 }
-
-// for (const element of document.querySelectorAll("main section")) {
-//   const { oiLiOiLe, slug, date, duration, size } = element.dataset;
-//   const [title, description, ...notes] = element.children;
-//   const id = `${date}--${slug}`;
-//   element.id = id;
-//   const uri = oiLiOiLe !== undefined ? "oi-li-oi-le" : "LiLeLou";
-//   const link = `https://LiLeLou.com/#${id}`;
-//   const guid = `https://${uri}.com/#${id}`;
-//   const audio = `https://archive.org/download/${uri}/${uri}--${id}.mp3`;
-//   title.insertAdjacentHTML(
-//     "afterend",
-//     html`
-//       <p class="date"><time>${date}</time></p>
-//       <p><audio src="${audio}" controls preload="none"></audio></p>
-//     `
-//   );
-//   if (notes.length > 0) {
-//     notes.forEach((note) => note.remove());
-//     description.insertAdjacentHTML(
-//       "afterend",
-//       html`
-//         <details>
-//           <summary>Anotações do Episódio</summary>
-//           $${notes.map((note) => note.outerHTML).join("")}
-//         </details>
-//       `
-//     );
-//   }
-//   feedItems.push(html`
-//     <item>
-//       <title>${title.textContent}</title>
-//       <enclosure url="${audio}" length="${size}" type="audio/mpeg" />
-//       <guid>${guid}</guid>
-//       <pubDate>${new Date(date).toUTCString()}</pubDate>
-//       <description>${description.textContent}
-
-// Anotações do Episódio: ${link}
-
-// Contato: LiLeLou@LiLeLou.com
-// </description>
-//       <itunes:duration>${duration}</itunes:duration>
-//       <link>${link}</link>
-//     </item>
-//   `);
-// }
-// // fs.writeFileSync("index.html", extractInlineStyles(dom.serialize()));
-// fs.writeFileSync(
-//   "feed.xml",
-// );
