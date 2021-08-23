@@ -10,6 +10,36 @@ const javascript = require("tagged-template-noop");
 const episodes = {
   oiLiOiLeOiLou: [
     {
+      slug: "cuidando-de-bebe-doente",
+      title: "Cuidando de Bebê Doente",
+      date: "2021-08-25",
+      duration: "25:42",
+      size: "18501276",
+      description: markdown`
+        Foi uma doença comum e não muito séria, mas ainda assim deu trabalho…
+      `,
+    },
+    {
+      slug: "viajando-com-bebe",
+      title: "Viajando com Bebê",
+      date: "2021-08-24",
+      duration: "32:14",
+      size: "23202377",
+      description: markdown`
+        A Li foi com o bebê para a praia. Foi divertido e desafiador. Ouça os detalhes…
+      `,
+    },
+    {
+      slug: "sete-meses-depois",
+      title: "Sete Meses Depois",
+      date: "2021-08-23",
+      duration: "31:53",
+      size: "22951288",
+      description: markdown`
+        Corta para sete meses depois! Como está sendo cuidar de um bebê até agora?
+      `,
+    },
+    {
       slug: "a-grande-idade-redonda",
       title: "A Grande Idade Redonda",
       date: "2020-12-10",
