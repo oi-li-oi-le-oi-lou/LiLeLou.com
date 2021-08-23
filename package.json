@@ -11,7 +11,7 @@
     "node-dev": "^7.0.0",
     "remark": "^13.0.0",
     "remark-html": "^13.0.1",
-    "strip-markdown": "^5.0.0",
+    "strip-markdown": "^4.2.0",
     "tagged-template-noop": "^2.1.1"
   }
 }

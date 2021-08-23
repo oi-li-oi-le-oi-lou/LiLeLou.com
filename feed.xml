@@ -9,697 +9,700 @@
         <itunes:explicit>false</itunes:explicit>
         <itunes:author>Li &amp; Lê &amp; Lou</itunes:author>
         <link>https://LiLeLou.com</link>
-        <itunes:owner><itunes:name>Lê &amp; Lê &amp; Lou</itunes:name><itunes:email>LiLeLou@LiLeLou.com</itunes:email></itunes:owner>
+        <itunes:owner>
+          <itunes:name>Lê &amp; Lê &amp; Lou</itunes:name>
+          <itunes:email>LiLeLou@LiLeLou.com</itunes:email>
+        </itunes:owner>
         
-    <item>
-      <title>A Grande Idade Redonda</title>
-      <enclosure url="https://archive.org/download/LiLeLou/LiLeLou--2020-12-10--a-grande-idade-redonda.mp3" length="12786375" type="audio/mpeg" />
-      <guid>https://LiLeLou.com/#2020-12-10--a-grande-idade-redonda</guid>
-      <pubDate>Thu, 10 Dec 2020 00:00:00 GMT</pubDate>
-      <description>Li &#x26; L&#xEA; fizeram anivers&#xE1;rio recentemente. Eles t&#xEA;m a mesma idade, e agora &#xE9; uma idade de respeito. Qual ser&#xE1; que &#xE9;?
+            <item>
+              <title>A Grande Idade Redonda</title>
+              <enclosure url="https://archive.org/download/LiLeLou/LiLeLou--2020-12-10--a-grande-idade-redonda.mp3" length="12786375" type="audio/mpeg" />
+              <guid>https://LiLeLou.com/#2020-12-10--a-grande-idade-redonda</guid>
+              <pubDate>Thu, 10 Dec 2020 00:00:00 GMT</pubDate>
+              <description>Li &#x26; L&#xEA; fizeram anivers&#xE1;rio recentemente. Eles t&#xEA;m a mesma idade, e agora &#xE9; uma idade de respeito. Qual ser&#xE1; que &#xE9;?
 
 Anotações do Episódio: https://LiLeLou.com/#2020-12-10--a-grande-idade-redonda
 
 Contato: LiLeLou@LiLeLou.com
 </description>
-      <itunes:duration>17:26</itunes:duration>
-      <link>https://LiLeLou.com/#2020-12-10--a-grande-idade-redonda</link>
-    </item>
-  
-    <item>
-      <title>O que Torna uma Hist&#xF3;ria Interessante?</title>
-      <enclosure url="https://archive.org/download/LiLeLou/LiLeLou--2020-12-04--o-que-torna-uma-historia-interessante.mp3" length="35772475" type="audio/mpeg" />
-      <guid>https://LiLeLou.com/#2020-12-04--o-que-torna-uma-historia-interessante</guid>
-      <pubDate>Fri, 04 Dec 2020 00:00:00 GMT</pubDate>
-      <description>Com a pandemia e o excesso de tempo passado juntos, fica dif&#xED;cil termos hist&#xF3;rias interessantes um para o outro. Mas afinal, o que torna uma hist&#xF3;ria interessante? Ang&#xFA;stia existencial, reflex&#xF5;es sobre amamenta&#xE7;&#xE3;o, e muito mais, neste epis&#xF3;dio de Oi Li. Oi L&#xEA;. Oi Lou.
+              <itunes:duration>17:26</itunes:duration>
+              <link>https://LiLeLou.com/#2020-12-10--a-grande-idade-redonda</link>
+            </item>
+          
+            <item>
+              <title>O que Torna uma Hist&#xF3;ria Interessante?</title>
+              <enclosure url="https://archive.org/download/LiLeLou/LiLeLou--2020-12-04--o-que-torna-uma-historia-interessante.mp3" length="35772475" type="audio/mpeg" />
+              <guid>https://LiLeLou.com/#2020-12-04--o-que-torna-uma-historia-interessante</guid>
+              <pubDate>Fri, 04 Dec 2020 00:00:00 GMT</pubDate>
+              <description>Com a pandemia e o excesso de tempo passado juntos, fica dif&#xED;cil termos hist&#xF3;rias interessantes um para o outro. Mas afinal, o que torna uma hist&#xF3;ria interessante? Ang&#xFA;stia existencial, reflex&#xF5;es sobre amamenta&#xE7;&#xE3;o, e muito mais, neste epis&#xF3;dio de Oi Li. Oi L&#xEA;. Oi Lou.
 
 Anotações do Episódio: https://LiLeLou.com/#2020-12-04--o-que-torna-uma-historia-interessante
 
 Contato: LiLeLou@LiLeLou.com
 </description>
-      <itunes:duration>49:22</itunes:duration>
-      <link>https://LiLeLou.com/#2020-12-04--o-que-torna-uma-historia-interessante</link>
-    </item>
-  
-    <item>
-      <title>Primeiras Semanas</title>
-      <enclosure url="https://archive.org/download/LiLeLou/LiLeLou--2020-10-24--primeiras-semanas.mp3" length="26589585" type="audio/mpeg" />
-      <guid>https://LiLeLou.com/#2020-10-24--primeiras-semanas</guid>
-      <pubDate>Sat, 24 Oct 2020 00:00:00 GMT</pubDate>
-      <description>Agora que o parto passou, n&#xF3;s percebemos que h&#xE1; um beb&#xEA; em casa! N&#xF3;s falamos sobre o ciclo da vida, da amamenta&#xE7;&#xE3;o &#xE0;s trocas de fraldas.
+              <itunes:duration>49:22</itunes:duration>
+              <link>https://LiLeLou.com/#2020-12-04--o-que-torna-uma-historia-interessante</link>
+            </item>
+          
+            <item>
+              <title>Primeiras Semanas</title>
+              <enclosure url="https://archive.org/download/LiLeLou/LiLeLou--2020-10-24--primeiras-semanas.mp3" length="26589585" type="audio/mpeg" />
+              <guid>https://LiLeLou.com/#2020-10-24--primeiras-semanas</guid>
+              <pubDate>Sat, 24 Oct 2020 00:00:00 GMT</pubDate>
+              <description>Agora que o parto passou, n&#xF3;s percebemos que h&#xE1; um beb&#xEA; em casa! N&#xF3;s falamos sobre o ciclo da vida, da amamenta&#xE7;&#xE3;o &#xE0;s trocas de fraldas.
 
 Anotações do Episódio: https://LiLeLou.com/#2020-10-24--primeiras-semanas
 
 Contato: LiLeLou@LiLeLou.com
 </description>
-      <itunes:duration>36:37</itunes:duration>
-      <link>https://LiLeLou.com/#2020-10-24--primeiras-semanas</link>
-    </item>
-  
-    <item>
-      <title>Parto</title>
-      <enclosure url="https://archive.org/download/LiLeLou/LiLeLou--2020-10-19--parto.mp3" length="29373082" type="audio/mpeg" />
-      <guid>https://LiLeLou.com/#2020-10-19--parto</guid>
-      <pubDate>Mon, 19 Oct 2020 00:00:00 GMT</pubDate>
-      <description>O Lou nasceu! N&#xF3;s contamos como foi.
+              <itunes:duration>36:37</itunes:duration>
+              <link>https://LiLeLou.com/#2020-10-24--primeiras-semanas</link>
+            </item>
+          
+            <item>
+              <title>Parto</title>
+              <enclosure url="https://archive.org/download/LiLeLou/LiLeLou--2020-10-19--parto.mp3" length="29373082" type="audio/mpeg" />
+              <guid>https://LiLeLou.com/#2020-10-19--parto</guid>
+              <pubDate>Mon, 19 Oct 2020 00:00:00 GMT</pubDate>
+              <description>O Lou nasceu! N&#xF3;s contamos como foi.
 
 Anotações do Episódio: https://LiLeLou.com/#2020-10-19--parto
 
 Contato: LiLeLou@LiLeLou.com
 </description>
-      <itunes:duration>40:36</itunes:duration>
-      <link>https://LiLeLou.com/#2020-10-19--parto</link>
-    </item>
-  
-    <item>
-      <title>Carreiras</title>
-      <enclosure url="https://archive.org/download/oi-li-oi-le/oi-li-oi-le--2020-09-25--carreiras.mp3" length="35713499" type="audio/mpeg" />
-      <guid>https://oi-li-oi-le.com/#2020-09-25--carreiras</guid>
-      <pubDate>Fri, 25 Sep 2020 00:00:00 GMT</pubDate>
-      <description>O beb&#xEA; ainda n&#xE3;o nasceu, ent&#xE3;o aproveitamos para refletir sobre o que estamos fazendo com as nossas carreiras. A Li parou de trabalhar e o L&#xEA; desistiu do doutorado, mas n&#xF3;s rejeitamos o t&#xED;tulo de desempregados &#x1F643;
+              <itunes:duration>40:36</itunes:duration>
+              <link>https://LiLeLou.com/#2020-10-19--parto</link>
+            </item>
+          
+            <item>
+              <title>Carreiras</title>
+              <enclosure url="https://archive.org/download/oi-li-oi-le/oi-li-oi-le--2020-09-25--carreiras.mp3" length="35713499" type="audio/mpeg" />
+              <guid>https://oi-li-oi-le.com/#2020-09-25--carreiras</guid>
+              <pubDate>Fri, 25 Sep 2020 00:00:00 GMT</pubDate>
+              <description>O beb&#xEA; ainda n&#xE3;o nasceu, ent&#xE3;o aproveitamos para refletir sobre o que estamos fazendo com as nossas carreiras. A Li parou de trabalhar e o L&#xEA; desistiu do doutorado, mas n&#xF3;s rejeitamos o t&#xED;tulo de desempregados &#x1F643;
 
 Anotações do Episódio: https://LiLeLou.com/#2020-09-25--carreiras
 
 Contato: LiLeLou@LiLeLou.com
 </description>
-      <itunes:duration>48:55</itunes:duration>
-      <link>https://LiLeLou.com/#2020-09-25--carreiras</link>
-    </item>
-  
-    <item>
-      <title>Maternidade e Machismo</title>
-      <enclosure url="https://archive.org/download/oi-li-oi-le/oi-li-oi-le--2020-09-19--maternidade-e-machismo.mp3" length="37621287" type="audio/mpeg" />
-      <guid>https://oi-li-oi-le.com/#2020-09-19--maternidade-e-machismo</guid>
-      <pubDate>Sat, 19 Sep 2020 00:00:00 GMT</pubDate>
-      <description>A maternidade &#xE9; uma experi&#xEA;ncia de empoderamento feminino, mas sempre h&#xE1; algu&#xE9;m pronto para encher o saco. N&#xF3;s conversamos sobre o machismo que a Li teve que enfrentar at&#xE9; agora na gravidez e o que podemos fazer a respeito.
+              <itunes:duration>48:55</itunes:duration>
+              <link>https://LiLeLou.com/#2020-09-25--carreiras</link>
+            </item>
+          
+            <item>
+              <title>Maternidade e Machismo</title>
+              <enclosure url="https://archive.org/download/oi-li-oi-le/oi-li-oi-le--2020-09-19--maternidade-e-machismo.mp3" length="37621287" type="audio/mpeg" />
+              <guid>https://oi-li-oi-le.com/#2020-09-19--maternidade-e-machismo</guid>
+              <pubDate>Sat, 19 Sep 2020 00:00:00 GMT</pubDate>
+              <description>A maternidade &#xE9; uma experi&#xEA;ncia de empoderamento feminino, mas sempre h&#xE1; algu&#xE9;m pronto para encher o saco. N&#xF3;s conversamos sobre o machismo que a Li teve que enfrentar at&#xE9; agora na gravidez e o que podemos fazer a respeito.
 
 Anotações do Episódio: https://LiLeLou.com/#2020-09-19--maternidade-e-machismo
 
 Contato: LiLeLou@LiLeLou.com
 </description>
-      <itunes:duration>51:34</itunes:duration>
-      <link>https://LiLeLou.com/#2020-09-19--maternidade-e-machismo</link>
-    </item>
-  
-    <item>
-      <title>Plano de Parto</title>
-      <enclosure url="https://archive.org/download/oi-li-oi-le/oi-li-oi-le--2020-09-01--plano-de-parto.mp3" length="36652182" type="audio/mpeg" />
-      <guid>https://oi-li-oi-le.com/#2020-09-01--plano-de-parto</guid>
-      <pubDate>Tue, 01 Sep 2020 00:00:00 GMT</pubDate>
-      <description>O parto do Lou ser&#xE1; em breve! N&#xF3;s conversamos sobre nossas expectativas.
+              <itunes:duration>51:34</itunes:duration>
+              <link>https://LiLeLou.com/#2020-09-19--maternidade-e-machismo</link>
+            </item>
+          
+            <item>
+              <title>Plano de Parto</title>
+              <enclosure url="https://archive.org/download/oi-li-oi-le/oi-li-oi-le--2020-09-01--plano-de-parto.mp3" length="36652182" type="audio/mpeg" />
+              <guid>https://oi-li-oi-le.com/#2020-09-01--plano-de-parto</guid>
+              <pubDate>Tue, 01 Sep 2020 00:00:00 GMT</pubDate>
+              <description>O parto do Lou ser&#xE1; em breve! N&#xF3;s conversamos sobre nossas expectativas.
 
 Anotações do Episódio: https://LiLeLou.com/#2020-09-01--plano-de-parto
 
 Contato: LiLeLou@LiLeLou.com
 </description>
-      <itunes:duration>50:13</itunes:duration>
-      <link>https://LiLeLou.com/#2020-09-01--plano-de-parto</link>
-    </item>
-  
-    <item>
-      <title>Morte</title>
-      <enclosure url="https://archive.org/download/oi-li-oi-le/oi-li-oi-le--2020-08-17--morte.mp3" length="35514665" type="audio/mpeg" />
-      <guid>https://oi-li-oi-le.com/#2020-08-17--morte</guid>
-      <pubDate>Mon, 17 Aug 2020 00:00:00 GMT</pubDate>
-      <description>A av&#xF3; do L&#xEA; morreu. Talvez de coronav&#xED;rus. N&#xF3;s conversamos sobre a morte.
+              <itunes:duration>50:13</itunes:duration>
+              <link>https://LiLeLou.com/#2020-09-01--plano-de-parto</link>
+            </item>
+          
+            <item>
+              <title>Morte</title>
+              <enclosure url="https://archive.org/download/oi-li-oi-le/oi-li-oi-le--2020-08-17--morte.mp3" length="35514665" type="audio/mpeg" />
+              <guid>https://oi-li-oi-le.com/#2020-08-17--morte</guid>
+              <pubDate>Mon, 17 Aug 2020 00:00:00 GMT</pubDate>
+              <description>A av&#xF3; do L&#xEA; morreu. Talvez de coronav&#xED;rus. N&#xF3;s conversamos sobre a morte.
 
 Anotações do Episódio: https://LiLeLou.com/#2020-08-17--morte
 
 Contato: LiLeLou@LiLeLou.com
 </description>
-      <itunes:duration>36:28</itunes:duration>
-      <link>https://LiLeLou.com/#2020-08-17--morte</link>
-    </item>
-  
-    <item>
-      <title>A Grande Mudan&#xE7;a: Parte 2</title>
-      <enclosure url="https://archive.org/download/oi-li-oi-le/oi-li-oi-le--2020-07-30--a-grande-mudanca--parte-2.mp3" length="36412102" type="audio/mpeg" />
-      <guid>https://oi-li-oi-le.com/#2020-07-30--a-grande-mudanca--parte-2</guid>
-      <pubDate>Thu, 30 Jul 2020 00:00:00 GMT</pubDate>
-      <description>N&#xF3;s terminamos de contar como foi nossa mudan&#xE7;a intercontinental de Baltimore (EUA) para Matosinhos (Portugal). Depois de muitas dificuldades, um final feliz!
+              <itunes:duration>36:28</itunes:duration>
+              <link>https://LiLeLou.com/#2020-08-17--morte</link>
+            </item>
+          
+            <item>
+              <title>A Grande Mudan&#xE7;a: Parte 2</title>
+              <enclosure url="https://archive.org/download/oi-li-oi-le/oi-li-oi-le--2020-07-30--a-grande-mudanca--parte-2.mp3" length="36412102" type="audio/mpeg" />
+              <guid>https://oi-li-oi-le.com/#2020-07-30--a-grande-mudanca--parte-2</guid>
+              <pubDate>Thu, 30 Jul 2020 00:00:00 GMT</pubDate>
+              <description>N&#xF3;s terminamos de contar como foi nossa mudan&#xE7;a intercontinental de Baltimore (EUA) para Matosinhos (Portugal). Depois de muitas dificuldades, um final feliz!
 
 Anotações do Episódio: https://LiLeLou.com/#2020-07-30--a-grande-mudanca--parte-2
 
 Contato: LiLeLou@LiLeLou.com
 </description>
-      <itunes:duration>37:24</itunes:duration>
-      <link>https://LiLeLou.com/#2020-07-30--a-grande-mudanca--parte-2</link>
-    </item>
-  
-    <item>
-      <title>A Grande Mudan&#xE7;a: Parte 1</title>
-      <enclosure url="https://archive.org/download/oi-li-oi-le/oi-li-oi-le--2020-07-30--a-grande-mudanca--parte-1.mp3" length="40616902" type="audio/mpeg" />
-      <guid>https://oi-li-oi-le.com/#2020-07-30--a-grande-mudanca--parte-1</guid>
-      <pubDate>Thu, 30 Jul 2020 00:00:00 GMT</pubDate>
-      <description>N&#xF3;s come&#xE7;amos a contar como foi nossa mudan&#xE7;a intercontinental de Baltimore (EUA) para Matosinhos (Portugal). Uma aventura no meio da pandemia, com dois gatos, muita bagagem, e tudo que poderia dar errado dando errado!
+              <itunes:duration>37:24</itunes:duration>
+              <link>https://LiLeLou.com/#2020-07-30--a-grande-mudanca--parte-2</link>
+            </item>
+          
+            <item>
+              <title>A Grande Mudan&#xE7;a: Parte 1</title>
+              <enclosure url="https://archive.org/download/oi-li-oi-le/oi-li-oi-le--2020-07-30--a-grande-mudanca--parte-1.mp3" length="40616902" type="audio/mpeg" />
+              <guid>https://oi-li-oi-le.com/#2020-07-30--a-grande-mudanca--parte-1</guid>
+              <pubDate>Thu, 30 Jul 2020 00:00:00 GMT</pubDate>
+              <description>N&#xF3;s come&#xE7;amos a contar como foi nossa mudan&#xE7;a intercontinental de Baltimore (EUA) para Matosinhos (Portugal). Uma aventura no meio da pandemia, com dois gatos, muita bagagem, e tudo que poderia dar errado dando errado!
 
 Anotações do Episódio: https://LiLeLou.com/#2020-07-30--a-grande-mudanca--parte-1
 
 Contato: LiLeLou@LiLeLou.com
 </description>
-      <itunes:duration>41:47</itunes:duration>
-      <link>https://LiLeLou.com/#2020-07-30--a-grande-mudanca--parte-1</link>
-    </item>
-  
-    <item>
-      <title>Coronav&#xED;rus</title>
-      <enclosure url="https://archive.org/download/oi-li-oi-le/oi-li-oi-le--2020-05-03--coronavirus.mp3" length="51362731" type="audio/mpeg" />
-      <guid>https://oi-li-oi-le.com/#2020-05-03--coronavirus</guid>
-      <pubDate>Sun, 03 May 2020 00:00:00 GMT</pubDate>
-      <description>Mais um podcast sobre coronav&#xED;rus. Era tudo de que voc&#xEA; precisava!
+              <itunes:duration>41:47</itunes:duration>
+              <link>https://LiLeLou.com/#2020-07-30--a-grande-mudanca--parte-1</link>
+            </item>
+          
+            <item>
+              <title>Coronav&#xED;rus</title>
+              <enclosure url="https://archive.org/download/oi-li-oi-le/oi-li-oi-le--2020-05-03--coronavirus.mp3" length="51362731" type="audio/mpeg" />
+              <guid>https://oi-li-oi-le.com/#2020-05-03--coronavirus</guid>
+              <pubDate>Sun, 03 May 2020 00:00:00 GMT</pubDate>
+              <description>Mais um podcast sobre coronav&#xED;rus. Era tudo de que voc&#xEA; precisava!
 
 Anotações do Episódio: https://LiLeLou.com/#2020-05-03--coronavirus
 
 Contato: LiLeLou@LiLeLou.com
 </description>
-      <itunes:duration>52:59</itunes:duration>
-      <link>https://LiLeLou.com/#2020-05-03--coronavirus</link>
-    </item>
-  
-    <item>
-      <title>Dia Internacional da Mulher</title>
-      <enclosure url="https://archive.org/download/oi-li-oi-le/oi-li-oi-le--2020-03-31--dia-internacional-da-mulher.mp3" length="43601672" type="audio/mpeg" />
-      <guid>https://oi-li-oi-le.com/#2020-03-31--dia-internacional-da-mulher</guid>
-      <pubDate>Tue, 31 Mar 2020 00:00:00 GMT</pubDate>
-      <description>N&#xF3;s conversamos sobre as mulheres da fam&#xED;lia da Li e sobre o papel da mulher nos dias de hoje.
+              <itunes:duration>52:59</itunes:duration>
+              <link>https://LiLeLou.com/#2020-05-03--coronavirus</link>
+            </item>
+          
+            <item>
+              <title>Dia Internacional da Mulher</title>
+              <enclosure url="https://archive.org/download/oi-li-oi-le/oi-li-oi-le--2020-03-31--dia-internacional-da-mulher.mp3" length="43601672" type="audio/mpeg" />
+              <guid>https://oi-li-oi-le.com/#2020-03-31--dia-internacional-da-mulher</guid>
+              <pubDate>Tue, 31 Mar 2020 00:00:00 GMT</pubDate>
+              <description>N&#xF3;s conversamos sobre as mulheres da fam&#xED;lia da Li e sobre o papel da mulher nos dias de hoje.
 
 Anotações do Episódio: https://LiLeLou.com/#2020-03-31--dia-internacional-da-mulher
 
 Contato: LiLeLou@LiLeLou.com
 </description>
-      <itunes:duration>44:54</itunes:duration>
-      <link>https://LiLeLou.com/#2020-03-31--dia-internacional-da-mulher</link>
-    </item>
-  
-    <item>
-      <title>Baltimore</title>
-      <enclosure url="https://archive.org/download/oi-li-oi-le/oi-li-oi-le--2020-03-13--baltimore.mp3" length="53894005" type="audio/mpeg" />
-      <guid>https://oi-li-oi-le.com/#2020-03-13--baltimore</guid>
-      <pubDate>Fri, 13 Mar 2020 00:00:00 GMT</pubDate>
-      <description>Em breve n&#xF3;s iremos embora de Baltimore depois de termos morado aqui por seis anos. N&#xF3;s relembramos os melhores lugares e damos dicas do que fazer.
+              <itunes:duration>44:54</itunes:duration>
+              <link>https://LiLeLou.com/#2020-03-31--dia-internacional-da-mulher</link>
+            </item>
+          
+            <item>
+              <title>Baltimore</title>
+              <enclosure url="https://archive.org/download/oi-li-oi-le/oi-li-oi-le--2020-03-13--baltimore.mp3" length="53894005" type="audio/mpeg" />
+              <guid>https://oi-li-oi-le.com/#2020-03-13--baltimore</guid>
+              <pubDate>Fri, 13 Mar 2020 00:00:00 GMT</pubDate>
+              <description>Em breve n&#xF3;s iremos embora de Baltimore depois de termos morado aqui por seis anos. N&#xF3;s relembramos os melhores lugares e damos dicas do que fazer.
 
 Anotações do Episódio: https://LiLeLou.com/#2020-03-13--baltimore
 
 Contato: LiLeLou@LiLeLou.com
 </description>
-      <itunes:duration>55:37</itunes:duration>
-      <link>https://LiLeLou.com/#2020-03-13--baltimore</link>
-    </item>
-  
-    <item>
-      <title>Gravidez</title>
-      <enclosure url="https://archive.org/download/oi-li-oi-le/oi-li-oi-le--2020-02-11--gravidez.mp3" length="53069559" type="audio/mpeg" />
-      <guid>https://oi-li-oi-le.com/#2020-02-11--gravidez</guid>
-      <pubDate>Tue, 11 Feb 2020 00:00:00 GMT</pubDate>
-      <description>A Li est&#xE1; gr&#xE1;vida! &#x1F476; N&#xF3;s conversamos sobre como est&#xE3;o sendo as primeiras 10 semanas.
+              <itunes:duration>55:37</itunes:duration>
+              <link>https://LiLeLou.com/#2020-03-13--baltimore</link>
+            </item>
+          
+            <item>
+              <title>Gravidez</title>
+              <enclosure url="https://archive.org/download/oi-li-oi-le/oi-li-oi-le--2020-02-11--gravidez.mp3" length="53069559" type="audio/mpeg" />
+              <guid>https://oi-li-oi-le.com/#2020-02-11--gravidez</guid>
+              <pubDate>Tue, 11 Feb 2020 00:00:00 GMT</pubDate>
+              <description>A Li est&#xE1; gr&#xE1;vida! &#x1F476; N&#xF3;s conversamos sobre como est&#xE3;o sendo as primeiras 10 semanas.
 
 Anotações do Episódio: https://LiLeLou.com/#2020-02-11--gravidez
 
 Contato: LiLeLou@LiLeLou.com
 </description>
-      <itunes:duration>54:45</itunes:duration>
-      <link>https://LiLeLou.com/#2020-02-11--gravidez</link>
-    </item>
-  
-    <item>
-      <title>Morte e Como Foi Dar Aulas</title>
-      <enclosure url="https://archive.org/download/oi-li-oi-le/oi-li-oi-le--2019-12-30--morte-e-como-foi-dar-aulas.mp3" length="35236231" type="audio/mpeg" />
-      <guid>https://oi-li-oi-le.com/#2019-12-30--morte-e-como-foi-dar-aulas</guid>
-      <pubDate>Mon, 30 Dec 2019 00:00:00 GMT</pubDate>
-      <description>N&#xF3;s conversamos sobre a morte do gato da m&#xE3;e da Li, e sobre como foi o primeiro semestre em que o L&#xEA; deu aulas.
+              <itunes:duration>54:45</itunes:duration>
+              <link>https://LiLeLou.com/#2020-02-11--gravidez</link>
+            </item>
+          
+            <item>
+              <title>Morte e Como Foi Dar Aulas</title>
+              <enclosure url="https://archive.org/download/oi-li-oi-le/oi-li-oi-le--2019-12-30--morte-e-como-foi-dar-aulas.mp3" length="35236231" type="audio/mpeg" />
+              <guid>https://oi-li-oi-le.com/#2019-12-30--morte-e-como-foi-dar-aulas</guid>
+              <pubDate>Mon, 30 Dec 2019 00:00:00 GMT</pubDate>
+              <description>N&#xF3;s conversamos sobre a morte do gato da m&#xE3;e da Li, e sobre como foi o primeiro semestre em que o L&#xEA; deu aulas.
 
 Anotações do Episódio: https://LiLeLou.com/#2019-12-30--morte-e-como-foi-dar-aulas
 
 Contato: LiLeLou@LiLeLou.com
 </description>
-      <itunes:duration>36:11</itunes:duration>
-      <link>https://LiLeLou.com/#2019-12-30--morte-e-como-foi-dar-aulas</link>
-    </item>
-  
-    <item>
-      <title>Visita da M&#xE3;e e Choque Cultural</title>
-      <enclosure url="https://archive.org/download/oi-li-oi-le/oi-li-oi-le--2019-12-04--visita-da-mae-e-choque-cultural.mp3" length="43880878" type="audio/mpeg" />
-      <guid>https://oi-li-oi-le.com/#2019-12-04--visita-da-mae-e-choque-cultural</guid>
-      <pubDate>Wed, 04 Dec 2019 00:00:00 GMT</pubDate>
-      <description>N&#xF3;s conversamos sobre como foram as duas semanas em que a m&#xE3;e da Li nos visitou, e sobre o choque cultural que uma amiga do L&#xEA; est&#xE1; sofrendo depois de ter se mudado do Brasil para a Europa.
+              <itunes:duration>36:11</itunes:duration>
+              <link>https://LiLeLou.com/#2019-12-30--morte-e-como-foi-dar-aulas</link>
+            </item>
+          
+            <item>
+              <title>Visita da M&#xE3;e e Choque Cultural</title>
+              <enclosure url="https://archive.org/download/oi-li-oi-le/oi-li-oi-le--2019-12-04--visita-da-mae-e-choque-cultural.mp3" length="43880878" type="audio/mpeg" />
+              <guid>https://oi-li-oi-le.com/#2019-12-04--visita-da-mae-e-choque-cultural</guid>
+              <pubDate>Wed, 04 Dec 2019 00:00:00 GMT</pubDate>
+              <description>N&#xF3;s conversamos sobre como foram as duas semanas em que a m&#xE3;e da Li nos visitou, e sobre o choque cultural que uma amiga do L&#xEA; est&#xE1; sofrendo depois de ter se mudado do Brasil para a Europa.
 
 Anotações do Episódio: https://LiLeLou.com/#2019-12-04--visita-da-mae-e-choque-cultural
 
 Contato: LiLeLou@LiLeLou.com
 </description>
-      <itunes:duration>45:11</itunes:duration>
-      <link>https://LiLeLou.com/#2019-12-04--visita-da-mae-e-choque-cultural</link>
-    </item>
-  
-    <item>
-      <title>Correndo com Estranhos</title>
-      <enclosure url="https://archive.org/download/oi-li-oi-le/oi-li-oi-le--2019-11-09--correndo-com-estranhos.mp3" length="57079697" type="audio/mpeg" />
-      <guid>https://oi-li-oi-le.com/#2019-11-09--correndo-com-estranhos</guid>
-      <pubDate>Sat, 09 Nov 2019 00:00:00 GMT</pubDate>
-      <description>N&#xF3;s conversamos sobre corridas e sobre alguns livros que lemos, principalmente Talking to Strangers, do Malcolm Gladwell.
+              <itunes:duration>45:11</itunes:duration>
+              <link>https://LiLeLou.com/#2019-12-04--visita-da-mae-e-choque-cultural</link>
+            </item>
+          
+            <item>
+              <title>Correndo com Estranhos</title>
+              <enclosure url="https://archive.org/download/oi-li-oi-le/oi-li-oi-le--2019-11-09--correndo-com-estranhos.mp3" length="57079697" type="audio/mpeg" />
+              <guid>https://oi-li-oi-le.com/#2019-11-09--correndo-com-estranhos</guid>
+              <pubDate>Sat, 09 Nov 2019 00:00:00 GMT</pubDate>
+              <description>N&#xF3;s conversamos sobre corridas e sobre alguns livros que lemos, principalmente Talking to Strangers, do Malcolm Gladwell.
 
 Anotações do Episódio: https://LiLeLou.com/#2019-11-09--correndo-com-estranhos
 
 Contato: LiLeLou@LiLeLou.com
 </description>
-      <itunes:duration>58:56</itunes:duration>
-      <link>https://LiLeLou.com/#2019-11-09--correndo-com-estranhos</link>
-    </item>
-  
-    <item>
-      <title>Ecochatos</title>
-      <enclosure url="https://archive.org/download/oi-li-oi-le/oi-li-oi-le--2019-10-13--ecochatos.mp3" length="43678022" type="audio/mpeg" />
-      <guid>https://oi-li-oi-le.com/#2019-10-13--ecochatos</guid>
-      <pubDate>Sun, 13 Oct 2019 00:00:00 GMT</pubDate>
-      <description>N&#xF3;s conversamos sobre espet&#xE1;culos da Broadway e sobre como tentar fazer a coisa certa nos torna chatos.
+              <itunes:duration>58:56</itunes:duration>
+              <link>https://LiLeLou.com/#2019-11-09--correndo-com-estranhos</link>
+            </item>
+          
+            <item>
+              <title>Ecochatos</title>
+              <enclosure url="https://archive.org/download/oi-li-oi-le/oi-li-oi-le--2019-10-13--ecochatos.mp3" length="43678022" type="audio/mpeg" />
+              <guid>https://oi-li-oi-le.com/#2019-10-13--ecochatos</guid>
+              <pubDate>Sun, 13 Oct 2019 00:00:00 GMT</pubDate>
+              <description>N&#xF3;s conversamos sobre espet&#xE1;culos da Broadway e sobre como tentar fazer a coisa certa nos torna chatos.
 
 Anotações do Episódio: https://LiLeLou.com/#2019-10-13--ecochatos
 
 Contato: LiLeLou@LiLeLou.com
 </description>
-      <itunes:duration>44:58</itunes:duration>
-      <link>https://LiLeLou.com/#2019-10-13--ecochatos</link>
-    </item>
-  
-    <item>
-      <title>Season Premiere da Segunda Temporada</title>
-      <enclosure url="https://archive.org/download/oi-li-oi-le/oi-li-oi-le--2019-09-29--season-premiere-da-segunda-temporada.mp3" length="46390623" type="audio/mpeg" />
-      <guid>https://oi-li-oi-le.com/#2019-09-29--season-premiere-da-segunda-temporada</guid>
-      <pubDate>Sun, 29 Sep 2019 00:00:00 GMT</pubDate>
-      <description>N&#xF3;s celebramos o anivers&#xE1;rio de um ano de Oi Li. Oi L&#xEA;. &#x1F389; Completamos a recapitula&#xE7;&#xE3;o do hiato de dois meses que come&#xE7;amos no epis&#xF3;dio anterior e contamos como foi nossa viagem &#xE0; Ocean City.
+              <itunes:duration>44:58</itunes:duration>
+              <link>https://LiLeLou.com/#2019-10-13--ecochatos</link>
+            </item>
+          
+            <item>
+              <title>Season Premiere da Segunda Temporada</title>
+              <enclosure url="https://archive.org/download/oi-li-oi-le/oi-li-oi-le--2019-09-29--season-premiere-da-segunda-temporada.mp3" length="46390623" type="audio/mpeg" />
+              <guid>https://oi-li-oi-le.com/#2019-09-29--season-premiere-da-segunda-temporada</guid>
+              <pubDate>Sun, 29 Sep 2019 00:00:00 GMT</pubDate>
+              <description>N&#xF3;s celebramos o anivers&#xE1;rio de um ano de Oi Li. Oi L&#xEA;. &#x1F389; Completamos a recapitula&#xE7;&#xE3;o do hiato de dois meses que come&#xE7;amos no epis&#xF3;dio anterior e contamos como foi nossa viagem &#xE0; Ocean City.
 
 Anotações do Episódio: https://LiLeLou.com/#2019-09-29--season-premiere-da-segunda-temporada
 
 Contato: LiLeLou@LiLeLou.com
 </description>
-      <itunes:duration>47:48</itunes:duration>
-      <link>https://LiLeLou.com/#2019-09-29--season-premiere-da-segunda-temporada</link>
-    </item>
-  
-    <item>
-      <title>Teaser da Segunda Temporada</title>
-      <enclosure url="https://archive.org/download/oi-li-oi-le/oi-li-oi-le--2019-09-17--teaser-da-segunda-temporada.mp3" length="47350707" type="audio/mpeg" />
-      <guid>https://oi-li-oi-le.com/#2019-09-17--teaser-da-segunda-temporada</guid>
-      <pubDate>Tue, 17 Sep 2019 00:00:00 GMT</pubDate>
-      <description>Depois de umas f&#xE9;rias de Oi Li. Oi L&#xEA;., estamos de volta para contar sobre o que aconteceu com a Li no trabalho depois do epis&#xF3;dio anterior, e sobre a nossa viagem a Nova Iorque em comemora&#xE7;&#xE3;o aos nossos cinco anos de casamento.
+              <itunes:duration>47:48</itunes:duration>
+              <link>https://LiLeLou.com/#2019-09-29--season-premiere-da-segunda-temporada</link>
+            </item>
+          
+            <item>
+              <title>Teaser da Segunda Temporada</title>
+              <enclosure url="https://archive.org/download/oi-li-oi-le/oi-li-oi-le--2019-09-17--teaser-da-segunda-temporada.mp3" length="47350707" type="audio/mpeg" />
+              <guid>https://oi-li-oi-le.com/#2019-09-17--teaser-da-segunda-temporada</guid>
+              <pubDate>Tue, 17 Sep 2019 00:00:00 GMT</pubDate>
+              <description>Depois de umas f&#xE9;rias de Oi Li. Oi L&#xEA;., estamos de volta para contar sobre o que aconteceu com a Li no trabalho depois do epis&#xF3;dio anterior, e sobre a nossa viagem a Nova Iorque em comemora&#xE7;&#xE3;o aos nossos cinco anos de casamento.
 
 Anotações do Episódio: https://LiLeLou.com/#2019-09-17--teaser-da-segunda-temporada
 
 Contato: LiLeLou@LiLeLou.com
 </description>
-      <itunes:duration>48:48</itunes:duration>
-      <link>https://LiLeLou.com/#2019-09-17--teaser-da-segunda-temporada</link>
-    </item>
-  
-    <item>
-      <title>Ass&#xE9;dio Moral no Trabalho</title>
-      <enclosure url="https://archive.org/download/oi-li-oi-le/oi-li-oi-le--2019-07-04--assedio-moral-no-trabalho.mp3" length="39906496" type="audio/mpeg" />
-      <guid>https://oi-li-oi-le.com/#2019-07-04--assedio-moral-no-trabalho</guid>
-      <pubDate>Thu, 04 Jul 2019 00:00:00 GMT</pubDate>
-      <description>A Li sofreu ass&#xE9;dio moral no trabalho dela. N&#xF3;s conversamos sobre como foi e sobre o que fazer a respeito.
+              <itunes:duration>48:48</itunes:duration>
+              <link>https://LiLeLou.com/#2019-09-17--teaser-da-segunda-temporada</link>
+            </item>
+          
+            <item>
+              <title>Ass&#xE9;dio Moral no Trabalho</title>
+              <enclosure url="https://archive.org/download/oi-li-oi-le/oi-li-oi-le--2019-07-04--assedio-moral-no-trabalho.mp3" length="39906496" type="audio/mpeg" />
+              <guid>https://oi-li-oi-le.com/#2019-07-04--assedio-moral-no-trabalho</guid>
+              <pubDate>Thu, 04 Jul 2019 00:00:00 GMT</pubDate>
+              <description>A Li sofreu ass&#xE9;dio moral no trabalho dela. N&#xF3;s conversamos sobre como foi e sobre o que fazer a respeito.
 
 Anotações do Episódio: https://LiLeLou.com/#2019-07-04--assedio-moral-no-trabalho
 
 Contato: LiLeLou@LiLeLou.com
 </description>
-      <itunes:duration>40:31</itunes:duration>
-      <link>https://LiLeLou.com/#2019-07-04--assedio-moral-no-trabalho</link>
-    </item>
-  
-    <item>
-      <title>The Act</title>
-      <enclosure url="https://archive.org/download/oi-li-oi-le/oi-li-oi-le--2019-06-16--the-act.mp3" length="44325124" type="audio/mpeg" />
-      <guid>https://oi-li-oi-le.com/#2019-06-16--the-act</guid>
-      <pubDate>Sun, 16 Jun 2019 00:00:00 GMT</pubDate>
-      <description>N&#xF3;s conversamos sobre The Act, o seriado baseado na hist&#xF3;ria real da Gypsy Rose Blanchard, que era v&#xED;tima de S&#xED;ndrome de M&#xFC;nchhausen por procura&#xE7;&#xE3;o por parte da m&#xE3;e, a quem ela acabou por matar. Cont&#xE9;m spoilers e descri&#xE7;&#xF5;es de cenas perturbadores de um crime real.
+              <itunes:duration>40:31</itunes:duration>
+              <link>https://LiLeLou.com/#2019-07-04--assedio-moral-no-trabalho</link>
+            </item>
+          
+            <item>
+              <title>The Act</title>
+              <enclosure url="https://archive.org/download/oi-li-oi-le/oi-li-oi-le--2019-06-16--the-act.mp3" length="44325124" type="audio/mpeg" />
+              <guid>https://oi-li-oi-le.com/#2019-06-16--the-act</guid>
+              <pubDate>Sun, 16 Jun 2019 00:00:00 GMT</pubDate>
+              <description>N&#xF3;s conversamos sobre The Act, o seriado baseado na hist&#xF3;ria real da Gypsy Rose Blanchard, que era v&#xED;tima de S&#xED;ndrome de M&#xFC;nchhausen por procura&#xE7;&#xE3;o por parte da m&#xE3;e, a quem ela acabou por matar. Cont&#xE9;m spoilers e descri&#xE7;&#xF5;es de cenas perturbadores de um crime real.
 
 Anotações do Episódio: https://LiLeLou.com/#2019-06-16--the-act
 
 Contato: LiLeLou@LiLeLou.com
 </description>
-      <itunes:duration>45:08</itunes:duration>
-      <link>https://LiLeLou.com/#2019-06-16--the-act</link>
-    </item>
-  
-    <item>
-      <title>Satanismo</title>
-      <enclosure url="https://archive.org/download/oi-li-oi-le/oi-li-oi-le--2019-05-31--satanismo.mp3" length="38556038" type="audio/mpeg" />
-      <guid>https://oi-li-oi-le.com/#2019-05-31--satanismo</guid>
-      <pubDate>Fri, 31 May 2019 00:00:00 GMT</pubDate>
-      <description>N&#xF3;s conversamos sobre o document&#xE1;rio Hail Satan?, que trata do The Satanic Temple e das suas implica&#xE7;&#xF5;es na justi&#xE7;a, moral, religi&#xE3;o, arte, e pol&#xED;tica.
+              <itunes:duration>45:08</itunes:duration>
+              <link>https://LiLeLou.com/#2019-06-16--the-act</link>
+            </item>
+          
+            <item>
+              <title>Satanismo</title>
+              <enclosure url="https://archive.org/download/oi-li-oi-le/oi-li-oi-le--2019-05-31--satanismo.mp3" length="38556038" type="audio/mpeg" />
+              <guid>https://oi-li-oi-le.com/#2019-05-31--satanismo</guid>
+              <pubDate>Fri, 31 May 2019 00:00:00 GMT</pubDate>
+              <description>N&#xF3;s conversamos sobre o document&#xE1;rio Hail Satan?, que trata do The Satanic Temple e das suas implica&#xE7;&#xF5;es na justi&#xE7;a, moral, religi&#xE3;o, arte, e pol&#xED;tica.
 
 Anotações do Episódio: https://LiLeLou.com/#2019-05-31--satanismo
 
 Contato: LiLeLou@LiLeLou.com
 </description>
-      <itunes:duration>39:07</itunes:duration>
-      <link>https://LiLeLou.com/#2019-05-31--satanismo</link>
-    </item>
-  
-    <item>
-      <title>Miami</title>
-      <enclosure url="https://archive.org/download/oi-li-oi-le/oi-li-oi-le--2019-05-16--miami.mp3" length="38106723" type="audio/mpeg" />
-      <guid>https://oi-li-oi-le.com/#2019-05-16--miami</guid>
-      <pubDate>Thu, 16 May 2019 00:00:00 GMT</pubDate>
-      <description>N&#xF3;s conversamos a respeito da nossa viagem &#xE0; Miami: n&#xF3;s fomos &#xE0; praia, o L&#xEA; refletiu a respeito da sua identidade nacional, e mais.
+              <itunes:duration>39:07</itunes:duration>
+              <link>https://LiLeLou.com/#2019-05-31--satanismo</link>
+            </item>
+          
+            <item>
+              <title>Miami</title>
+              <enclosure url="https://archive.org/download/oi-li-oi-le/oi-li-oi-le--2019-05-16--miami.mp3" length="38106723" type="audio/mpeg" />
+              <guid>https://oi-li-oi-le.com/#2019-05-16--miami</guid>
+              <pubDate>Thu, 16 May 2019 00:00:00 GMT</pubDate>
+              <description>N&#xF3;s conversamos a respeito da nossa viagem &#xE0; Miami: n&#xF3;s fomos &#xE0; praia, o L&#xEA; refletiu a respeito da sua identidade nacional, e mais.
 
 Anotações do Episódio: https://LiLeLou.com/#2019-05-16--miami
 
 Contato: LiLeLou@LiLeLou.com
 </description>
-      <itunes:duration>38:39</itunes:duration>
-      <link>https://LiLeLou.com/#2019-05-16--miami</link>
-    </item>
-  
-    <item>
-      <title>Irm&#xE3;s</title>
-      <enclosure url="https://archive.org/download/oi-li-oi-le/oi-li-oi-le--2019-04-23--irmas.mp3" length="33483677" type="audio/mpeg" />
-      <guid>https://oi-li-oi-le.com/#2019-04-23--irmas</guid>
-      <pubDate>Tue, 23 Apr 2019 00:00:00 GMT</pubDate>
-      <description>O L&#xEA; tem not&#xED;cias dom&#xE9;sticas bomb&#xE1;sticas!
+              <itunes:duration>38:39</itunes:duration>
+              <link>https://LiLeLou.com/#2019-05-16--miami</link>
+            </item>
+          
+            <item>
+              <title>Irm&#xE3;s</title>
+              <enclosure url="https://archive.org/download/oi-li-oi-le/oi-li-oi-le--2019-04-23--irmas.mp3" length="33483677" type="audio/mpeg" />
+              <guid>https://oi-li-oi-le.com/#2019-04-23--irmas</guid>
+              <pubDate>Tue, 23 Apr 2019 00:00:00 GMT</pubDate>
+              <description>O L&#xEA; tem not&#xED;cias dom&#xE9;sticas bomb&#xE1;sticas!
 
 Anotações do Episódio: https://LiLeLou.com/#2019-04-23--irmas
 
 Contato: LiLeLou@LiLeLou.com
 </description>
-      <itunes:duration>33:50</itunes:duration>
-      <link>https://LiLeLou.com/#2019-04-23--irmas</link>
-    </item>
-  
-    <item>
-      <title>Racismo</title>
-      <enclosure url="https://archive.org/download/oi-li-oi-le/oi-li-oi-le--2019-04-11--racismo.mp3" length="36292367" type="audio/mpeg" />
-      <guid>https://oi-li-oi-le.com/#2019-04-11--racismo</guid>
-      <pubDate>Thu, 11 Apr 2019 00:00:00 GMT</pubDate>
-      <description>N&#xF3;s conversamos sobre racismo depois de termos assistido ao filme BlacKkKlansman.
+              <itunes:duration>33:50</itunes:duration>
+              <link>https://LiLeLou.com/#2019-04-23--irmas</link>
+            </item>
+          
+            <item>
+              <title>Racismo</title>
+              <enclosure url="https://archive.org/download/oi-li-oi-le/oi-li-oi-le--2019-04-11--racismo.mp3" length="36292367" type="audio/mpeg" />
+              <guid>https://oi-li-oi-le.com/#2019-04-11--racismo</guid>
+              <pubDate>Thu, 11 Apr 2019 00:00:00 GMT</pubDate>
+              <description>N&#xF3;s conversamos sobre racismo depois de termos assistido ao filme BlacKkKlansman.
 
 Anotações do Episódio: https://LiLeLou.com/#2019-04-11--racismo
 
 Contato: LiLeLou@LiLeLou.com
 </description>
-      <itunes:duration>36:46</itunes:duration>
-      <link>https://LiLeLou.com/#2019-04-11--racismo</link>
-    </item>
-  
-    <item>
-      <title>Empreendedorismo</title>
-      <enclosure url="https://archive.org/download/oi-li-oi-le/oi-li-oi-le--2019-03-31--empreendedorismo.mp3" length="55127088" type="audio/mpeg" />
-      <guid>https://oi-li-oi-le.com/#2019-03-31--empreendedorismo</guid>
-      <pubDate>Sun, 31 Mar 2019 00:00:00 GMT</pubDate>
-      <description>N&#xF3;s conversamos sobre as estranhezas da cultura de empreendedorismo e do Vale do Sil&#xED;cio, e sobre a ascens&#xE3;o e queda da Theranos e da sua fundadora, a Elizabeth Holmes.
+              <itunes:duration>36:46</itunes:duration>
+              <link>https://LiLeLou.com/#2019-04-11--racismo</link>
+            </item>
+          
+            <item>
+              <title>Empreendedorismo</title>
+              <enclosure url="https://archive.org/download/oi-li-oi-le/oi-li-oi-le--2019-03-31--empreendedorismo.mp3" length="55127088" type="audio/mpeg" />
+              <guid>https://oi-li-oi-le.com/#2019-03-31--empreendedorismo</guid>
+              <pubDate>Sun, 31 Mar 2019 00:00:00 GMT</pubDate>
+              <description>N&#xF3;s conversamos sobre as estranhezas da cultura de empreendedorismo e do Vale do Sil&#xED;cio, e sobre a ascens&#xE3;o e queda da Theranos e da sua fundadora, a Elizabeth Holmes.
 
 Anotações do Episódio: https://LiLeLou.com/#2019-03-31--empreendedorismo
 
 Contato: LiLeLou@LiLeLou.com
 </description>
-      <itunes:duration>45:06</itunes:duration>
-      <link>https://LiLeLou.com/#2019-03-31--empreendedorismo</link>
-    </item>
-  
-    <item>
-      <title>Filhos</title>
-      <enclosure url="https://archive.org/download/oi-li-oi-le/oi-li-oi-le--2019-03-14--filhos.mp3" length="77764201" type="audio/mpeg" />
-      <guid>https://oi-li-oi-le.com/#2019-03-14--filhos</guid>
-      <pubDate>Thu, 14 Mar 2019 00:00:00 GMT</pubDate>
-      <description>N&#xF3;s conversamos sobre ter filhos: raz&#xF5;es para ter, raz&#xF5;es para n&#xE3;o ter, em qual &#xE9;poca da vida ter, nomes, e tudo o mais.
+              <itunes:duration>45:06</itunes:duration>
+              <link>https://LiLeLou.com/#2019-03-31--empreendedorismo</link>
+            </item>
+          
+            <item>
+              <title>Filhos</title>
+              <enclosure url="https://archive.org/download/oi-li-oi-le/oi-li-oi-le--2019-03-14--filhos.mp3" length="77764201" type="audio/mpeg" />
+              <guid>https://oi-li-oi-le.com/#2019-03-14--filhos</guid>
+              <pubDate>Thu, 14 Mar 2019 00:00:00 GMT</pubDate>
+              <description>N&#xF3;s conversamos sobre ter filhos: raz&#xF5;es para ter, raz&#xF5;es para n&#xE3;o ter, em qual &#xE9;poca da vida ter, nomes, e tudo o mais.
 
 Anotações do Episódio: https://LiLeLou.com/#2019-03-14--filhos
 
 Contato: LiLeLou@LiLeLou.com
 </description>
-      <itunes:duration>53:47</itunes:duration>
-      <link>https://LiLeLou.com/#2019-03-14--filhos</link>
-    </item>
-  
-    <item>
-      <title>Procrastina&#xE7;&#xE3;o e Idiomas</title>
-      <enclosure url="https://archive.org/download/oi-li-oi-le/oi-li-oi-le--2019-03-07--procrastinacao-e-idiomas.mp3" length="68040457" type="audio/mpeg" />
-      <guid>https://oi-li-oi-le.com/#2019-03-07--procrastinacao-e-idiomas</guid>
-      <pubDate>Thu, 07 Mar 2019 00:00:00 GMT</pubDate>
-      <description>O L&#xEA; teve uma semana bem pouco produtiva, em que ele passou bastante tempo vendo avalia&#xE7;&#xF5;es de c&#xE2;meras que ele n&#xE3;o vai comprar. N&#xF3;s conversamos sobre procrastina&#xE7;&#xE3;o, sobre a press&#xE3;o de ser cada vez mais produtivo, e sobre idiomas.
+              <itunes:duration>53:47</itunes:duration>
+              <link>https://LiLeLou.com/#2019-03-14--filhos</link>
+            </item>
+          
+            <item>
+              <title>Procrastina&#xE7;&#xE3;o e Idiomas</title>
+              <enclosure url="https://archive.org/download/oi-li-oi-le/oi-li-oi-le--2019-03-07--procrastinacao-e-idiomas.mp3" length="68040457" type="audio/mpeg" />
+              <guid>https://oi-li-oi-le.com/#2019-03-07--procrastinacao-e-idiomas</guid>
+              <pubDate>Thu, 07 Mar 2019 00:00:00 GMT</pubDate>
+              <description>O L&#xEA; teve uma semana bem pouco produtiva, em que ele passou bastante tempo vendo avalia&#xE7;&#xF5;es de c&#xE2;meras que ele n&#xE3;o vai comprar. N&#xF3;s conversamos sobre procrastina&#xE7;&#xE3;o, sobre a press&#xE3;o de ser cada vez mais produtivo, e sobre idiomas.
 
 Anotações do Episódio: https://LiLeLou.com/#2019-03-07--procrastinacao-e-idiomas
 
 Contato: LiLeLou@LiLeLou.com
 </description>
-      <itunes:duration>47:02</itunes:duration>
-      <link>https://LiLeLou.com/#2019-03-07--procrastinacao-e-idiomas</link>
-    </item>
-  
-    <item>
-      <title>Brown e Providence</title>
-      <enclosure url="https://archive.org/download/oi-li-oi-le/oi-li-oi-le--2019-02-24--brown-e-providence.mp3" length="62458170" type="audio/mpeg" />
-      <guid>https://oi-li-oi-le.com/#2019-02-24--brown-e-providence</guid>
-      <pubDate>Sun, 24 Feb 2019 00:00:00 GMT</pubDate>
-      <description>N&#xF3;s conversamos sobre a teaching talk do L&#xEA; na Brown, sobre nossa viagem &#xE0; Providence, e sobre nossa visita &#xE0; Harvard &#x26; MIT.
+              <itunes:duration>47:02</itunes:duration>
+              <link>https://LiLeLou.com/#2019-03-07--procrastinacao-e-idiomas</link>
+            </item>
+          
+            <item>
+              <title>Brown e Providence</title>
+              <enclosure url="https://archive.org/download/oi-li-oi-le/oi-li-oi-le--2019-02-24--brown-e-providence.mp3" length="62458170" type="audio/mpeg" />
+              <guid>https://oi-li-oi-le.com/#2019-02-24--brown-e-providence</guid>
+              <pubDate>Sun, 24 Feb 2019 00:00:00 GMT</pubDate>
+              <description>N&#xF3;s conversamos sobre a teaching talk do L&#xEA; na Brown, sobre nossa viagem &#xE0; Providence, e sobre nossa visita &#xE0; Harvard &#x26; MIT.
 
 Anotações do Episódio: https://LiLeLou.com/#2019-02-24--brown-e-providence
 
 Contato: LiLeLou@LiLeLou.com
 </description>
-      <itunes:duration>43:09</itunes:duration>
-      <link>https://LiLeLou.com/#2019-02-24--brown-e-providence</link>
-    </item>
-  
-    <item>
-      <title>Religi&#xE3;o</title>
-      <enclosure url="https://archive.org/download/oi-li-oi-le/oi-li-oi-le--2019-02-16--religiao.mp3" length="70476872" type="audio/mpeg" />
-      <guid>https://oi-li-oi-le.com/#2019-02-16--religiao</guid>
-      <pubDate>Sat, 16 Feb 2019 00:00:00 GMT</pubDate>
-      <description>N&#xF3;s contamos como foi o fim da hist&#xF3;ria dos gatos, a Li contou como foi o drill da unidade de bio-contamina&#xE7;&#xE3;o, e falamos sobre filosofia e religi&#xE3;o.
+              <itunes:duration>43:09</itunes:duration>
+              <link>https://LiLeLou.com/#2019-02-24--brown-e-providence</link>
+            </item>
+          
+            <item>
+              <title>Religi&#xE3;o</title>
+              <enclosure url="https://archive.org/download/oi-li-oi-le/oi-li-oi-le--2019-02-16--religiao.mp3" length="70476872" type="audio/mpeg" />
+              <guid>https://oi-li-oi-le.com/#2019-02-16--religiao</guid>
+              <pubDate>Sat, 16 Feb 2019 00:00:00 GMT</pubDate>
+              <description>N&#xF3;s contamos como foi o fim da hist&#xF3;ria dos gatos, a Li contou como foi o drill da unidade de bio-contamina&#xE7;&#xE3;o, e falamos sobre filosofia e religi&#xE3;o.
 
 Anotações do Episódio: https://LiLeLou.com/#2019-02-16--religiao
 
 Contato: LiLeLou@LiLeLou.com
 </description>
-      <itunes:duration>48:20</itunes:duration>
-      <link>https://LiLeLou.com/#2019-02-16--religiao</link>
-    </item>
-  
-    <item>
-      <title>Pintura, Machados e M&#xF3;veis</title>
-      <enclosure url="https://archive.org/download/oi-li-oi-le/oi-li-oi-le--2019-02-03--pintura-machados-e-moveis.mp3" length="63500993" type="audio/mpeg" />
-      <guid>https://oi-li-oi-le.com/#2019-02-03--pintura-machados-e-moveis</guid>
-      <pubDate>Sun, 03 Feb 2019 00:00:00 GMT</pubDate>
-      <description>N&#xF3;s falamos sobre nosso primeiro quadro em tinta a &#xF3;leo sobre tela, sobre eventozinhos corporativos, e sobre como ser&#xE3;o nossos m&#xF3;veis agora que a roommate se mudou e a casa ficou quase vazia.
+              <itunes:duration>48:20</itunes:duration>
+              <link>https://LiLeLou.com/#2019-02-16--religiao</link>
+            </item>
+          
+            <item>
+              <title>Pintura, Machados e M&#xF3;veis</title>
+              <enclosure url="https://archive.org/download/oi-li-oi-le/oi-li-oi-le--2019-02-03--pintura-machados-e-moveis.mp3" length="63500993" type="audio/mpeg" />
+              <guid>https://oi-li-oi-le.com/#2019-02-03--pintura-machados-e-moveis</guid>
+              <pubDate>Sun, 03 Feb 2019 00:00:00 GMT</pubDate>
+              <description>N&#xF3;s falamos sobre nosso primeiro quadro em tinta a &#xF3;leo sobre tela, sobre eventozinhos corporativos, e sobre como ser&#xE3;o nossos m&#xF3;veis agora que a roommate se mudou e a casa ficou quase vazia.
 
 Anotações do Episódio: https://LiLeLou.com/#2019-02-03--pintura-machados-e-moveis
 
 Contato: LiLeLou@LiLeLou.com
 </description>
-      <itunes:duration>43:29</itunes:duration>
-      <link>https://LiLeLou.com/#2019-02-03--pintura-machados-e-moveis</link>
-    </item>
-  
-    <item>
-      <title>Roommates</title>
-      <enclosure url="https://archive.org/download/oi-li-oi-le/oi-li-oi-le--2019-01-27--roommates.mp3" length="49123146" type="audio/mpeg" />
-      <guid>https://oi-li-oi-le.com/#2019-01-27--roommates</guid>
-      <pubDate>Sun, 27 Jan 2019 00:00:00 GMT</pubDate>
-      <description>Nossa roommate se mudou! N&#xF3;s relembramos nossas hist&#xF3;rias com colegas de casa. Agora somos s&#xF3; Li &#x26; L&#xEA; &#x26; Ca (o gato); colegas de casa nunca mais!
+              <itunes:duration>43:29</itunes:duration>
+              <link>https://LiLeLou.com/#2019-02-03--pintura-machados-e-moveis</link>
+            </item>
+          
+            <item>
+              <title>Roommates</title>
+              <enclosure url="https://archive.org/download/oi-li-oi-le/oi-li-oi-le--2019-01-27--roommates.mp3" length="49123146" type="audio/mpeg" />
+              <guid>https://oi-li-oi-le.com/#2019-01-27--roommates</guid>
+              <pubDate>Sun, 27 Jan 2019 00:00:00 GMT</pubDate>
+              <description>Nossa roommate se mudou! N&#xF3;s relembramos nossas hist&#xF3;rias com colegas de casa. Agora somos s&#xF3; Li &#x26; L&#xEA; &#x26; Ca (o gato); colegas de casa nunca mais!
 
 Anotações do Episódio: https://LiLeLou.com/#2019-01-27--roommates
 
 Contato: LiLeLou@LiLeLou.com
 </description>
-      <itunes:duration>33:54</itunes:duration>
-      <link>https://LiLeLou.com/#2019-01-27--roommates</link>
-    </item>
-  
-    <item>
-      <title>Little Fires Everywhere</title>
-      <enclosure url="https://archive.org/download/oi-li-oi-le/oi-li-oi-le--2019-01-20--little-fires-everywhere.mp3" length="60935356" type="audio/mpeg" />
-      <guid>https://oi-li-oi-le.com/#2019-01-20--little-fires-everywhere</guid>
-      <pubDate>Sun, 20 Jan 2019 00:00:00 GMT</pubDate>
-      <description>N&#xF3;s contamos o que aconteceu com o teaching statement do L&#xEA; e fazemos um clube do livro sobre Little Fires Everywhere.
+              <itunes:duration>33:54</itunes:duration>
+              <link>https://LiLeLou.com/#2019-01-27--roommates</link>
+            </item>
+          
+            <item>
+              <title>Little Fires Everywhere</title>
+              <enclosure url="https://archive.org/download/oi-li-oi-le/oi-li-oi-le--2019-01-20--little-fires-everywhere.mp3" length="60935356" type="audio/mpeg" />
+              <guid>https://oi-li-oi-le.com/#2019-01-20--little-fires-everywhere</guid>
+              <pubDate>Sun, 20 Jan 2019 00:00:00 GMT</pubDate>
+              <description>N&#xF3;s contamos o que aconteceu com o teaching statement do L&#xEA; e fazemos um clube do livro sobre Little Fires Everywhere.
 
 Anotações do Episódio: https://LiLeLou.com/#2019-01-20--little-fires-everywhere
 
 Contato: LiLeLou@LiLeLou.com
 </description>
-      <itunes:duration>42:06</itunes:duration>
-      <link>https://LiLeLou.com/#2019-01-20--little-fires-everywhere</link>
-    </item>
-  
-    <item>
-      <title>Educa&#xE7;&#xE3;o</title>
-      <enclosure url="https://archive.org/download/oi-li-oi-le/oi-li-oi-le--2019-01-10--educacao.mp3" length="71374453" type="audio/mpeg" />
-      <guid>https://oi-li-oi-le.com/#2019-01-10--educacao</guid>
-      <pubDate>Thu, 10 Jan 2019 00:00:00 GMT</pubDate>
-      <description>O L&#xEA; precisa escrever um teaching statement. N&#xF3;s refletimos juntos sobre o que faz um bom professor e qual &#xE9; a melhor filosofia de ensino.
+              <itunes:duration>42:06</itunes:duration>
+              <link>https://LiLeLou.com/#2019-01-20--little-fires-everywhere</link>
+            </item>
+          
+            <item>
+              <title>Educa&#xE7;&#xE3;o</title>
+              <enclosure url="https://archive.org/download/oi-li-oi-le/oi-li-oi-le--2019-01-10--educacao.mp3" length="71374453" type="audio/mpeg" />
+              <guid>https://oi-li-oi-le.com/#2019-01-10--educacao</guid>
+              <pubDate>Thu, 10 Jan 2019 00:00:00 GMT</pubDate>
+              <description>O L&#xEA; precisa escrever um teaching statement. N&#xF3;s refletimos juntos sobre o que faz um bom professor e qual &#xE9; a melhor filosofia de ensino.
 
 Anotações do Episódio: https://LiLeLou.com/#2019-01-10--educacao
 
 Contato: LiLeLou@LiLeLou.com
 </description>
-      <itunes:duration>49:21</itunes:duration>
-      <link>https://LiLeLou.com/#2019-01-10--educacao</link>
-    </item>
-  
-    <item>
-      <title>Filmes, Televis&#xE3;o, e Livros</title>
-      <enclosure url="https://archive.org/download/oi-li-oi-le/oi-li-oi-le--2019-01-03--filmes-televisao-e-livros.mp3" length="52260411" type="audio/mpeg" />
-      <guid>https://oi-li-oi-le.com/#2019-01-03--filmes-televisao-e-livros</guid>
-      <pubDate>Thu, 03 Jan 2019 00:00:00 GMT</pubDate>
-      <description>N&#xF3;s conversamos sobre o nosso r&#xE9;veillon, e sobre filmes, televis&#xE3;o, e livros.
+              <itunes:duration>49:21</itunes:duration>
+              <link>https://LiLeLou.com/#2019-01-10--educacao</link>
+            </item>
+          
+            <item>
+              <title>Filmes, Televis&#xE3;o, e Livros</title>
+              <enclosure url="https://archive.org/download/oi-li-oi-le/oi-li-oi-le--2019-01-03--filmes-televisao-e-livros.mp3" length="52260411" type="audio/mpeg" />
+              <guid>https://oi-li-oi-le.com/#2019-01-03--filmes-televisao-e-livros</guid>
+              <pubDate>Thu, 03 Jan 2019 00:00:00 GMT</pubDate>
+              <description>N&#xF3;s conversamos sobre o nosso r&#xE9;veillon, e sobre filmes, televis&#xE3;o, e livros.
 
 Anotações do Episódio: https://LiLeLou.com/#2019-01-03--filmes-televisao-e-livros
 
 Contato: LiLeLou@LiLeLou.com
 </description>
-      <itunes:duration>36:05</itunes:duration>
-      <link>https://LiLeLou.com/#2019-01-03--filmes-televisao-e-livros</link>
-    </item>
-  
-    <item>
-      <title>Retrospectiva 2018 e Resolu&#xE7;&#xF5;es de Ano Novo</title>
-      <enclosure url="https://archive.org/download/oi-li-oi-le/oi-li-oi-le--2018-12-26--retrospectiva-2018-e-resolucoes-de-ano-novo.mp3" length="46640603" type="audio/mpeg" />
-      <guid>https://oi-li-oi-le.com/#2018-12-26--retrospectiva-2018-e-resolucoes-de-ano-novo</guid>
-      <pubDate>Wed, 26 Dec 2018 00:00:00 GMT</pubDate>
-      <description>N&#xF3;s relembramos 2018 e fazemos planos para 2019. Este &#xE9; o nosso d&#xE9;cimo epis&#xF3;dio!
+              <itunes:duration>36:05</itunes:duration>
+              <link>https://LiLeLou.com/#2019-01-03--filmes-televisao-e-livros</link>
+            </item>
+          
+            <item>
+              <title>Retrospectiva 2018 e Resolu&#xE7;&#xF5;es de Ano Novo</title>
+              <enclosure url="https://archive.org/download/oi-li-oi-le/oi-li-oi-le--2018-12-26--retrospectiva-2018-e-resolucoes-de-ano-novo.mp3" length="46640603" type="audio/mpeg" />
+              <guid>https://oi-li-oi-le.com/#2018-12-26--retrospectiva-2018-e-resolucoes-de-ano-novo</guid>
+              <pubDate>Wed, 26 Dec 2018 00:00:00 GMT</pubDate>
+              <description>N&#xF3;s relembramos 2018 e fazemos planos para 2019. Este &#xE9; o nosso d&#xE9;cimo epis&#xF3;dio!
 
 Anotações do Episódio: https://LiLeLou.com/#2018-12-26--retrospectiva-2018-e-resolucoes-de-ano-novo
 
 Contato: LiLeLou@LiLeLou.com
 </description>
-      <itunes:duration>32:10</itunes:duration>
-      <link>https://LiLeLou.com/#2018-12-26--retrospectiva-2018-e-resolucoes-de-ano-novo</link>
-    </item>
-  
-    <item>
-      <title>Um Vegano no Churrasco de Natal</title>
-      <enclosure url="https://archive.org/download/oi-li-oi-le/oi-li-oi-le--2018-12-20--um-vegano-no-churrasco-de-natal.mp3" length="79254331" type="audio/mpeg" />
-      <guid>https://oi-li-oi-le.com/#2018-12-20--um-vegano-no-churrasco-de-natal</guid>
-      <pubDate>Thu, 20 Dec 2018 00:00:00 GMT</pubDate>
-      <description>O L&#xEA; &#xE9; vegano; a Li n&#xE3;o. N&#xF3;s conversamos sobre como &#xE9; ser vegano sem ser chato, principalmente nesta &#xE9;poca de perus de Natal.
+              <itunes:duration>32:10</itunes:duration>
+              <link>https://LiLeLou.com/#2018-12-26--retrospectiva-2018-e-resolucoes-de-ano-novo</link>
+            </item>
+          
+            <item>
+              <title>Um Vegano no Churrasco de Natal</title>
+              <enclosure url="https://archive.org/download/oi-li-oi-le/oi-li-oi-le--2018-12-20--um-vegano-no-churrasco-de-natal.mp3" length="79254331" type="audio/mpeg" />
+              <guid>https://oi-li-oi-le.com/#2018-12-20--um-vegano-no-churrasco-de-natal</guid>
+              <pubDate>Thu, 20 Dec 2018 00:00:00 GMT</pubDate>
+              <description>O L&#xEA; &#xE9; vegano; a Li n&#xE3;o. N&#xF3;s conversamos sobre como &#xE9; ser vegano sem ser chato, principalmente nesta &#xE9;poca de perus de Natal.
 
 Anotações do Episódio: https://LiLeLou.com/#2018-12-20--um-vegano-no-churrasco-de-natal
 
 Contato: LiLeLou@LiLeLou.com
 </description>
-      <itunes:duration>54:49</itunes:duration>
-      <link>https://LiLeLou.com/#2018-12-20--um-vegano-no-churrasco-de-natal</link>
-    </item>
-  
-    <item>
-      <title>Como nos Conhecemos</title>
-      <enclosure url="https://archive.org/download/oi-li-oi-le/oi-li-oi-le--2018-12-11--como-nos-conhecemos.mp3" length="94383579" type="audio/mpeg" />
-      <guid>https://oi-li-oi-le.com/#2018-12-11--como-nos-conhecemos</guid>
-      <pubDate>Tue, 11 Dec 2018 00:00:00 GMT</pubDate>
-      <description>N&#xF3;s nos conhecemos numa sexta-feira treze cinco anos atr&#xE1;s. Agora comemoramos lembrando como foi.
+              <itunes:duration>54:49</itunes:duration>
+              <link>https://LiLeLou.com/#2018-12-20--um-vegano-no-churrasco-de-natal</link>
+            </item>
+          
+            <item>
+              <title>Como nos Conhecemos</title>
+              <enclosure url="https://archive.org/download/oi-li-oi-le/oi-li-oi-le--2018-12-11--como-nos-conhecemos.mp3" length="94383579" type="audio/mpeg" />
+              <guid>https://oi-li-oi-le.com/#2018-12-11--como-nos-conhecemos</guid>
+              <pubDate>Tue, 11 Dec 2018 00:00:00 GMT</pubDate>
+              <description>N&#xF3;s nos conhecemos numa sexta-feira treze cinco anos atr&#xE1;s. Agora comemoramos lembrando como foi.
 
 Anotações do Episódio: https://LiLeLou.com/#2018-12-11--como-nos-conhecemos
 
 Contato: LiLeLou@LiLeLou.com
 </description>
-      <itunes:duration>39:07</itunes:duration>
-      <link>https://LiLeLou.com/#2018-12-11--como-nos-conhecemos</link>
-    </item>
-  
-    <item>
-      <title>Doutorado</title>
-      <enclosure url="https://archive.org/download/oi-li-oi-le/oi-li-oi-le--2018-12-04--doutorado.mp3" length="80171204" type="audio/mpeg" />
-      <guid>https://oi-li-oi-le.com/#2018-12-04--doutorado</guid>
-      <pubDate>Tue, 04 Dec 2018 00:00:00 GMT</pubDate>
-      <description>O L&#xEA; est&#xE1; perto de concluir o seu doutorado no exterior. N&#xF3;s conversamos sobre como ele decidiu entrar nesta, como &#xE9; o dia-a-dia de um doutorando, e como o doutorado influenciou sua fam&#xED;lia.
+              <itunes:duration>39:07</itunes:duration>
+              <link>https://LiLeLou.com/#2018-12-11--como-nos-conhecemos</link>
+            </item>
+          
+            <item>
+              <title>Doutorado</title>
+              <enclosure url="https://archive.org/download/oi-li-oi-le/oi-li-oi-le--2018-12-04--doutorado.mp3" length="80171204" type="audio/mpeg" />
+              <guid>https://oi-li-oi-le.com/#2018-12-04--doutorado</guid>
+              <pubDate>Tue, 04 Dec 2018 00:00:00 GMT</pubDate>
+              <description>O L&#xEA; est&#xE1; perto de concluir o seu doutorado no exterior. N&#xF3;s conversamos sobre como ele decidiu entrar nesta, como &#xE9; o dia-a-dia de um doutorando, e como o doutorado influenciou sua fam&#xED;lia.
 
 Anotações do Episódio: https://LiLeLou.com/#2018-12-04--doutorado
 
 Contato: LiLeLou@LiLeLou.com
 </description>
-      <itunes:duration>55:17</itunes:duration>
-      <link>https://LiLeLou.com/#2018-12-04--doutorado</link>
-    </item>
-  
-    <item>
-      <title>Amizades e Tecnologia</title>
-      <enclosure url="https://archive.org/download/oi-li-oi-le/oi-li-oi-le--2018-11-27--amizades-e-tecnologia.mp3" length="66145327" type="audio/mpeg" />
-      <guid>https://oi-li-oi-le.com/#2018-11-27--amizades-e-tecnologia</guid>
-      <pubDate>Tue, 27 Nov 2018 00:00:00 GMT</pubDate>
-      <description>N&#xF3;s conversamos sobre os motivos que nos fazem querer acabar com uma amizade, e sobre v&#xED;cio em tecnologia.
+              <itunes:duration>55:17</itunes:duration>
+              <link>https://LiLeLou.com/#2018-12-04--doutorado</link>
+            </item>
+          
+            <item>
+              <title>Amizades e Tecnologia</title>
+              <enclosure url="https://archive.org/download/oi-li-oi-le/oi-li-oi-le--2018-11-27--amizades-e-tecnologia.mp3" length="66145327" type="audio/mpeg" />
+              <guid>https://oi-li-oi-le.com/#2018-11-27--amizades-e-tecnologia</guid>
+              <pubDate>Tue, 27 Nov 2018 00:00:00 GMT</pubDate>
+              <description>N&#xF3;s conversamos sobre os motivos que nos fazem querer acabar com uma amizade, e sobre v&#xED;cio em tecnologia.
 
 Anotações do Episódio: https://LiLeLou.com/#2018-11-27--amizades-e-tecnologia
 
 Contato: LiLeLou@LiLeLou.com
 </description>
-      <itunes:duration>45:32</itunes:duration>
-      <link>https://LiLeLou.com/#2018-11-27--amizades-e-tecnologia</link>
-    </item>
-  
-    <item>
-      <title>Obsess&#xF5;es e Viagem com Gato</title>
-      <enclosure url="https://archive.org/download/oi-li-oi-le/oi-li-oi-le--2018-11-18--obsessoes-e-viagem-com-gato.mp3" length="72093734" type="audio/mpeg" />
-      <guid>https://oi-li-oi-le.com/#2018-11-18--obsessoes-e-viagem-com-gato</guid>
-      <pubDate>Sun, 18 Nov 2018 00:00:00 GMT</pubDate>
-      <description>N&#xF3;s conversamos sobre nossas obsess&#xF5;es. O L&#xEA; dorme e acorda em hor&#xE1;rios sim&#xE9;tricos; a Li conta como foi trazer um gato do Brasil para os Estados&#xA0;Unidos. N&#xF3;s estamos descobrindo para onde vamos no ano que vem, e a Li compartilha o que ela aprendeu sobre valida&#xE7;&#xE3;o de diploma de farmac&#xEA;utica na Europa e no Canad&#xE1; (em resumo, &#xE9; bem dif&#xED;cil).
+              <itunes:duration>45:32</itunes:duration>
+              <link>https://LiLeLou.com/#2018-11-27--amizades-e-tecnologia</link>
+            </item>
+          
+            <item>
+              <title>Obsess&#xF5;es e Viagem com Gato</title>
+              <enclosure url="https://archive.org/download/oi-li-oi-le/oi-li-oi-le--2018-11-18--obsessoes-e-viagem-com-gato.mp3" length="72093734" type="audio/mpeg" />
+              <guid>https://oi-li-oi-le.com/#2018-11-18--obsessoes-e-viagem-com-gato</guid>
+              <pubDate>Sun, 18 Nov 2018 00:00:00 GMT</pubDate>
+              <description>N&#xF3;s conversamos sobre nossas obsess&#xF5;es. O L&#xEA; dorme e acorda em hor&#xE1;rios sim&#xE9;tricos; a Li conta como foi trazer um gato do Brasil para os Estados&#xA0;Unidos. N&#xF3;s estamos descobrindo para onde vamos no ano que vem, e a Li compartilha o que ela aprendeu sobre valida&#xE7;&#xE3;o de diploma de farmac&#xEA;utica na Europa e no Canad&#xE1; (em resumo, &#xE9; bem dif&#xED;cil).
 
 Anotações do Episódio: https://LiLeLou.com/#2018-11-18--obsessoes-e-viagem-com-gato
 
 Contato: LiLeLou@LiLeLou.com
 </description>
-      <itunes:duration>49:40</itunes:duration>
-      <link>https://LiLeLou.com/#2018-11-18--obsessoes-e-viagem-com-gato</link>
-    </item>
-  
-    <item>
-      <title>Elei&#xE7;&#xF5;es no Brasil</title>
-      <enclosure url="https://archive.org/download/oi-li-oi-le/oi-li-oi-le--2018-10-28--eleicoes-no-brasil.mp3" length="62707842" type="audio/mpeg" />
-      <guid>https://oi-li-oi-le.com/#2018-10-28--eleicoes-no-brasil</guid>
-      <pubDate>Sun, 28 Oct 2018 00:00:00 GMT</pubDate>
-      <description>N&#xF3;s fomos para Washington para o L&#xEA; votar para presidente do Brasil no segundo turno de 2018. Logo antes da apura&#xE7;&#xE3;o dos votos, n&#xF3;s aproveitamos os &#xFA;ltimos momentos de esperan&#xE7;a.
+              <itunes:duration>49:40</itunes:duration>
+              <link>https://LiLeLou.com/#2018-11-18--obsessoes-e-viagem-com-gato</link>
+            </item>
+          
+            <item>
+              <title>Elei&#xE7;&#xF5;es no Brasil</title>
+              <enclosure url="https://archive.org/download/oi-li-oi-le/oi-li-oi-le--2018-10-28--eleicoes-no-brasil.mp3" length="62707842" type="audio/mpeg" />
+              <guid>https://oi-li-oi-le.com/#2018-10-28--eleicoes-no-brasil</guid>
+              <pubDate>Sun, 28 Oct 2018 00:00:00 GMT</pubDate>
+              <description>N&#xF3;s fomos para Washington para o L&#xEA; votar para presidente do Brasil no segundo turno de 2018. Logo antes da apura&#xE7;&#xE3;o dos votos, n&#xF3;s aproveitamos os &#xFA;ltimos momentos de esperan&#xE7;a.
 
 Anotações do Episódio: https://LiLeLou.com/#2018-10-28--eleicoes-no-brasil
 
 Contato: LiLeLou@LiLeLou.com
 </description>
-      <itunes:duration>43:09</itunes:duration>
-      <link>https://LiLeLou.com/#2018-10-28--eleicoes-no-brasil</link>
-    </item>
-  
-    <item>
-      <title>Anivers&#xE1;rios</title>
-      <enclosure url="https://archive.org/download/oi-li-oi-le/oi-li-oi-le--2018-10-20--aniversarios.mp3" length="66134677" type="audio/mpeg" />
-      <guid>https://oi-li-oi-le.com/#2018-10-20--aniversarios</guid>
-      <pubDate>Sat, 20 Oct 2018 00:00:00 GMT</pubDate>
-      <description>O L&#xEA; est&#xE1; fazendo X anos! N&#xF3;s conversamos sobre anivers&#xE1;rios e influencers da internet.
+              <itunes:duration>43:09</itunes:duration>
+              <link>https://LiLeLou.com/#2018-10-28--eleicoes-no-brasil</link>
+            </item>
+          
+            <item>
+              <title>Anivers&#xE1;rios</title>
+              <enclosure url="https://archive.org/download/oi-li-oi-le/oi-li-oi-le--2018-10-20--aniversarios.mp3" length="66134677" type="audio/mpeg" />
+              <guid>https://oi-li-oi-le.com/#2018-10-20--aniversarios</guid>
+              <pubDate>Sat, 20 Oct 2018 00:00:00 GMT</pubDate>
+              <description>O L&#xEA; est&#xE1; fazendo X anos! N&#xF3;s conversamos sobre anivers&#xE1;rios e influencers da internet.
 
 Anotações do Episódio: https://LiLeLou.com/#2018-10-20--aniversarios
 
 Contato: LiLeLou@LiLeLou.com
 </description>
-      <itunes:duration>45:32</itunes:duration>
-      <link>https://LiLeLou.com/#2018-10-20--aniversarios</link>
-    </item>
-  
-    <item>
-      <title>Glamping</title>
-      <enclosure url="https://archive.org/download/oi-li-oi-le/oi-li-oi-le--2018-10-08--glamping.mp3" length="32780150" type="audio/mpeg" />
-      <guid>https://oi-li-oi-le.com/#2018-10-08--glamping</guid>
-      <pubDate>Mon, 08 Oct 2018 00:00:00 GMT</pubDate>
-      <description>N&#xF3;s fomos glamping (glamour + camping). Caminhamos no meio da floresta, conhecemos gente mais ou menos, e quebramos um banco!
+              <itunes:duration>45:32</itunes:duration>
+              <link>https://LiLeLou.com/#2018-10-20--aniversarios</link>
+            </item>
+          
+            <item>
+              <title>Glamping</title>
+              <enclosure url="https://archive.org/download/oi-li-oi-le/oi-li-oi-le--2018-10-08--glamping.mp3" length="32780150" type="audio/mpeg" />
+              <guid>https://oi-li-oi-le.com/#2018-10-08--glamping</guid>
+              <pubDate>Mon, 08 Oct 2018 00:00:00 GMT</pubDate>
+              <description>N&#xF3;s fomos glamping (glamour + camping). Caminhamos no meio da floresta, conhecemos gente mais ou menos, e quebramos um banco!
 
 Anotações do Episódio: https://LiLeLou.com/#2018-10-08--glamping
 
 Contato: LiLeLou@LiLeLou.com
 </description>
-      <itunes:duration>22:16</itunes:duration>
-      <link>https://LiLeLou.com/#2018-10-08--glamping</link>
-    </item>
-  
-    <item>
-      <title>Dia da Farmac&#xEA;utica</title>
-      <enclosure url="https://archive.org/download/oi-li-oi-le/oi-li-oi-le--2018-09-28--dia-da-farmaceutica.mp3" length="48329003" type="audio/mpeg" />
-      <guid>https://oi-li-oi-le.com/#2018-09-28--dia-da-farmaceutica</guid>
-      <pubDate>Fri, 28 Sep 2018 00:00:00 GMT</pubDate>
-      <description>No primeiro epis&#xF3;dio de Oi Li. Oi L&#xEA;., n&#xF3;s conversamos sobre como &#xE9; ser farmac&#xEA;utica e analista cl&#xED;nica em v&#xE1;rios lugares do mundo.
+              <itunes:duration>22:16</itunes:duration>
+              <link>https://LiLeLou.com/#2018-10-08--glamping</link>
+            </item>
+          
+            <item>
+              <title>Dia da Farmac&#xEA;utica</title>
+              <enclosure url="https://archive.org/download/oi-li-oi-le/oi-li-oi-le--2018-09-28--dia-da-farmaceutica.mp3" length="48329003" type="audio/mpeg" />
+              <guid>https://oi-li-oi-le.com/#2018-09-28--dia-da-farmaceutica</guid>
+              <pubDate>Fri, 28 Sep 2018 00:00:00 GMT</pubDate>
+              <description>No primeiro epis&#xF3;dio de Oi Li. Oi L&#xEA;., n&#xF3;s conversamos sobre como &#xE9; ser farmac&#xEA;utica e analista cl&#xED;nica em v&#xE1;rios lugares do mundo.
 
 Anotações do Episódio: https://LiLeLou.com/#2018-09-28--dia-da-farmaceutica
 
 Contato: LiLeLou@LiLeLou.com
 </description>
-      <itunes:duration>33:10</itunes:duration>
-      <link>https://LiLeLou.com/#2018-09-28--dia-da-farmaceutica</link>
-    </item>
-  
+              <itunes:duration>33:10</itunes:duration>
+              <link>https://LiLeLou.com/#2018-09-28--dia-da-farmaceutica</link>
+            </item>
+          
       </channel>
     </rss>

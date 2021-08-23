@@ -1639,5 +1639,5 @@ function renderMarkdown(input) {
 }
 
 function stripMarkdown(input) {
-  return remark().use(remarkStripMarkdown).processSync(input).contents;
+  return remark().use(remarkStripMarkdown).processSync(input).contents.trim();
 }
