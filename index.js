@@ -1,7 +1,6 @@
 const fs = require("fs");
 const remark = require("remark");
 const remarkHTML = require("remark-html");
-const { JSDOM } = require("jsdom");
 const { html } = require("@leafac/html");
 const { css, extractInlineStyles } = require("@leafac/css");
 const markdown = require("dedent");
