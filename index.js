@@ -1139,6 +1139,8 @@ fs.writeFileSync(
                   background-color: var(--color--amber--700);
                 }
               }
+              width: var(--space--6);
+              height: var(--space--6);
               border-radius: var(--border-radius--circle);
               display: flex;
               justify-content: center;
@@ -1259,7 +1261,7 @@ fs.writeFileSync(
                 display: flex;
                 gap: var(--space--2);
                 justify-content: center;
-                a {
+                .button {
                   font-size: var(--font-size--xl);
                   line-height: var(--line-height--xl);
                   width: var(--space--10);
@@ -1445,11 +1447,6 @@ fs.writeFileSync(
                       style="${css`
                         display: flex;
                         gap: var(--space--2);
-                        button,
-                        a {
-                          width: var(--space--6);
-                          height: var(--space--6);
-                        }
                       `}"
                     >
                       <button
