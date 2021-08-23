@@ -1589,36 +1589,6 @@ function renderMarkdown(input) {
 }
 
 // https://github.com/remarkjs/strip-markdown
-
-//     /*
-
-// header,
-// figure {
-//   text-align: center;
-//   margin: 2em 0;
-// }
-
-// figcaption {
-//   font-weight: bold;
-//   font-size: 0.875em;
-// }
-
-// img {
-//   max-width: 100%;
-//   height: auto;
-//   border-radius: 3px;
-// }
-
-// img {
-//       max-width: 100%;
-//       height: 100;
-//     }
-
-// audio {
-//   width: 100%;
-// }
-
-// */
 // for (const element of document.querySelectorAll("main section")) {
 //   const { oiLiOiLe, slug, date, duration, size } = element.dataset;
 //   const [title, description, ...notes] = element.children;
