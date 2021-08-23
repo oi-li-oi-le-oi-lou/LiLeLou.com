@@ -1411,6 +1411,12 @@ fs.writeFileSync(
                               }
                             }
                           `}"
+                          data-ondomcontentloaded="${javascript`
+                            tippy(this, {
+                              content: "Permanent Link to This Episode",
+                              touch: false,
+                            });
+                          `}"
                           >${episode.title}</a
                         >
                       </h2>
@@ -1530,6 +1536,8 @@ fs.writeFileSync(
 function renderMarkdown(input) {
   return remark().use(remarkHTML).processSync(input).contents;
 }
+
+// https://github.com/remarkjs/strip-markdown
 
 //     /*
 
