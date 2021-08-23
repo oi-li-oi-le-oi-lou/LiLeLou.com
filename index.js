@@ -1117,6 +1117,33 @@ fs.writeFileSync(
                 padding: var(--space--1) var(--space--2);
               }
             }
+
+            .button {
+              color: var(--color--amber--900);
+              background-color: var(--color--amber--100);
+              &:hover,
+              &:focus-within {
+                color: var(--color--amber--700);
+              }
+              &:active {
+                background-color: var(--color--amber--200);
+              }
+              @media (prefers-color-scheme: dark) {
+                color: var(--color--amber--50);
+                background-color: var(--color--amber--800);
+                &:hover,
+                &:focus-within {
+                  color: var(--color--amber--200);
+                }
+                &:active {
+                  background-color: var(--color--amber--700);
+                }
+              }
+              border-radius: var(--border-radius--circle);
+              display: flex;
+              justify-content: center;
+              align-items: center;
+            }
           }
         `}"
       >
@@ -1235,37 +1262,14 @@ fs.writeFileSync(
                 a {
                   font-size: var(--font-size--xl);
                   line-height: var(--line-height--xl);
-                  color: var(--color--amber--900);
-                  background-color: var(--color--amber--100);
-                  &:hover,
-                  &:focus-within {
-                    color: var(--color--amber--700);
-                  }
-                  &:active {
-                    background-color: var(--color--amber--200);
-                  }
-                  @media (prefers-color-scheme: dark) {
-                    color: var(--color--amber--50);
-                    background-color: var(--color--amber--800);
-                    &:hover,
-                    &:focus-within {
-                      color: var(--color--amber--200);
-                    }
-                    &:active {
-                      background-color: var(--color--amber--700);
-                    }
-                  }
                   width: var(--space--10);
                   height: var(--space--10);
-                  border-radius: var(--border-radius--circle);
-                  display: flex;
-                  justify-content: center;
-                  align-items: center;
                 }
               `}"
             >
               <a
                 href="https://podcasts.apple.com/podcast/id1440395880"
+                class="button"
                 data-ondomcontentloaded="${javascript`
                   tippy(this, {
                     content: "Apple Podcasts",
@@ -1277,6 +1281,7 @@ fs.writeFileSync(
               </a>
               <a
                 href="https://podcasts.google.com/feed/aHR0cHM6Ly9vaS1saS1vaS1sZS5jb20vZmVlZC54bWw"
+                class="button"
                 data-ondomcontentloaded="${javascript`
                   tippy(this, {
                     content: "Google Podcasts",
@@ -1288,6 +1293,7 @@ fs.writeFileSync(
               </a>
               <a
                 href="https://open.spotify.com/show/0nf8jhqq6nbAu77vZVSGTh"
+                class="button"
                 data-ondomcontentloaded="${javascript`
                   tippy(this, {
                     content: "Spotify",
@@ -1299,6 +1305,7 @@ fs.writeFileSync(
               </a>
               <a
                 href="/feed.xml"
+                class="button"
                 data-ondomcontentloaded="${javascript`
                   tippy(this, {
                     content: "RSS Feed",
@@ -1310,6 +1317,7 @@ fs.writeFileSync(
               </a>
               <a
                 href="mailto:LiLeLou@LiLeLou.com"
+                class="button"
                 data-ondomcontentloaded="${javascript`
                   tippy(this, {
                     content: "Email",
@@ -1439,36 +1447,13 @@ fs.writeFileSync(
                         gap: var(--space--2);
                         button,
                         a {
-                          color: var(--color--amber--900);
-                          background-color: var(--color--amber--100);
-                          &:hover,
-                          &:focus-within {
-                            color: var(--color--amber--700);
-                          }
-                          &:active {
-                            background-color: var(--color--amber--200);
-                          }
-                          @media (prefers-color-scheme: dark) {
-                            color: var(--color--amber--100);
-                            background-color: var(--color--amber--800);
-                            &:hover,
-                            &:focus-within {
-                              color: var(--color--amber--300);
-                            }
-                            &:active {
-                              background-color: var(--color--amber--700);
-                            }
-                          }
                           width: var(--space--6);
                           height: var(--space--6);
-                          border-radius: var(--border-radius--circle);
-                          display: flex;
-                          justify-content: center;
-                          align-items: center;
                         }
                       `}"
                     >
                       <button
+                        class="button"
                         data-ondomcontentloaded="${javascript`
                           tippy(this, {
                             content: "Play",
@@ -1491,6 +1476,7 @@ fs.writeFileSync(
                       </button>
                       <a
                         href="${episode.audio}"
+                        class="button"
                         data-ondomcontentloaded="${javascript`
                           tippy(this, {
                             content: "Download",
