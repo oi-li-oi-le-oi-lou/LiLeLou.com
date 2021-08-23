@@ -1599,7 +1599,7 @@ fs.writeFileSync(
       <channel>
         <title>Oi Li. Oi Lê. Oi Lou.</title>
         <description>A Li é a mãe, o Lê é o pai, e o filho é o Lou. Nós falamos sobre coisas de bebê e outras coisas que não são de bebê.</description>
-        <itunes:image href="https://lilelou.com/artwork--2020-11-03.png" />
+        <itunes:image href="https://lilelou.com/artwork--2021-08-23.png" />
         <language>pt</language>
         <itunes:category text="Society &amp; Culture"><itunes:category text="Personal Journals" /></itunes:category>
         <itunes:explicit>false</itunes:explicit>
