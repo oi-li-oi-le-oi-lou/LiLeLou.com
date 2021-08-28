@@ -10,13 +10,14 @@ const javascript = require("tagged-template-noop");
 const episodes = {
   oiLiOiLeOiLou: [
     {
-      slug: "cuidando-de-bebe-doente",
-      title: "Cuidando de Bebê Doente",
-      date: "2021-08-25",
-      duration: "25:42",
-      size: "18501276",
+      slug: "cuidando-de-bebe-enquanto-se-esta-doente-e-imagem-corporal-pos-parto",
+      title:
+        "Cuidando de Bebê Enquanto se Está Doente e Imagem Corporal Pós-Parto",
+      date: "2021-08-28",
+      duration: "18:55",
+      size: "13623379",
       description: markdown`
-        Foi uma doença comum e não muito séria, mas ainda assim deu trabalho…
+        A Li tomou a segunda dose da vacina de COVID e sofreu efeitos colaterais — ainda assim, ela precisou cuidar do Lou. Mas, por outro lado, ela agora tem óculos novos! 🤓
       `,
     },
     {
