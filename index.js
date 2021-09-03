@@ -10,6 +10,16 @@ const javascript = require("tagged-template-noop");
 const episodes = {
   oiLiOiLeOiLou: [
     {
+      slug: "planejando-viagens-para-os-outros",
+      title: "Planejando Viagens para os Outros",
+      date: "2021-09-03",
+      duration: "28:10",
+      size: "20281469",
+      description: markdown`
+        Nós seremos visitados pelas mães e a Li conta como está sendo planejar as viagens para elas. Não está sendo fácil…
+      `,
+    },
+    {
       slug: "cuidando-de-bebe-enquanto-se-esta-doente-e-imagem-corporal-pos-parto",
       title:
         "Cuidando de Bebê Enquanto se Está Doente e Imagem Corporal Pós-Parto",
