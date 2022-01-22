@@ -10,6 +10,16 @@ const javascript = require("tagged-template-noop");
 const episodes = {
   oiLiOiLeOiLou: [
     {
+      slug: "intolerando-a-intolerancia",
+      title: "Intolerando a Intolerância",
+      date: "2022-01-22",
+      duration: "24:34",
+      size: "17684375",
+      description: markdown`
+        A viagem das mães aconteceu, e foi polêmica. Além disso, muito tempo se passou desde então 🤷
+      `,
+    },
+    {
       slug: "planejando-viagens-para-os-outros",
       title: "Planejando Viagens para os Outros",
       date: "2021-09-03",
